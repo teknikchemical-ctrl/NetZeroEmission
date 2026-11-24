@@ -42,6 +42,8 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 - Aryapratama Tabel 4: GWPdyn kumulatif, bukan per tahun; pemetaan rentang persen BAU total dan FOLU dibaca dari teks.
 - Nursidik: pernyataan "emisi energi 2030 sekitar 440 MtCO2e" bercampur dengan puncak pembangkit; samakan cakupan dengan model v2.1 sebelum dibandingkan.
 
+## Catatan: lima PDF baru di sources/ (24 Nov 2026) belum dibaca; lihat sources/README.md
+
 ## C. Usulan pengembangan spreadsheet
 
 1. **C_Biaya_Per_tCO2** (butuh R3, R4): ubah biaya per MWh (Tabel 96.A dan C) menjadi USD per tCO2 untuk surya, angin, panas bumi, nuklir, CCS, biomassa terhadap PLTU yang digantikan. Ini mengganti asumsi biaya per opsi yang masih kosong.

@@ -16,3 +16,15 @@ Setiap PDF dicatat di lembar `D_Register_Sumber` pada workbook LATEST. Kolom "Do
 | Analysis_of_the_political_system_flow_model_in_the.pdf | Syuryansyah dan Amalia 2025, model sistem politik NZE | Ya (No 806 sampai 809) | Kualitatif, angka sedikit |
 
 Aturan: setiap PDF baru dibaca seluruhnya, angkanya dicatat di register, lalu diproses ke lembar hitung dan konflik; yang belum dikerjakan dicatat di `RESEARCH_TODO.md`.
+
+## Diterima 24 Nov 2026, belum dibaca dan belum dicatat
+
+Lima PDF baru dari cabang main dipindah ke `sources/`. Status: BELUM dibaca, diekstrak, atau dicatat di `D_Register_Sumber`. Segera dikerjakan sesuai aturan (baca seluruhnya, ekstrak, catat, proses, usulkan).
+
+| Berkas | Perkiraan relevansi |
+|---|---|
+| At what cost? Economic and fiscal trade-offs of Indonesia's biodiesel program.pdf | Biaya B40 (R1) |
+| Evaluating renewable energy pathways and emissions targets in Indonesia- An OSeMOSYS-based economic and sensitivity analysis of PLN .pdf | Biaya dan emisi jalur EBT (R3, R4, R15) |
+| Jakarta Transportation Transformation.pdf | Transportasi (R23); mungkin sama dengan Greenpeace dan RDI yang sudah dicatat |
+| Optimizing power sector decarbonization in Indonesia through an integrated policy modeling framework.pdf | Pembanding model sektor listrik |
+| spesifikasi-b40.pdf | Spesifikasi B40 (R1) |
