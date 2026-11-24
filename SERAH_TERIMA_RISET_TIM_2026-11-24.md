@@ -41,3 +41,8 @@ Permintaan HTTP langsung ke portal ESDM, UNFCCC dan GEM ditolak proksi dengan st
 ## Batch 23 PDF
 
 [Arsip dan cek klaim untuk Claude](CEK_BATCH_23_PDF_2026-11-24.md) memetakan 23 unggahan ke 14 PDF baru dan sembilan salinan identik. Temuan mencakup estimasi pembayaran pensiun PLTU per aset, penalti energi CCS pada kasus 2 × 315 MW, kelas kematangan penyimpanan CO2, dan pembanding emisi listrik 2060. Tabel Cahyo sudah dibaca ulang dari PDF; sumber dan satuan untuk angka EPC serta kapasitas proyek masih perlu konfirmasi. Data skenario dan angka yang berkonflik tercatat di catatan batch.
+
+## Pendalaman data pembangkit, B40 dan gas suar
+
+- Data operasi Tanjung Jati B 5 dan 6, kebutuhan parsial energi CCS, padanan biaya ETP ke 25 unit kandidat pensiun, serta perbedaan bauran RUPTL RE Base dan ARED 2030. Pakai kunci aset ETP untuk mengambil valuasi sesuai tahun pensiun studi. [Catatan dan sumber](RISET_PLTU_CCS_DAN_BASELINE_LISTRIK_2026-11-24.md) · [CSV padanan](data/PADANAN_PENSIUN_PLTU_ETP_FADIILAH.csv)
+- Pasal 18 dan 19 Perpres 132/2024 dari salinan OCR menelusurkan dasar penyelesaian selisih HIP B40. Pembanding aktivitas nasional sementara tersedia sampai 2025. Harga bulanan, volume terbayar, emisi siklus hidup B40 dan inventaris gas suar per fasilitas masih perlu data primer. [Catatan B40 dan gas suar](RISET_B40_DAN_GAS_SUAR_2026-11-24.md)

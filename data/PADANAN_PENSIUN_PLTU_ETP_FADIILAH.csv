@@ -1,0 +1,11 @@
+stasiun_fadiilah,unit_kompleks,id_unit_gem,kapasitas_gem_mw,asset_group_etp,kapasitas_etp_lampiran_1_4_mw,status_padanan,rujukan_workbook,catatan
+Banten Suralaya,1–4,G100000100539|G100000100540|G100000100541|G100000100542,1600,"Suralaya 1, 2, 3, 4",1800,padanan_unit,D_GEM_ID!A60:L63,Kapasitas kelompok berbeda 200 MW. Pertahankan basis sumber.
+Banten Suralaya,5–7,G100000100543|G100000100544|G100000100545,1800,"Suralaya 5, 6, 7",1600,padanan_unit,D_GEM_ID!A64:L66,Kapasitas kelompok berbeda 200 MW. Pertahankan basis sumber.
+Banten Suralaya,8,G100000100537,625,Suralaya 8,625,padanan_unit,D_GEM_ID!A67:L67,Kapasitas cocok. Jawa-9 dan Jawa-10 COD 2025 pada GEM berada di luar sampel 2023.
+Tanjung Jati B,1–4,G100000109960|G100000109961|G100000109956|G100000109957,2640,,,belum_ada_di_etp,D_GEM_ID!A497:L500,Perlu estimasi kompensasi tersendiri.
+Tanjung Jati B,5–6,G100000109958|G100000109959,2000,,,belum_ada_di_etp,D_GEM_ID!A501:L502,Dua unit yang sama dengan studi CCS ERIA. Terapkan eksklusivitas per unit dan tahun.
+Cilacap Sumber,1–2,G100000101586|G100000101587,600,"Cilacap 1, 2",600,padanan_unit,D_GEM_ID!A115:L116,Padanan fase I. ETP mencatat Adipala sebagai aset lain.
+Cilacap Sumber,3–4,G100000101588|G100000101589,1660,,,belum_ada_di_etp,D_GEM_ID!A117:L118,Model stasiun mencakup kapasitas di luar dua unit yang diberi harga.
+Paiton-2,5–6,G100000107732|G100000107733,1320,"Paiton 5, 6",1220,padanan_aset_nomor_unit_berbeda,D_GEM_ID!A336:L337 dan D_Gen_Eksisting!A87:O87,"PT Jawa Power. GEM menyebut Unit 1 dan Unit 2 dalam stasiun Paiton-2. ETP juga mencetak 1519 MW pada Lampiran 1.3."
+Paiton-1,7–8,G100000107730|G100000107731,1230,,,belum_ada_di_etp,D_GEM_ID!A334:L335,Paiton Energy. Paiton 1 dan 2 dalam ETP adalah kelompok PLN 800 MW di kompleks yang sama.
+Banten Lontar,1–3,G100000100532|G100000100533|G100000100534,945,"Lontar 1, 2, 3",945,padanan_unit,D_GEM_ID!A54:L56,Unit 4 beroperasi 2024 pada GEM sehingga di luar sampel emisi 2023.
