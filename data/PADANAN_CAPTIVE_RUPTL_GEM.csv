@@ -1,0 +1,8 @@
+id_kelompok_ruplt,nama,mw_kelompok_ruplt,sistem_geografis,peran_ruplt,sel_ruplt,id_unit_gem,unit_gem,mw_unit_gem,status_gem,tahun_operasi_gem,tipe_captive_gem,sel_gem,sumber_gem
+GEN-aed427110f,PLTU Asahimas Chemical,300,JAMALI,Captive,D_Gen_Eksisting!A6:Q6,G100000100367,Unit 1,150,operating,2019,power,D_GEM_ID!A25,https://www.gem.wiki/Asahimas_Chemical_power_station
+GEN-aed427110f,PLTU Asahimas Chemical,300,JAMALI,Captive,D_Gen_Eksisting!A6:Q6,G100000112731,Unit 2,150,operating,2019,power,D_GEM_ID!A26,https://www.gem.wiki/Asahimas_Chemical_power_station
+GEN-32e1fcefb2,PLTU Tjiwi Kimia Paper Mill,230,JAMALI,Captive,D_Gen_Eksisting!A7:Q7,G100000114980,Unit 1,35,operating,1992,power,D_GEM_ID!A521,https://www.gem.wiki/Tjiwi_Kimia_Paper_Mill_power_station
+GEN-32e1fcefb2,PLTU Tjiwi Kimia Paper Mill,230,JAMALI,Captive,D_Gen_Eksisting!A7:Q7,G100000114981,Unit 2,35,operating,1993,power,D_GEM_ID!A522,https://www.gem.wiki/Tjiwi_Kimia_Paper_Mill_power_station
+GEN-32e1fcefb2,PLTU Tjiwi Kimia Paper Mill,230,JAMALI,Captive,D_Gen_Eksisting!A7:Q7,G100000114982,Unit 3,70,operating,1996,power,D_GEM_ID!A523,https://www.gem.wiki/Tjiwi_Kimia_Paper_Mill_power_station
+GEN-32e1fcefb2,PLTU Tjiwi Kimia Paper Mill,230,JAMALI,Captive,D_Gen_Eksisting!A7:Q7,G100000114983,Unit 4,90,operating,2015,power,D_GEM_ID!A524,https://www.gem.wiki/Tjiwi_Kimia_Paper_Mill_power_station
+GEN-b6f5b29372,PLTU Indo Bharat Rayon,36.6,JAMALI,Captive,D_Gen_Eksisting!A8:Q8,G100000114215,--,36.6,operating,2008,power,D_GEM_ID!A176,https://www.gem.wiki/Indo_Bharat_Rayon_power_station

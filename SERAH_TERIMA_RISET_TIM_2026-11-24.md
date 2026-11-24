@@ -29,3 +29,15 @@ Permintaan HTTP langsung ke portal ESDM, UNFCCC dan GEM ditolak proksi dengan st
 ## Rujukan PDF yang baru ditambahkan
 
 [Lihat peta 15 unggahan ke PDF dan baris register yang sudah ada](CEK_ARSIP_SUMBER_2026-11-24.md).
+
+## Lanjutan empat prioritas
+
+[Temuan lanjutan untuk Claude](LANJUTAN_RISET_PRIORITAS_2026-11-24.md) berisi padanan PLTU dan captive, pra-isian proyek EBT, cuplikan historis energi Indonesia, temuan Renops dari PDF asli, serta cek kapasitas desain CCS.
+
+## Cek daftar 22 referensi
+
+[Cek identitas sumber dan klaim NZE](CEK_REFERENSI_NZE_2026-11-24.md) mencatat pembanding IEA, rujukan yang masih ambigu, dan keputusan tentang studi metode. Referensi Lee [11] dan [13] memakai DOI yang sama.
+
+## Batch 23 PDF
+
+[Arsip dan cek klaim untuk Claude](CEK_BATCH_23_PDF_2026-11-24.md) memetakan 23 unggahan ke 14 PDF baru dan sembilan salinan identik. Temuan mencakup estimasi pembayaran pensiun PLTU per aset, penalti energi CCS pada kasus 2 × 315 MW, kelas kematangan penyimpanan CO2, dan pembanding emisi listrik 2060. Tabel Cahyo sudah dibaca ulang dari PDF; sumber dan satuan untuk angka EPC serta kapasitas proyek masih perlu konfirmasi. Data skenario dan angka yang berkonflik tercatat di catatan batch.

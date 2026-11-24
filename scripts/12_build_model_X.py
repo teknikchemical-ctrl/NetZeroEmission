@@ -87,7 +87,13 @@ def S_Pensiun():
        ('cap','Kapasitas enam PLTU usulan (MW)','D_Teknis_Opsi!F60','MW','R','Fadiilah dan Dye 2026','link'),
        ('jetp','Pensiun dini sebelum 2030, skenario JETP CIPP (GW)',f'D_JETP!C{src.find_row("D_JETP","Pensiun dini PLTU sebelum 2030",col=2,start=1,end=30)}','GW','P','D_JETP (CIPP Tabel 4.3-1)','link'),
        ('cost','Biaya bersih pensiun (USD per tCO2)','C_Solusi_2030!G30','USD per tCO2','AC','C_Solusi_2030 B1','link'),
-       ('ann','Biaya tahunan resmi: pengurangan x biaya (USD juta per tahun)','C_Solusi_2030!E30*{cost}','USD juta per tahun','AC','hitungan sederhana','calc')],
+       ('ann','Biaya tahunan resmi: pengurangan x biaya (USD juta per tahun)','C_Solusi_2030!E30*{cost}','USD juta per tahun','AC','hitungan sederhana','calc'),
+       ('etp_tot','ETP/UNOPS 2023: pembayaran kompensasi 32 aset, jumlah pada tahun pensiun (2024 sampai 2038)',11757.36,'USD juta','E','sources/2023_ETP-Kompensasi-Pensiun-PLTU_Tabel-14-1.csv (jumlah 32 baris)','in'),
+       ('etp_pv','ETP/UNOPS 2023: nilai kini 2022',7578.96,'USD juta','E','berkas CSV yang sama','in'),
+       ('omb_pay','ETP/UNOPS 2023: pembayaran Ombilin 1 dan 2 (pensiun 2024)',140.8,'USD juta','E','Tabel 14.1 hlm. 183','in'),
+       ('omb_em','ETP/UNOPS 2023: emisi dihindari Ombilin terhadap pensiun alami',4.4,'MtCO2e','E','Bab 9 (hlm. 70 sampai 73)','in'),
+       ('omb_c','Kompensasi Ombilin per tCO2e dihindari (sebelum biaya pengganti dan jaringan)','{omb_pay}/{omb_em}','USD per tCO2e','AC','hitungan sederhana; dibandingkan dengan biaya turunan di atas (K158)','calc'),
+       ('omb_r','Kompensasi Ombilin dibagi biaya turunan C_Solusi B1','{omb_c}/{cost}','fraksi','AC','hitungan sederhana; di atas 1 berarti biaya ETP lebih tinggi','calc')],
       'Pensiun dini PLTU')
 def S_CCS():
     return single('S_CCS_TJB',123,'CCS PLTU Tanjung Jati B',34,
@@ -108,7 +114,16 @@ def S_CCS():
        ('c72','Biaya per tCO2, dua unit 13 Mt, pipa (batas atas yang sah)',72.4,'USD per tCO2','R','ERIA 2025 Tabel 5.12 (K147)','in'),
        ('c63','Biaya per tCO2, dua unit 13 Mt, kapal dan pipa darat',63.7,'USD per tCO2','R','ERIA 2025 Tabel 5.11','in'),
        ('annk_lo','Biaya tahunan dikoreksi, rendah (USD juta per tahun)','C_Solusi_2030!E34*{c63}','USD juta per tahun','AC','hitungan sederhana (K147: 92,6 pada tabel di atas adalah kasus satu unit)','calc'),
-       ('annk_hi','Biaya tahunan dikoreksi, tinggi (USD juta per tahun)','C_Solusi_2030!F34*{c72}','USD juta per tahun','AC','hitungan sederhana (K147)','calc')],
+       ('annk_hi','Biaya tahunan dikoreksi, tinggi (USD juta per tahun)','C_Solusi_2030!F34*{c72}','USD juta per tahun','AC','hitungan sederhana (K147)','calc'),
+       ('dt','ERIA hlm. 27: CO2 per hari per unit pada beban nominal',19832,'tCO2 per hari','R','ERIA 2025 hlm. 27','in'),
+       ('cf86','Faktor kapasitas model ERIA',0.86,'fraksi','R','ERIA 2025 hlm. 27','in'),
+       ('cr95','Laju tangkap ERIA',0.95,'fraksi','R','ERIA 2025 hlm. 27','in'),
+       ('nomg','Tangkapan bruto dua unit tanpa margin desain 10 persen','{dt}*2*365*{cf86}*{cr95}/1000000','MtCO2 per tahun','AC','hitungan sederhana atas asumsi ERIA (11,83 dibanding 13)','calc'),
+       ('nomg_r','Tangkapan tanpa margin dibagi emisi unit 5 dan 6 (GEM)','{nomg}/{em56}','fraksi','AC','hitungan sederhana; masih di atas 1 (K150)','calc'),
+       ('sg_pen','Sugito dkk. 2025: penalti daya CCS, simulasi 2 x 315 MW (630 ke 436 MW)',0.308,'fraksi','E','Sugito dkk. 2025 Tabel 5','in'),
+       ('sg_c','Sugito dkk. 2025: biaya tangkap',51.8,'USD per tCO2 tertangkap','E','Sugito dkk. 2025 Tabel 6 (hanya tangkap; K159)','in'),
+       ('sg_cx','Sugito dkk. 2025: CAPEX CCS',334.4,'USD juta','E','Sugito dkk. 2025 Tabel 6','in'),
+       ('sg_l','Sugito dkk. 2025: kenaikan LCOE',35.5,'USD per MWh','E','Sugito dkk. 2025 Tabel 6','in')],
       'CCS TJB')
 def S_Cofiring():
     return single('S_Cofiring',124,'co-firing biomassa',27,

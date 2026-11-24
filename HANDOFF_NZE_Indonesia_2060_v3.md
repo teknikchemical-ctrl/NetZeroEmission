@@ -89,3 +89,5 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 
 ## Addendum 8 (24 November 2026): penelanan cabang codex
 Cabang `research/nze-data-handoff` (7139bd6) ditelan secara selektif; rincian di `RESEARCH_Log_Cabang_Codex.md`. Hasil: register 882 butir dari 45 dokumen (termasuk laporan iklim PLN 2024 dan artikel panas bumi 2023 dari unggahan di main), K_Konflik sampai K157, `papers/` (34 PDF) dan sembilan PDF sumber baru di `sources/`, verifikasi angka mencakup 27 dokumen. Temuan utama: biaya CCS 92,6 USD per t adalah kasus satu unit (K147), belum dikoreksi di judul; menunggu keputusan.
+
+Addendum 9 (24 November 2026): commit codex 07379a1 ditelan (`RESEARCH_Log_Cabang_Codex.md` bagian 8): register 897 butir dari 55 dokumen, K_Konflik sampai K162. Temuan: biaya pensiun dini model (13,49 USD per t) lebih rendah daripada ETP/UNOPS (32) dan IESR (31 sampai 40); belum diubah.

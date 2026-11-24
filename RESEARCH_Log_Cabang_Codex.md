@@ -50,3 +50,14 @@ Saat penelanan berlangsung, `main` menerima tiga PDF. Semuanya dipindah ke `sour
 - **Pensiun dini PLTU (Fadiilah dan Dye)**: salinan lain makalah yang sudah ada (teks sama, 54.761 karakter; 93,52 dan 14.310 cocok); disimpan sebagai `..._salinan_unggahan_main.pdf`, tidak dicatat ulang.
 
 Cek silang bermanfaat: PLN melaporkan co-firing 1,8 MtCO2 (2024), sebanding dengan 1,57 Mt hasil S_Cofiring (14,3 persen kali target 11 Mt). Angka 44,1 Mt untuk Jawa 9 dan 10 di teks PLN tidak konsisten dengan totalnya (13,9) dan tidak dipakai (K157).
+
+## 8. Tambahan: commit 07379a1 (batch 23 PDF, data padanan, lanjutan riset)
+Diimpor: `CEK_BATCH_23_PDF`, `CEK_REFERENSI_NZE`, `LANJUTAN_RISET_PRIORITAS`, `data/` (padanan PLTU RUPTL dan GEM 18 unit, captive 7 unit, pipeline EBT 882 baris), 8 makalah di `papers/`, serta di `sources/`: laporan ETP/UNOPS 2023, CSV kompensasi 32 aset, Sugito (CCS), Usman (penyimpanan), Fitriana 2024 dan 2026, Cahyo (salinan), dan dua CSV OWID. Sembilan unggahan duplikat tidak dibawa. Dicatat lewat `scripts/18_log_codex_batch23.py` (register 882 menjadi 897 butir, 45 menjadi 55 dokumen, K158 sampai K162). Jumlah CSV kompensasi (11.757,36 dan 7.578,96) dan angka OWID dicek langsung; tabel gambar Cahyo dibaca mata (cocok dengan catatan tim).
+
+Temuan baru:
+1. **Biaya pensiun dini kemungkinan terlalu rendah (K158).** Model memakai USD 13,49 per tCO2 (UMD/IESR). ETP/UNOPS memberi USD 32 per tCO2e untuk Ombilin (140,8 juta per 4,4 Mt, 2,37 kali biaya model) dan IESR Cirebon-1 31 sampai 40. Kompensasi aset saja, belum biaya pengganti. Disarankan memakai rentang 13,5 sampai 40 pada B1 dan B4; belum diubah di judul.
+2. **CCS (K159).** Biaya tangkap Sugito 51,8 USD per t (hanya tangkap, penalti daya 30,8 persen) dibanding komponen tangkap ERIA 30,5. Biaya per ton dihindari untuk Tanjung Jati B masih terbuka.
+3. **K150 dipertajam.** Tanpa margin desain, tangkapan bruto ERIA 11,83 Mt, masih 1,26 kali emisi estimasi unit 5 dan 6 (9,404 Mt).
+4. **Penyimpanan (K160)** dan **listrik 2060 (K161)**: Usman 680,57 Gt dibanding 572,77 Gt di workbook (kemungkinan tumpang tindih); Fitriana BAU 544 dan NZE 60 MtCO2 per tahun untuk pembangkitan saja.
+5. Peringatan metode: Bhakti dkk. (ANFIS, akurasi 93,5 persen) tidak dipakai; konsisten dengan aturan tanpa proyeksi buatan sendiri.
+6. Data padanan RUPTL-GEM menunjukkan Sumsel-1 600 MW (RUPTL) dibanding 700 MW (GEM) dan Sumut-1 ditangguhkan; berguna untuk garis dasar (B_Garis_Pembangunan), belum diproses lebih lanjut.
