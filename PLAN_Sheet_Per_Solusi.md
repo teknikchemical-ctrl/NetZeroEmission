@@ -68,3 +68,11 @@ Lembar `S_Ringkasan` (satu tabel semua opsi: pengurangan, persen dari selisih, k
 - Banyak opsi gelombang 2 belum punya pengurangan bersumber; lembarnya akan menunggu riset (jangan diisi angka sendiri).
 - Beberapa nilai di D_Teknis_Opsi berasal dari gambar tabel yang dibaca visual (status E); lembar menampilkan status itu.
 - Grafik buatan XML tidak dapat diuji di Excel di sini; kemungkinan perlu satu putaran perbaikan setelah Anda membuka berkasnya.
+
+## 9. Keputusan pengguna (24 Nov 2026) dan pembaruan rencana
+
+- Cakupan: semua solusi alternatif yang sudah ada di workbook (C_Solusi_2030 dan D_Teknis_Opsi), bukan daftar baru.
+- Lembar dan grafik dibuat hanya sampai data kajian tersedia; solusi tanpa data bersumber menunggu (lihat AUDIT_Kesiapan_Solusi.md dan RESEARCH_TODO.md).
+- Tahap 0 selesai: `A_Kesiapan_Solusi` (Lembar 97): 51 baris; siap 18, siap setelah hitung ulang 1, kurang masukan 18, belum bisa 7, pendukung 1, pembanding 3, bukan solusi 3. Penilaian sebagian bersifat pertimbangan dari katalog data; diverifikasi ulang pada Tahap 1 untuk setiap solusi yang dibangun.
+- Standar tampilan wajib untuk setiap lembar dan grafik: rapi dan seragam; tanpa grafik rusak; grafik rinci dengan area berarsir (selisih atau rentang, memakai area bertumpuk dengan deret dasar tanpa isi dan entri legenda dasar dihapus serta nama dasar dikosongkan, agar legenda tidak menampilkan "base"); legenda tepat sama dengan nama deret dan status sumber; label angka pada setiap titik data; sumbu dan satuan jelas; setiap grafik memuat pengurangan emisi.
+- Langkah berikutnya: Tahap 1, satu lembar contoh (Panas bumi), untuk disetujui sebelum gelombang 1.
