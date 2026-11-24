@@ -3,6 +3,27 @@
 Terakhir diperbarui 24 Nov 2026. Berkas kerja terbaru selalu bernama `Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx`.
 Aturan kerja: setiap berkas masuk dibaca seluruhnya, diekstrak, dicatat di `D_Register_Sumber`, diproses ke lembar hitung, lalu usulan pengembangan ditulis di sini. Pengembangan spreadsheet dikerjakan di repo ini, skrip di `scripts/`, PDF sumber di `sources/`.
 
+## 0. PRIORITAS riset celah energi dan FOLU (24 Nov 2026)
+
+Prinsip dasar: penurunan = aktivitas x faktor emisi x pelaksanaan, dikurangi tumpang tindih dengan garis dasar. Tujuan studi: menutup selisih CPOS ke LCCP_L (2030: energi 239,1; FOLU 186,9; total 434,7 MtCO2e). Urutan prioritas memakai tiga ukuran: (1) MtCO2e yang dipertaruhkan, (2) seberapa banyak hasil berubah bila celah terisi, (3) kemudahan menemukan data resmi. Sumber resmi dicari lebih dulu; sumber lain diberi status E.
+
+Fakta penentu dari workbook: CPOS energi 2030 (1.311,0) sama dengan BaU 1.669 dikurangi CM1 358, jadi garis dasar energi sudah memuat CM1. CM2 resmi energi hanya 88 Mt (446 dikurangi 358), sehingga sekitar 151 Mt selisih energi berada di atas CM2 dan harus diisi solusi baru bersumber. FOLU: CM2 tambahan 195 Mt cukup menutup 186,9 secara angka (104 persen) tetapi tidak dirinci, dan basis Renops (BaU 714, CM1 217, CM2 22) belum disamakan dengan SNDC (CPOS 94,6; LCCP_L -92,2).
+
+| Peringkat | Celah | Taruhan 2030 (MtCO2e) | Yang dicari | Sumber utama | Masuk ke |
+|---|---|---|---|---|---|
+| 1 | FOLU: rincian CM2 tambahan 195 Mt per aksi dan padanan basis Renops dengan SNDC | 187 (43 persen selisih) | Luas dan faktor per aksi CM2; tabel pemetaan CM1, CM2, CPOS, LCCP_L | Renops FOLU Net Sink, SNDC 2025 lampiran, BTR-1 dan BTR-2, FOLU Net Sink 2030 | C_Solusi_2030 FOLU, lembar S_ FOLU |
+| 2 | Energi: sumber bersumber untuk 151 Mt di atas CM2 (surya 61,4 yang kini sisa selisih, panas bumi 19,2, pensiun lanjutan 57,5, CCS 13) | 151 | Rencana kapasitas per jenis dan tahun (RUPTL 2025 sampai 2034, JETP CIPP, Perpres 112 Tahun 2022 untuk jadwal pensiun PLTU, IEEFA), unit PLTU yang masuk daftar | ESDM, PLN, Sekretariat JETP, GEM | S_ energi, C_Solusi_2030 B4 sampai B7 |
+| 3 | Energi: rincian CM2 resmi 88 Mt (50,3 tidak dirinci; gas suar 1,7) | 88 | Aksi dalam CM2 energi, volume gas suar dan faktor emisi | ENDC 2022 lampiran, Renops energi, ESDM | B2 dan B3 |
+| 4 | Pelaksanaan terkini: efisiensi 22,7 persen dari 132 Mt, co-firing 14,3 persen, B40 volume aktual, kapasitas EBT 2024 sampai 2025, restorasi gambut setelah 2018, HTI setelah 2017, EV 1,3 persen dari target | lebih dari 100 (kekurangan pelaksanaan) | Capaian terbaru per aksi dengan tahun data | ESDM, EBTKE, BRGM, KLHK SRN, BTR-2 | C_Solusi_2030 Tabel 32.D, model delivery M7 |
+| 5 | Gambut: satu faktor dan satu basis luas | hingga 57 (A) dan 71 (B) | Faktor bersumber resmi (32,42; 45,5; 24,8) dan luas target resmi | BRGM, BTR-1, Murdiyarso dkk. 2024 | C_Solusi_2030 A5 dan B5 |
+| 6 | Biaya untuk usulan: selisih harga B40 per liter, biaya efisiensi Indonesia, biaya CCS TJB, harga bahan bakar penuh, sumber biaya FOLU kedua | tidak mengubah volume, mengubah urutan solusi | Angka biaya Indonesia bersumber | ESDM, BPDP, PLN, Kemenkeu, literatur | C_Biaya_Teknologi, MAC |
+| 7 | Pembukuan biomassa dan biodiesel (netral atau siklus hidup, alih guna lahan CPO) | 41 (B40) dan 11 sampai 152 (co-firing) | Aturan pembukuan resmi dan rentang LCA | MEBI, ESDM, NREL, CREA | K125, K138 |
+| 8 | Batas pasokan dan lahan: biomassa per provinsi, lahan terdegradasi cocok 0,44 sampai 3,60 Mha | membatasi 11 Mt co-firing dan 4,3 sampai 5,3 Mha rehabilitasi | Data pasokan per provinsi dan peta lahan | Squire dkk. (GitHub), KLHK | K126, K127 |
+| 9 | Jalur resmi 2060 (energi 1.433; FOLU 82) | 1.433 dan 82 pada 2060 | LTS-LCCR, RUKN 2025 sampai 2060, jalur NZE Bappenas dan ESDM | Bappenas, ESDM, KLH | S_ 2060 |
+| 10 | Energi non-listrik dan sektor lain: TIMES per teknologi (industri), km tempuh BEV, mangrove (target luas), pencegahan kebakaran gambut, keputusan lingkup limbah (371 Mt pada 2060) | kecil pada 2030, besar pada 2060 | Per teknologi dan target | TIMES, HEIO, Renops, KLH | gelombang 2 |
+
+Langkah pertama yang disarankan: peringkat 1 sampai 3 (mengisi apa yang resmi) lalu peringkat 4 (agar hasil "tertutup di atas kertas" dapat dibandingkan dengan "tertutup pada pelaksanaan saat ini").
+
 ## A. Riset yang harus dicari (urut prioritas)
 
 Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LCCP_L (2030: 434,7 MtCO2e; 2060: 1.967,8). Biaya saja, tanpa skema pembiayaan.
