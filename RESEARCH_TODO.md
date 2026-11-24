@@ -55,7 +55,7 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 | R17 | PLTU captive 17,7 GW (127 unit) pada 2030: kapasitas dan opsi pensiun | Squire dkk. mencatat captive berlipat dua; cakupan pensiun dini belum memasukkan | C_Phasedown_Unit |
 | R18 | Biaya hidrogen dan amonia untuk co-firing, bila dianggap opsi | Disebut sebagai pilot PLN; belum ada biaya | opsi lanjutan |
 | R19 | Rencana kapasitas 2030 untuk surya atap, surya terapung, angin darat (terpisah dari PLTS) dan angin laut | Hasil audit: RUPTL menggabung PLTS dan PLTB; tanpa pemisahan lembar angin dan surya atap tidak dapat dihitung | lembar S_ gelombang 1 |
-| R20 | Aturan pembukuan emisi biomassa (netral atau tidak) bersumber, dengan rentang LCA | Menentukan tanda pengurangan PLTBm dan co-firing; NREL menyebut negatif 1.000 sampai positif 1.300 gCO2e per kWh | lembar biomassa |
+| R20 | Aturan pembukuan emisi biomassa (netral atau tidak) bersumber; LCA sawit Wahyono dkk. 2020 kini tercatat (netto 2,88 tCO2e per ton biodiesel, cradle to gate) tetapi tanpa densitas biodiesel dan LCA solar, belum dapat dibandingkan per liter | Menentukan tanda pengurangan PLTBm dan co-firing; NREL menyebut negatif 1.000 sampai positif 1.300 gCO2e per kWh | lembar biomassa |
 | R21 | Volume gas suar dan faktor emisinya | Pengurangan 1,7 Mt resmi tanpa data teknis | lembar gas suar |
 | R22 | Pengurangan per teknologi dari skenario TIMES (Utama 2025) dan HEIO (Zain 2025) untuk semen, baja, kertas, amonia, metanol, olefin | Data ada di PDF, belum diekstrak per teknologi | lembar industri |
 | R23 | Kilometer tempuh per jenis kendaraan dan jumlah bus listrik 2030 bersumber | Mengubah target 15,2 juta EV dan bus menjadi MtCO2e | lembar BEV dan angkutan umum |
@@ -85,6 +85,7 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 
 ## D. Riwayat pengerjaan
 
+- 24 Nov 2026: LCA biodiesel sawit (Wahyono 2020) dibaca dan dicatat (6 butir, No 837 sampai 842), masuk S_B40.
 - 24 Nov 2026: model portofolio dibangun (Lembar 98 sampai 127); celah yang terlihat saat membangun: kapasitas captive per unit, pipeline EBT (PPA, FID, COD), laju kapasitas terpasang aktual (hanya surya 1,59 GW kuartal 1 2026 tercatat), selisih harga per liter B40, rincian CM2, pelaksanaan solusi lain; semuanya sudah ada di RESEARCH_PLAN_TIM.md.
 
 - 24 Nov 2026: legenda "base" pada Gambar 42.2, 42.4, 42.5 dikosongkan; freeze pane dan tab terpilih ganda dibersihkan; tanda pisah panjang dihapus (dua sampai tiga lokasi).

@@ -26,3 +26,10 @@ Aturan: setiap PDF baru dibaca seluruhnya, angkanya dicatat di register, lalu di
 | Optimizing power sector decarbonization in Indonesia through an integrated policy modeling framework.pdf | Ya (No 825 sampai 833) | Sunanda dkk. 2026; Tabel 1, 4, 5, 6, 7; K133, K134, K137, K140, K141 |
 | spesifikasi-b40.pdf | Ya (No 834 sampai 836) | Spesifikasi resmi B40; tidak memuat faktor emisi |
 | Jakarta Transportation Transformation.pdf | Sudah dicatat sebelumnya (No 675 sampai 696) | Versi Inggris laporan Greenpeace dan RDI yang sama; 21 dari 21 butir dicocokkan dengan teks |
+
+## Diterima 24 Nov 2026 (cabang main, setelah model dibangun)
+
+| Berkas | Dicatat di register | Catatan |
+|---|---|---|
+| 2025_LCA_biodiesel_sawit_Indonesia.pdf (semula "Assessing the Environmental Performance of Palm Oil Biodiesel Production in Indonesia- A Life Cycle Assessment Approach.pdf") | Ya (No 837 sampai 842) | Wahyono dkk. 2020, Energies 13:3248; jejak karbon cradle to gate per ton biodiesel; masuk ke S_B40 Tabel D |
+| 2024_Squire_cofiring_limbah_biomassa_salinan_duplikat.pdf | Duplikat 1.pdf (teks identik), tidak dicatat ulang | Squire dkk. 2024 |

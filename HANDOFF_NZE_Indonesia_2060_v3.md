@@ -79,3 +79,4 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 - Pendorong terukur (PLTU on-grid dan PLTGU baru) baru menjelaskan 22 persen emisi energi CPOS 2030; minyak dan gas, transportasi, industri, gedung, captive (proyeksi), dan fugitive belum terukur (WP-A, C, E, I).
 - Terbarukan RUPTL: ARED di atas RE Base hanya meningkatkan penggantian batubara sekitar 9 Mt pada 2030 (hitung sederhana), sedangkan RUPTL melaporkan selisih emisi batubara hanya 4 Mt (S_EBT_Rekap).
 - Grafik dibuat lewat XML dan diuji hanya di LibreOffice; perlu satu putaran pemeriksaan di Excel.
+- Register kini 842 butir dari 29 dokumen (tambah LCA biodiesel sawit, No 837 sampai 842). Urutan rakit: base git 41dafa7, lalu scripts/14_log_lca_biodiesel.py pada base, lalu scripts/13_assemble_model.py.
