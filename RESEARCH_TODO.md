@@ -51,7 +51,7 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 | R13 | Satuan rencana PV skala besar 2030 (rujukan [23] Cahyo) | Angka tercetak MW tidak masuk akal (4,67 juta MW) | Tabel 96.D |
 | R14 | Biaya restorasi gambut, mangrove, dan reforestasi per ha dari sumber Indonesia kedua (selain Rossita dan Boer) | Triangulasi biaya FOLU; Tabel 27.K | C_Opsi_Hitung |
 | R15 | Biaya transmisi, penyimpanan, dan cadangan untuk surya dan angin (LEAP mengabaikan transmisi) | Biaya sistem surya 37,5 GW belum lengkap | C_Solusi_2030 B7 |
-| R16 | Faktor emisi LPG, serbuk gergaji; sumber untuk catatan faktor K113 sampai K124 | Masih asumsi penulis atau status E tanpa sumber | D_Faktor |
+| R16 | Faktor emisi LPG sudah bersumber (3,16 tCO2 per ton; turunan IPCC via Zain 2025, K145); masih perlu serbuk gergaji dan sumber catatan faktor K113 sampai K124 | Sebagian asumsi penulis atau status E tanpa sumber | D_Faktor |
 | R17 | PLTU captive 17,7 GW (127 unit) pada 2030: kapasitas dan opsi pensiun | Squire dkk. mencatat captive berlipat dua; cakupan pensiun dini belum memasukkan | C_Phasedown_Unit |
 | R18 | Biaya hidrogen dan amonia untuk co-firing, bila dianggap opsi | Disebut sebagai pilot PLN; belum ada biaya | opsi lanjutan |
 | R19 | Rencana kapasitas 2030 untuk surya atap, surya terapung, angin darat (terpisah dari PLTS) dan angin laut | Hasil audit: RUPTL menggabung PLTS dan PLTB; tanpa pemisahan lembar angin dan surya atap tidak dapat dihitung | lembar S_ gelombang 1 |
@@ -85,6 +85,7 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 
 ## D. Riwayat pengerjaan
 
+- 24 Nov 2026: dua PDF baru (Fadiilah dan Dye 2026; Suntoro dkk. 2025) dibaca penuh dan dicocokkan; pemeriksaan phase-down PLTU (K142 sampai K146, Tabel 122.F sampai H); S_Rice_Cooker (Lembar 128): netto sekitar -3,5 sampai 41 ktCO2 per tahun, tidak signifikan; A_Kesiapan: siap 20, belum bisa 6.
 - 24 Nov 2026: LCA biodiesel sawit (Wahyono 2020) dibaca dan dicatat (6 butir, No 837 sampai 842), masuk S_B40.
 - 24 Nov 2026: model portofolio dibangun (Lembar 98 sampai 127); celah yang terlihat saat membangun: kapasitas captive per unit, pipeline EBT (PPA, FID, COD), laju kapasitas terpasang aktual (hanya surya 1,59 GW kuartal 1 2026 tercatat), selisih harga per liter B40, rincian CM2, pelaksanaan solusi lain; semuanya sudah ada di RESEARCH_PLAN_TIM.md.
 

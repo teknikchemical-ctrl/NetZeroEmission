@@ -120,3 +120,8 @@ Tinjau 836 butir di D_Register_Sumber agar setiap butir memiliki konteks: cakupa
 ## 7. Hasil serah terima
 
 Tim menyerahkan: template terisi, berkas sumber di `sources/`, daftar konflik, daftar celah yang tidak dapat diisi (dengan alasan). Claude mengimpor template ke D_Register_Sumber dan memperbarui K_Konflik, A_Kesiapan_Solusi, dan model.
+
+## 8. Tambahan dari pemeriksaan phase-down PLTU (24 Nov 2026)
+
+WP-A tambah: (a) kapasitas unit PLTU per tahun operasi menurut GEM dan PLN terbaru, untuk menjelaskan selisih enam PLTU prioritas (14.310 MW makalah dibanding 16.735 MW workbook, K143); (b) jadwal pensiun PLN per teknologi dan status resmi (uap 2030, subkritis 2035, superkritis 2040, USC 2056) dan perbedaannya dengan JETP CIPP (K146); (c) emisi tahunan PLTU resmi 2023 sampai 2025 untuk menyelesaikan K142 (271,3 RUPTL, 302,1 makalah, 341,8 estimasi GEM); (d) apakah pensiun resmi 36 Mt sudah termasuk dalam enam PLTU (menentukan bagian tambahan 57,5 Mt).
+Catatan: berkas serah terima tim (SERAH_TERIMA_RISET_TIM_2026-11-24.md) dan template terisi 1.158 baris yang disebut pengguna tidak ada di repo ini (template di repo hanya berisi satu baris contoh); mohon didorong ke repo agar dapat dibaca, dicatat, dan diproses.

@@ -33,3 +33,12 @@ Aturan: setiap PDF baru dibaca seluruhnya, angkanya dicatat di register, lalu di
 |---|---|---|
 | 2025_LCA_biodiesel_sawit_Indonesia.pdf (semula "Assessing the Environmental Performance of Palm Oil Biodiesel Production in Indonesia- A Life Cycle Assessment Approach.pdf") | Ya (No 837 sampai 842) | Wahyono dkk. 2020, Energies 13:3248; jejak karbon cradle to gate per ton biodiesel; masuk ke S_B40 Tabel D |
 | 2024_Squire_cofiring_limbah_biomassa_salinan_duplikat.pdf | Duplikat 1.pdf (teks identik), tidak dicatat ulang | Squire dkk. 2024 |
+
+## Dibaca ulang penuh dan dicocokkan 24 Nov 2026
+
+| Berkas | Hasil |
+|---|---|
+| 2026_Fadiilah_Dye_early_retirement_PLTU_emisi_populasi.pdf | 48 dari 48 baris berangka di register cocok dengan teks (52 butir, No 29 sampai 80). Konteks tambahan dipakai di S_Pensiun_Dini Tabel F sampai H dan K142 sampai K144, K146 |
+| 2025_Suntoro_clean_cooking_rice_cooker.pdf | 20 dari 20 baris cocok (No 421 sampai 440). Dipakai di S_Rice_Cooker (Lembar 128) dan K145 |
+
+Pencocokan semua dokumen: `python3 scripts/verify_all_sources.py` membandingkan setiap angka di D_Register_Sumber dengan teks PDF di sources/. Hasil: seluruh baris yang teksnya dapat diekstrak cocok; yang tidak terlacak hanya angka yang dibaca dari gambar tabel (Cahyo dkk. 2024, tabel LCOE dan rencana PV) dan satu nilai turunan dari grafik (TIMES, 873). Dokumen register tanpa PDF di repo (IEEFA, ERIA, Zain, Zahari, Hilmiyati, Sijabat, Murdiyarso, Hermudananto, laporan riset web) tidak dapat dicocokkan ulang.

@@ -6,20 +6,22 @@ def _load(name,path):
     spec=importlib.util.spec_from_file_location(name,path); m=importlib.util.module_from_spec(spec); sys.argv=['x']; spec.loader.exec_module(m); return m
 def er(txt,col=3,start=6,end=70):  # D_Energi_Potensi row by item text prefix
     return src.find_row('D_Energi_Potensi',txt,col=col,start=start,end=end)
-def single(name,nomor,label,rowC,desc,params_rows,srcrows,extra_inputs,chart_title,cost_cells=None,find_extra=None):
+def single(name,nomor,label,rowC,desc,params_rows,srcrows,extra_inputs,chart_title,cost_cells=None,find_extra=None,finding=None,cfmt='#,##0.0'):
     """srcrows: list of (label,low_formula,high_formula,unit,status,source,style)"""
     sh=Sheet(name,'FF1BAF7A')
     sh.t('A1',f'Lembar {nomor}. Solusi {label}: tabel teknis, pengurangan emisi menurut sumber, biaya, dan pelaksanaan','title')
     sh.t('A2',desc,'title')
     # A summary
-    sh.t('B5',f'Tabel {nomor}.A. Ringkasan 2030 (C_Solusi_2030)','tbl')
-    for c,t in zip('BCDEFG',['Butir','Rendah','Tinggi','Satuan','Status','Sumber']): sh.t(f'{c}6',t,'hdr')
-    S_=[('Pengurangan 2030',f'C_Solusi_2030!E{rowC}',f'C_Solusi_2030!F{rowC}','MtCO2e per tahun','n2l'),('Biaya per tCO2',f'C_Solusi_2030!G{rowC}',f'C_Solusi_2030!H{rowC}','USD per tCO2','n2l'),
-        ('Biaya tahunan tengah',f'C_Solusi_2030!J{rowC}',f'C_Solusi_2030!J{rowC}','USD juta per tahun','n1l')]
-    for i,(a,fl,fh,u,sty) in enumerate(S_):
-        r=7+i; sh.t(f'B{r}',a); sh.f(f'C{r}',fl,sty); sh.f(f'D{r}',fh,sty); sh.t(f'E{r}',u); sh.f(f'F{r}',f'C_Solusi_2030!Q{rowC}','tl'); sh.f(f'G{r}',f'C_Solusi_2030!R{rowC}','tl')
-    sh.t('B10','Persen selisih energi 2030 (rendah, tinggi)'); sh.f('C10','C7/B_Selisih_Penyebab!$C$7','pc'); sh.f('D10','D7/B_Selisih_Penyebab!$C$7','pc'); sh.t('E10','fraksi'); sh.t('F10','AC'); sh.t('G10','B_Selisih_Penyebab')
-    sh.t('B11','Catatan C_Solusi_2030'); sh.f('C11',f'C_Solusi_2030!S{rowC}','tl'); sh.merges.append('C11:G11')
+    if rowC is not None:
+        sh.t('B5',f'Tabel {nomor}.A. Ringkasan 2030 (C_Solusi_2030)','tbl')
+        for c,t in zip('BCDEFG',['Butir','Rendah','Tinggi','Satuan','Status','Sumber']): sh.t(f'{c}6',t,'hdr')
+        S_=[('Pengurangan 2030',f'C_Solusi_2030!E{rowC}',f'C_Solusi_2030!F{rowC}','MtCO2e per tahun','n2l'),('Biaya per tCO2',f'C_Solusi_2030!G{rowC}',f'C_Solusi_2030!H{rowC}','USD per tCO2','n2l'),
+            ('Biaya tahunan tengah',f'C_Solusi_2030!J{rowC}',f'C_Solusi_2030!J{rowC}','USD juta per tahun','n1l')]
+        for i,(a,fl,fh,u,sty) in enumerate(S_):
+            r=7+i; sh.t(f'B{r}',a); sh.f(f'C{r}',fl,sty); sh.f(f'D{r}',fh,sty); sh.t(f'E{r}',u); sh.f(f'F{r}',f'C_Solusi_2030!Q{rowC}','tl'); sh.f(f'G{r}',f'C_Solusi_2030!R{rowC}','tl')
+        sh.t('B10','Persen selisih energi 2030 (rendah, tinggi)'); sh.f('C10','C7/B_Selisih_Penyebab!$C$7','pc'); sh.f('D10','D7/B_Selisih_Penyebab!$C$7','pc'); sh.t('E10','fraksi'); sh.t('F10','AC'); sh.t('G10','B_Selisih_Penyebab')
+        sh.t('B11','Catatan C_Solusi_2030'); sh.f('C11',f'C_Solusi_2030!S{rowC}','tl'); sh.merges.append('C11:G11')
+
     # B params
     sh.t('B14',f'Tabel {nomor}.B. Parameter teknis bersumber (tautan ke D_Teknis_Opsi)','tbl')
     for c,t in zip('BCDEFGH',['Opsi','Kelas parameter','Parameter','Nilai','Satuan','Status','Sumber']): sh.t(f'{c}15',t,'hdr')
@@ -64,9 +66,10 @@ def single(name,nomor,label,rowC,desc,params_rows,srcrows,extra_inputs,chart_tit
     def rg_(col): return f'{name}!${col}${r0+2}:${col}${r0+1+n}'
     c1=ck.chart_xml(f'Gambar {nomor}.1. {chart_title}: pengurangan emisi menurut sumber (MtCO2e per tahun), rentang berarsir',
         [dict(base_ref=rg_('C'),band_ref=rg_('H'),name='Rentang rendah sampai tinggi',fill='F4B183')],
-        [dict(val_ref=rg_('D'),name='Tinggi',color='C00000',pos='t'),dict(val_ref=rg_('C'),name='Rendah',color='1F4E79',pos='b')],
-        'MtCO2e per tahun','Sumber',cat,cat_numeric=False,yfmt='#,##0.0')
-    sh.f('A3','"Temuan utama: '+label+': pengurangan 2030 pada C_Solusi "&ROUND(C7,1)&" sampai "&ROUND(D7,1)&" MtCO2e ("&ROUND(C10*100,1)&" sampai "&ROUND(D10*100,1)&" persen selisih energi); sumber lain pada Tabel C berkisar "&ROUND(MIN(C'+str(r0+2)+':C'+str(r0+1+n)+'),1)&" sampai "&ROUND(MAX(D'+str(r0+2)+':D'+str(r0+1+n)+'),1)&" MtCO2e."','title')
+        [dict(val_ref=rg_('D'),name='Tinggi',color='C00000',pos='t',fmt=cfmt),dict(val_ref=rg_('C'),name='Rendah',color='1F4E79',pos='b',fmt=cfmt)],
+        'MtCO2e per tahun','Sumber',cat,cat_numeric=False,yfmt=cfmt)
+    if finding: sh.f('A3',finding(sh,r0,n,r2,refs),'title')
+    else: sh.f('A3','"Temuan utama: '+label+': pengurangan 2030 pada C_Solusi "&ROUND(C7,1)&" sampai "&ROUND(D7,1)&" MtCO2e ("&ROUND(C10*100,1)&" sampai "&ROUND(D10*100,1)&" persen selisih energi); sumber lain pada Tabel C berkisar "&ROUND(MIN(C'+str(r0+2)+':C'+str(r0+1+n)+'),1)&" sampai "&ROUND(MAX(D'+str(r0+2)+':D'+str(r0+1+n)+'),1)&" MtCO2e."','title')
     sh.width('A','A',3); sh.width('B','B',58); sh.width('C','C',26); sh.width('D','D',30); sh.width('E','H',20); sh.width('G','G',44)
     sh.charts=[(c1,(1,rg+5,7600000,3900000))]
     sh.refs=dict(r0=r0,n=n,r2=r2,refs=refs,rg=rg)
@@ -97,7 +100,9 @@ def S_CCS():
        ('cost_lo','Biaya per tCO2 rendah','C_Solusi_2030!G34','USD per tCO2','AC','C_Solusi_2030 B5','link'),
        ('cost_hi','Biaya per tCO2 tinggi','C_Solusi_2030!H34','USD per tCO2','AC','C_Solusi_2030 B5','link'),
        ('ann_lo','Biaya tahunan rendah (USD juta per tahun)','C_Solusi_2030!E34*{cost_lo}','USD juta per tahun','AC','hitungan sederhana','calc'),
-       ('ann_hi','Biaya tahunan tinggi (USD juta per tahun)','C_Solusi_2030!F34*{cost_hi}','USD juta per tahun','AC','hitungan sederhana','calc')],
+       ('ann_hi','Biaya tahunan tinggi (USD juta per tahun)','C_Solusi_2030!F34*{cost_hi}','USD juta per tahun','AC','hitungan sederhana','calc'),
+       ('tjbco2','Emisi CO2 PLTU Tanjung Jati B 2023, seluruh unit (Fadiilah dan Dye 2026 Tabel 3)',24.01,'MtCO2','R','Fadiilah dan Dye 2026','in'),
+       ('ovl','Tumpang tindih bila TJB dipensiunkan penuh (bagian tambahan B4): CCS 13 Mt menjadi redundan sebesar','MIN(C_Solusi_2030!E34,{tjbco2})','MtCO2e','AC','hitungan sederhana (K142 sampai K146 mencatat konteks pensiun dini)','calc')],
       'CCS TJB')
 def S_Cofiring():
     return single('S_Cofiring',124,'co-firing biomassa',27,
@@ -143,6 +148,103 @@ if __name__=='__main__':
     print([e for e in errs if 'NA()' not in e[3]][:6])
     for s in sheets[2:]: print(s.name,cache.get((s.name,'A3'),'')[:250])
 
+TRRC=[r for r in range(6,320) if d_.cell(r,3).value=='Rice cooker']
+def _row_of(option,param):
+    for r in range(6,320):
+        if d_.cell(r,3).value==option and str(d_.cell(r,5).value).startswith(param): return r
+def S_RiceCooker():
+    r_units=_row_of('Rice cooker','Armada rice cooker program'); r_grid=_row_of('Elektrifikasi kendaraan (BEV)','EF jaringan untuk manfaat EV')
+    keys=['units','lpg_lo','lpg_hi','kwh_lo','kwh_hi','efgj','gjt','eflpg','grid','grid30','lpgkt_lo','lpgkt_hi','co2l_lo','co2l_hi','gwh_lo','gwh_hi','co2e_w','co2e_b','net_lo','net_hi']
+    extras=[('units','Rice cooker yang dibagikan 2023 dan 2024 (unit)',f'D_Teknis_Opsi!F{r_units}','unit','R','Suntoro dkk. 2025 (342.621 dan 127.628)','link'),
+      ('lpg_lo','Pengurangan LPG 3 kg per rumah tangga, ringkasan',1.23,'kg per bulan','R','Suntoro dkk. 2025 bagian 3.3','in'),
+      ('lpg_hi','Pengurangan LPG per rumah tangga, batas atas rinci',2.74,'kg per bulan','R','Suntoro dkk. 2025 bagian 3.4','in'),
+      ('kwh_lo','Tambahan listrik per rumah tangga, batas bawah',4.67,'kWh per bulan','R','Suntoro dkk. 2025 bagian 3.4 (grafik PLN menunjukkan sekitar 10 sampai 11; dicatat sebagai celah)','in'),
+      ('kwh_hi','Tambahan listrik per rumah tangga, batas atas',5.49,'kWh per bulan','R','Suntoro dkk. 2025 bagian 3.4','in'),
+      ('efgj','Faktor emisi LPG (IPCC 2006 Tier 1)',60.6,'kgCO2e per GJ','R','Zain dkk. 2025 HEIO (D_Register_Sumber No 212)','in'),
+      ('gjt','Kandungan energi LPG',52.145,'GJ per ton','R','Zain dkk. 2025 HEIO (D_Register_Sumber No 192)','in'),
+      ('eflpg','Faktor emisi LPG turunan (menggantikan asumsi 2,98 di D_Teknis_Opsi)','{efgj}*{gjt}/1000','tCO2 per ton LPG','AC','hitungan sederhana; konflik di K145','calc'),
+      ('grid','Faktor emisi jaringan, kasus terburuk',f'D_Teknis_Opsi!F{r_grid}','tCO2 per MWh','R','Zahari dan McLellan 2024','link'),
+      ('grid30','Faktor emisi jaringan, skenario NZE 2050 (kasus terbaik)',0.282,'tCO2 per MWh','R','Greenpeace dan RDI Tabel 1 (D_Register_Sumber)','in'),
+      ('lpgkt_lo','LPG dihindari armada, rendah','{units}*{lpg_lo}*12/1000000','kt per tahun','AC','hitungan sederhana (cocok 6,9 pada D_Teknis_Opsi)','calc'),
+      ('lpgkt_hi','LPG dihindari armada, tinggi','{units}*{lpg_hi}*12/1000000','kt per tahun','AC','hitungan sederhana (cocok 15,5)','calc'),
+      ('co2l_lo','CO2 LPG dihindari, rendah','{lpgkt_lo}*{eflpg}','ktCO2 per tahun','AC','hitungan sederhana','calc'),
+      ('co2l_hi','CO2 LPG dihindari, tinggi','{lpgkt_hi}*{eflpg}','ktCO2 per tahun','AC','hitungan sederhana','calc'),
+      ('gwh_lo','Listrik tambahan armada, rendah','{units}*{kwh_lo}*12/1000000','GWh per tahun','AC','hitungan sederhana','calc'),
+      ('gwh_hi','Listrik tambahan armada, tinggi','{units}*{kwh_hi}*12/1000000','GWh per tahun','AC','hitungan sederhana','calc'),
+      ('co2e_w','CO2 listrik tambahan, kasus terburuk (listrik tinggi x faktor terburuk)','{gwh_hi}*{grid}','ktCO2 per tahun','AC','hitungan sederhana','calc'),
+      ('co2e_b','CO2 listrik tambahan, kasus terbaik (listrik rendah x faktor NZE)','{gwh_lo}*{grid30}','ktCO2 per tahun','AC','hitungan sederhana','calc'),
+      ('net_lo','Pengurangan netto, kasus terburuk (LPG rendah dikurangi listrik terburuk)','{co2l_lo}-{co2e_w}','ktCO2 per tahun','AC','hitungan sederhana','calc'),
+      ('net_hi','Pengurangan netto, kasus terbaik (LPG tinggi dikurangi listrik terbaik)','{co2l_hi}-{co2e_b}','ktCO2 per tahun','AC','hitungan sederhana','calc')]
+    n=3; r0=16+len(TRRC)+2; rl=r0+2+n; r2=rl+3
+    R=lambda k: f'C{r2+2+keys.index(k)}'
+    src_=[('LPG dihindari (rendah sampai tinggi)',f'{R("co2l_lo")}/1000',f'{R("co2l_hi")}/1000','MtCO2e per tahun','AC','Tabel D','n2'),
+          ('Listrik tambahan (terbaik sampai terburuk)',f'{R("co2e_b")}/1000',f'{R("co2e_w")}/1000','MtCO2e per tahun','AC','Tabel D','n2'),
+          ('Pengurangan netto (terburuk sampai terbaik)',f'{R("net_lo")}/1000',f'{R("net_hi")}/1000','MtCO2e per tahun','AC','Tabel D','n2')]
+    def fnd(sh,r0_,n_,r2_,refs):
+        return f'"Temuan utama: program rice cooker ({{}} unit) menghindari "&ROUND({R("co2l_lo")},1)&" sampai "&ROUND({R("co2l_hi")},1)&" ktCO2 LPG per tahun tetapi menambah listrik "&ROUND({R("co2e_b")},1)&" sampai "&ROUND({R("co2e_w")},1)&" ktCO2; netto "&ROUND({R("net_lo")},1)&" sampai "&ROUND({R("net_hi")},1)&" ktCO2 per tahun, yaitu sekitar "&ROUND({R("net_hi")}/1000/B_Selisih_Penyebab!C7*100,3)&" persen selisih energi 2030 (tidak signifikan secara nasional)."'.replace('({} unit)',f'("&TEXT({R("units")},"0")&" unit)')
+    sh=single('S_Rice_Cooker',128,'program rice cooker (pengganti LPG)',None,
+      'Evaluasi Suntoro dkk. 2025: rice cooker gratis menggantikan LPG 3 kg untuk memasak nasi. Pengurangan netto = CO2 LPG yang dihindari dikurangi CO2 listrik tambahan; faktor LPG turunan dari IPCC 2006 Tier 1 (HEIO, Zain 2025) sehingga menggantikan asumsi 2,98 tCO2 per ton di D_Teknis_Opsi. Hanya angka bersumber dan hitungan sederhana. Biaya program belum bersumber (WP-I).',
+      TRRC,src_,extras,'Program rice cooker',finding=fnd,cfmt='0.000')
+    return sh
+def extend_pensiun(sh):
+    R=sh.refs['rg']+30
+    sh.t(f'B{R}','Tabel 122.F. Enam PLTU prioritas menurut Retirement Index (Fadiilah dan Dye 2026, Tabel 3) dan padanan unit GEM di workbook','tbl')
+    H=['Urutan menurut CO2','PLTU','Usia rata-rata (tahun)','CO2 2023 (MtCO2)','PM2.5 (ton per tahun)','Kumulatif CO2 (MtCO2)','Kumulatif PM2.5 (ton)','Kapasitas unit GEM di workbook (MW)','Jumlah unit GEM','Referensi resmi CM2 (MtCO2)']
+    for c,t in zip('BCDEFGHIJK',H): sh.t(f'{c}{R+1}',t,'hdr')
+    P=[('Banten Suralaya','Suralaya',29.63,28.51,9446),('Tanjung Jati B','Tanjung Jati B',9.83,24.01,10889),('Paiton-2','Paiton-2',23.00,11.60,3098),('Cilacap Sumber','Cilacap',11.25,11.46,5046),('Paiton-1','Paiton-1',24.00,10.81,2887),('Banten Lontar','Lontar',11.33,7.12,2218)]
+    for i,(nm,key,age,co2,pm) in enumerate(P):
+        r=R+2+i; sh.n(f'B{r}',i+1,'n0'); sh.t(f'C{r}',nm); sh.n(f'D{r}',age,'n2i'); sh.n(f'E{r}',co2,'n2i'); sh.n(f'F{r}',pm,'n0i')
+        sh.f(f'G{r}',f'SUM($E${R+2}:E{r})','n2'); sh.f(f'H{r}',f'SUM($F${R+2}:F{r})','n0')
+        sh.f(f'I{r}',f'SUMIF(C_Phasedown_Unit!$C$6:$C$152,"*{key}*",C_Phasedown_Unit!$E$6:$E$152)','n0l'); sh.f(f'J{r}',f'COUNTIF(C_Phasedown_Unit!$C$6:$C$152,"*{key}*")','n0l'); sh.f(f'K{r}','C_Solusi_2030!$E$30','n1l')
+    rt=R+2+len(P)
+    sh.t(f'C{rt}','Jumlah enam PLTU'); sh.f(f'E{rt}',f'SUM(E{R+2}:E{rt-1})','n2'); sh.f(f'F{rt}',f'SUM(F{R+2}:F{rt-1})','n0'); sh.f(f'I{rt}',f'SUM(I{R+2}:I{rt-1})','n0'); sh.f(f'J{rt}',f'SUM(J{R+2}:J{rt-1})','n0')
+    sh.t(f'C{rt+1}','Angka dalam makalah (abstrak dan bagian 4.3)'); sh.f(f'E{rt+1}','D_Teknis_Opsi!F61','n2l'); sh.f(f'F{rt+1}','D_Teknis_Opsi!F62','n0l'); sh.f(f'I{rt+1}','D_Teknis_Opsi!F60','n0l')
+    sh.t(f'C{rt+2}','Selisih jumlah tabel dikurangi angka makalah (pembulatan dan kapasitas)'); sh.f(f'E{rt+2}',f'E{rt}-E{rt+1}','n2'); sh.f(f'F{rt+2}',f'F{rt}-F{rt+1}','n0'); sh.f(f'I{rt+2}',f'I{rt}-I{rt+1}','n0')
+    sh.t(f'B{rt+3}','Catatan 122.F. Kapasitas GEM di workbook lebih besar (Suralaya 6.025 MW dibanding 4.025 MW) karena unit Suralaya 9 dan 10 (2 x 1.000 MW, 2025) dan Lontar 4 (2024) dicatat di workbook tetapi tidak di makalah; ini dugaan dan dicatat di K143 (sisa 110 MW belum dijelaskan). Urutan prioritas makalah (Retirement Index per PLTU) berbeda dari urutan unit di C_Phasedown_Unit (usia dan intensitas): hanya 9 dari 28 unit enam PLTU berada di 30 peringkat teratas lembar itu.','note'); sh.merges.append(f'B{rt+3}:K{rt+3}')
+    sh.refs['six_total']=rt
+    # P2 intensity
+    Q=rt+6
+    sh.t(f'B{Q}','Tabel 122.G. Intensitas pengurangan per GW dan kapasitas setara pensiun resmi 36 Mt','tbl')
+    for c,t in zip('BCDEF',['Sumber','Pengurangan (MtCO2 per tahun)','Kapasitas (GW)','Intensitas (MtCO2 per GW)','Kapasitas setara 36 Mt resmi (GW)']): sh.t(f'{c}{Q+1}',t,'hdr')
+    I=[('Fadiilah dan Dye 2026, enam PLTU','D_Teknis_Opsi!F61','D_Teknis_Opsi!F60/1000'),
+       ('Pihak ketiga: pensiun segera 4,5 GW (D_Energi_Potensi)','D_Energi_Potensi!E7','D_Energi_Potensi!E6'),
+       ('Faktor workbook (faktor kapasitas x 8,76 x faktor emisi)','B_Pendorong!C7*B_Pendorong!C13/1000*B_Pendorong!C8','1')]
+    for i,(a,fe,fg) in enumerate(I):
+        r=Q+2+i; sh.t(f'B{r}',a); sh.f(f'C{r}',fe,'n2l'); sh.f(f'D{r}',fg,'n2l'); sh.f(f'E{r}',f'C{r}/D{r}','n2'); sh.f(f'F{r}',f'C_Solusi_2030!$E$30/E{r}','n2')
+    sh.t(f'B{Q+5}','JETP CIPP: pensiun dini penuh, analisis sensitivitas 2030 (GW)'); sh.f(f'D{Q+5}','D_JETP!C'+str(src.find_row('D_JETP','Pensiun dini penuh',col=2,start=1,end=30)),'n2l')
+    sh.t(f'B{Q+6}','Catatan: tiga sumber memberi intensitas sekitar 6,4 sampai 6,6 MtCO2 per GW; 36 Mt resmi setara sekitar 5,4 sampai 5,6 GW, dekat dengan 5,2 GW pada sensitivitas JETP (bukan skenario utama, yang tidak memensiunkan PLTU sebelum 2030).','note'); sh.merges.append(f'B{Q+6}:K{Q+6}')
+    # P3 paths
+    T=Q+9
+    sh.t(f'B{T}','Tabel 122.H. Kapasitas PLTU yang pensiun sampai 2030 menurut jalur dan sumber, dengan emisi setara','tbl')
+    for c,t in zip('BCDE',['Sumber atau jalur','Kapasitas pensiun sampai 2030 (GW)','Emisi setara (MtCO2 per tahun)','Cara']): sh.t(f'{c}{T+1}',t,'hdr')
+    jm=src.find_row('D_JETP','Pensiun dini PLTU sebelum 2030',col=2,start=1,end=30); js=src.find_row('D_JETP','Pensiun dini penuh',col=2,start=1,end=30)
+    rows=[('JETP CIPP skenario utama',f'D_JETP!C{jm}',f'C{T+2}*$E${Q+4}','kapasitas x intensitas workbook'),
+          ('JETP CIPP sensitivitas',f'D_JETP!C{js}',f'C{T+3}*$E${Q+4}','kapasitas x intensitas workbook'),
+          ('Pensiun resmi CM2 (D_Solusi_Kuantif)',f'F{Q+3}','C_Solusi_2030!E30','nilai resmi; kapasitas setara'),
+          ('Jalur phase-down 2060 (C_Phasedown_Unit)','SUMIF(C_Phasedown_Unit!$L$6:$L$152,"<=2030",C_Phasedown_Unit!$E$6:$E$152)/1000',f'C{T+5}*$E${Q+4}','unit yang pensiun sampai 2030 x intensitas'),
+          ('Jalur phase-down 2050','SUMIF(C_Phasedown_Unit!$M$6:$M$152,"<=2030",C_Phasedown_Unit!$E$6:$E$152)/1000',f'C{T+6}*$E${Q+4}','idem'),
+          ('Jalur phase-down 2045','SUMIF(C_Phasedown_Unit!$N$6:$N$152,"<=2030",C_Phasedown_Unit!$E$6:$E$152)/1000',f'C{T+7}*$E${Q+4}','idem'),
+          ('Enam PLTU prioritas (Fadiilah dan Dye 2026)','D_Teknis_Opsi!F60/1000','D_Teknis_Opsi!F61','nilai makalah')]
+    for i,(a,fc,fe,how) in enumerate(rows):
+        r=T+2+i; sh.t(f'B{r}',a); sh.f(f'C{r}',fc,'n2l'); sh.f(f'D{r}',fe,'n2'); sh.t(f'E{r}',how)
+    sh.t(f'B{T+9}','Jadwal pensiun PLN (Hamdi dan Adhiguna 2021 via Fadiilah dan Dye 2026)'); sh.f(f'C{T+9}','D_Teknis_Opsi!F65','tl'); sh.merges.append(f'C{T+9}:K{T+9}')
+    sh.t(f'B{T+10}','Catatan 122.H. Semua jalur phase-down di workbook memensiunkan lebih banyak kapasitas sebelum 2030 (6,9 sampai 11,2 GW) daripada skenario utama JETP (nol); PLN merencanakan mulai memensiunkan PLTU uap pada 2030 dan subkritis pada 2035 (K146).','note'); sh.merges.append(f'B{T+10}:K{T+10}')
+    # charts
+    nm='S_Pensiun_Dini'
+    cat=f'{nm}!$C${R+2}:$C${R+1+len(P)}'
+    c4=ck.chart_xml('Gambar 122.2. Enam PLTU prioritas: CO2 per PLTU dan kumulatif (MtCO2, kiri) dibanding 36 Mt resmi, dan PM2.5 kumulatif (ton, kanan)',[],
+      [dict(val_ref=f'{nm}!$E${R+2}:$E${R+1+len(P)}',name='CO2 per PLTU',color='7F7F7F',pos='b'),
+       dict(val_ref=f'{nm}!$G${R+2}:$G${R+1+len(P)}',name='CO2 kumulatif',color='C00000',pos='t'),
+       dict(val_ref=f'{nm}!$K${R+2}:$K${R+1+len(P)}',name='Pensiun resmi CM2 (36 Mt)',color='2E7D32',marker='none',labels=False,dash='sysDash'),
+       dict(val_ref=f'{nm}!$H${R+2}:$H${R+1+len(P)}',name='PM2.5 kumulatif (kanan)',color='7030A0',pos='t',sec=True,fmt='#,##0',dash='sysDash')],
+      'MtCO2 per tahun','PLTU (urut menurut CO2)',cat,cat_numeric=False,yfmt='#,##0',ytitle2='ton PM2.5 per tahun',yfmt2='#,##0')
+    c5=ck.chart_xml('Gambar 122.3. Pensiun PLTU sampai 2030: emisi setara (MtCO2, kiri) dan kapasitas (GW, kanan) menurut jalur dan sumber',[],
+      [dict(val_ref=f'{nm}!$D${T+2}:$D${T+8}',name='Emisi setara (MtCO2 per tahun)',color='C00000',pos='t',fmt='#,##0.0'),
+       dict(val_ref=f'{nm}!$C${T+2}:$C${T+8}',name='Kapasitas pensiun (GW, kanan)',color='1F4E79',pos='b',sec=True,fmt='#,##0.0',dash='sysDash')],
+      'MtCO2 per tahun','Sumber atau jalur',f'{nm}!$B${T+2}:$B${T+8}',cat_numeric=False,yfmt='#,##0',ytitle2='GW',yfmt2='#,##0')
+    sh.charts+= [(c4,(1,R-24,7600000,3900000)),(c5,(8,R-24,7600000,3900000))]
+    sh.refs['R']=R; sh.refs['T']=T
+    return sh
 def K_Studi(res,b40row):
     sh=Sheet('K_Studi','FF7F7F7F'); r_=dict((c['name'],s) for c,s in res)
     sh.t('A1','Lembar 126. Konkordansi studi: kapasitas 2030 menurut JETP CIPP dibanding RUPTL, dan angka per solusi menurut studi yang tercatat','title')
@@ -199,7 +301,7 @@ def K_Studi(res,b40row):
     sh.charts=[(c1,(1,41,7600000,3900000))]
     sh.f('A3','"Temuan utama: JETP CIPP menambah "&ROUND(E7,1)&" GW surya pada 2030 sedangkan RUPTL RE Base mencatat "&ROUND(F7,1)&" GW dan ARED "&ROUND(G7,1)&" GW; secara total JETP "&ROUND(E13,1)&" GW terhadap RUPTL ARED "&ROUND(G13,1)&" GW (periode berbeda)."','title')
     return sh
-def Q_Portofolio(pf,res,fsheets):
+def Q_Portofolio(pf,res,fsheets,pen=None):
     sh=Sheet('Q_Portofolio','FF7F7F7F'); pos=pf.pos
     sh.t('A1','Lembar 127. Pemeriksaan portofolio dan lembar solusi','title')
     sh.t('A2','Pemeriksaan otomatis agar tidak ada hitung ganda atau angka tanpa asal: jumlah lapis sama dengan C_Solusi_2030, rantai hitung FOLU sama dengan C_Portofolio_FOLU_2030, faktor kapasitas wajar, dan jumlah sektor sama dengan total SNDC.','title')
@@ -212,6 +314,7 @@ def Q_Portofolio(pf,res,fsheets):
             ('Jumlah sektor SNDC dikurangi neto, selisih 2030 (MtCO2e)','ABS(SUM(B_Selisih_Penyebab!C7:C11)-B_Selisih_Penyebab!C12)',0.5,'Pembulatan SNDC'),
             ('Jumlah sektor SNDC dikurangi neto, selisih 2060 (MtCO2e)','ABS(SUM(B_Selisih_Penyebab!E7:E11)-B_Selisih_Penyebab!E12)',0.5,'Pembulatan SNDC'),
             ('Persen kumulatif energi sampai pihak ketiga tidak melebihi 100 persen',f'MAX(0,P_Portofolio!R{pos["erows"]["B6"]}-1)',0,'B7 menutup sisa sehingga tidak dihitung'),
+            ('Jumlah CO2 enam PLTU (tabel) dikurangi angka makalah 93,52 (MtCO2)',f'ABS(S_Pensiun_Dini!E{pen.refs["six_total"]}-93.52)' if pen else '0',0.05,'Pembulatan Tabel 3 Fadiilah dan Dye'),
             ('Galat rumus pada kolom utama P_Portofolio',f'SUMPRODUCT(--ISERROR(P_Portofolio!G6:R{lf+1}))',0,'Tidak boleh ada galat')]
     for i,(a,f_,tol,ex) in enumerate(checks):
         r=6+i; sh.t(f'B{r}',a); sh.f(f'C{r}',f_,'n2'); sh.n(f'D{r}',tol,'n2i'); sh.f(f'E{r}',f'IF(C{r}<=D{r},"OK","Periksa")','tl'); sh.t(f'F{r}',ex)

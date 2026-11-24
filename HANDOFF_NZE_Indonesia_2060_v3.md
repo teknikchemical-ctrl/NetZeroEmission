@@ -80,3 +80,9 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 - Terbarukan RUPTL: ARED di atas RE Base hanya meningkatkan penggantian batubara sekitar 9 Mt pada 2030 (hitung sederhana), sedangkan RUPTL melaporkan selisih emisi batubara hanya 4 Mt (S_EBT_Rekap).
 - Grafik dibuat lewat XML dan diuji hanya di LibreOffice; perlu satu putaran pemeriksaan di Excel.
 - Register kini 842 butir dari 29 dokumen (tambah LCA biodiesel sawit, No 837 sampai 842). Urutan rakit: base git 41dafa7, lalu scripts/14_log_lca_biodiesel.py pada base, lalu scripts/13_assemble_model.py.
+
+## Addendum 7 (24 Nov 2026): phase-down PLTU dan rice cooker
+- Base rakit: git 41dafa7, lalu scripts/14, scripts/15, lalu scripts/13. Workbook 128 lembar dan 252 grafik. K_Konflik K25 sampai K146 (121 butir); A_Kesiapan: siap 20, siap setelah hitung ulang 1, kurang masukan 17, belum bisa 6.
+- Phase-down: enam PLTU Fadiilah dan Dye (93,52 Mt; 14.310 MW) berbeda dari workbook GEM 16.735 MW (Suralaya 6.025 dibanding 4.025); intensitas 6,4 sampai 6,6 MtCO2 per GW pada tiga sumber, sehingga pensiun resmi 36 Mt setara sekitar 5,5 GW, dekat sensitivitas JETP 5,2 GW; semua jalur workbook (6,9 sampai 11,2 GW sampai 2030) lebih agresif daripada skenario utama JETP (nol). TJB (24,01 Mt) tumpang tindih dengan CCS TJB (13 Mt) bila dipensiunkan penuh.
+- Rice cooker: LPG dihindari 21,9 sampai 48,9 ktCO2 dikurangi listrik 7,4 sampai 25,4 kt; netto -3,5 sampai 41,4 kt per tahun. Faktor LPG 3,16 menggantikan asumsi 2,98.
+- Berkas serah terima tim dan template terisi yang disebut pengguna tidak ditemukan di repo.
