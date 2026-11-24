@@ -1,10 +1,12 @@
-# AUDIT: kesiapan semua solusi alternatif (24 Nov 2026)
+# AUDIT: kesiapan semua solusi alternatif (diperbarui 24 Nov 2026)
 
 Sumber: lembar `A_Kesiapan_Solusi` (Lembar 97) di `Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx`. Cakupan: semua solusi yang sudah ada di workbook (C_Solusi_2030 dan D_Teknis_Opsi). Aturan: hanya data bersumber dan hitungan sederhana; lembar teknis dibuat hanya bila data kajian tersedia.
 
-Ringkasan: dari 51 solusi, siap 18, siap setelah hitung ulang 1, kurang masukan 18, belum bisa 7; sisanya pendukung, pembanding, atau residual.
+Ringkasan: dari 51 solusi, siap 19, siap setelah hitung ulang 1, kurang masukan 17, belum bisa 7; sisanya pendukung, pembanding, atau residual.
 
-## Siap (18)
+Perubahan: B40 naik dari "Kurang masukan" menjadi "Siap" setelah volume biodiesel (Fitrady dkk. 2026) dan faktor solar 2,67 kg CO2 per liter (Robbi 2026) tercatat; hitung 41,7 Mt cocok dengan klaim ESDM 41,46 (K138), dengan pembukuan biogenik netral tanpa alih guna lahan.
+
+## Siap (19)
 
 | No | Sektor | Solusi | Masukan yang kurang atau catatan | Rujukan |
 |---|---|---|---|---|
@@ -16,6 +18,7 @@ Ringkasan: dari 51 solusi, siap 18, siap setelah hitung ulang 1, kurang masukan 
 | 14 | Energi | Pensiun dini enam PLTU, bagian tambahan | Tumpang tindih dengan CCS TJB belum dipastikan. |  |
 | 15 | Energi | CCS PLTU Tanjung Jati B (dua unit) | Penalti energi CCS belum ada; biaya 63,7 sampai 92,6 USD per tCO2. | R7 |
 | 16 | Energi | Co-firing biomassa | Konflik 11 Mt dengan 14,2 sampai 152,5 Mt (K125); realisasi 14,3 persen. | R11 |
+| 18 | Energi | Biodiesel B40 | Hitung memakai pembukuan biogenik netral dan tanpa alih guna lahan CPO; jangkauan siklus hidup dan selisih harga per liter (biaya) belum diekstrak. Lihat K138. | R1 |
 | 22 | FOLU | Tata air gambut | Tambahan CM2 sama dengan nol. |  |
 | 23 | FOLU | Penghindaran degradasi gambut | D_Teknis_Opsi menggabung degradasi gambut dan mineral. |  |
 | 24 | FOLU | Pengelolaan hutan lestari (RIL-C dan ENR) |  |  |
@@ -33,7 +36,7 @@ Ringkasan: dari 51 solusi, siap 18, siap setelah hitung ulang 1, kurang masukan 
 |---|---|---|---|---|
 | 2 | Energi | Surya skala utilitas | Angka 61,4 Mt adalah sisa selisih. Ganti dengan kapasitas surya bersumber x faktor kapasitas 0,205 x 8,76 x 0,96; sisa selisih menjadi selisih yang belum tertutup. | R5, R15 |
 
-## Kurang masukan (18)
+## Kurang masukan (17)
 
 | No | Sektor | Solusi | Masukan yang kurang atau catatan | Rujukan |
 |---|---|---|---|---|
@@ -42,7 +45,6 @@ Ringkasan: dari 51 solusi, siap 18, siap setelah hitung ulang 1, kurang masukan 
 | 5 | Energi | Angin darat | Pemisahan PLTB dari PLTS dalam RUPTL atau rencana kapasitas angin bersumber; faktor kapasitas 0,28 sudah ada. | R19 |
 | 10 | Energi | Biomassa (PLTBm tersendiri) | Emisi siklus hidup biomassa tidak netral; perlu aturan pembukuan (netral atau tidak) bersumber sebelum menghitung pengurangan. | R20 |
 | 17 | Energi | Efisiensi energi (enam program) | Parameter teknis per program (tidak ada di D_Teknis_Opsi), deret tahunan, biaya Indonesia. | R2 |
-| 18 | Energi | Biodiesel B40 | Volume per tahun dan faktor emisi per liter bersumber agar klaim dapat dihitung, bukan hanya dikutip. | R1 |
 | 33 | FOLU | Mangrove | Target luas restorasi mangrove 2030 bersumber (Renops atau RPJMN). | R14 |
 | 34 | Industri | Semen | Pengurangan per teknologi dari skenario TIMES (PDF Utama 2025) belum diekstrak. | R22 |
 | 35 | Industri | Baja | Pengurangan TIMES dan produksi bersumber. | R22 |

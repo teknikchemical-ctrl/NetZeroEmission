@@ -9,9 +9,9 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 
 | No | Data yang dicari | Mengapa penting | Dipakai di |
 |---|---|---|---|
-| R1 | Selisih subsidi B40 per liter dan CO2 yang dihindari per liter | Biaya B40 belum ada; klaim ESDM 41,46 Mt (K122) | C_Solusi_2030 |
+| R1 | Selisih harga biodiesel dan solar per liter (biaya B40), serta faktor siklus hidup biodiesel termasuk alih guna lahan CPO | Volume (15,62 juta kL) dan faktor solar 2,67 kg per liter kini ada, hitung 41,7 Mt cocok dengan klaim ESDM (K138) hanya bila biogenik netral tanpa alih guna lahan; selisih harga per liter belum diekstrak dari Lampiran E Fitrady dkk. | C_Solusi_2030 |
 | R2 | Biaya efisiensi energi dari sumber Indonesia (USD per tCO2) | Hanya ada rentang 50 sampai 200 dari catatan tempel, status E | C_Solusi_2030, K124 |
-| R3 | Faktor emisi batubara (kgCO2 per MWh atau per GJ), nilai kalor, dan laju kalor PLTU | Syarat mengubah biaya per MWh menjadi biaya per tCO2 | rencana C_Biaya_Per_tCO2 |
+| R3 | Nilai kalor dan laju kalor PLTU (faktor emisi per MWh sudah ada: PTBAE 0,911 sampai 1,297; rata-rata 0,96; Sunanda dkk. 2026 Tabel 6 per MWh termal) | Syarat mengubah biaya per MWh menjadi biaya per tCO2 | rencana C_Biaya_Per_tCO2 |
 | R4 | Harga bahan bakar penuh (HBA batubara, gas, biomassa) dan BTT variabel | Tabel 96.A belum memuat bahan bakar; LCOE penuh perlu | C_Biaya_Teknologi |
 | R5 | Verifikasi Tabel 4 Nursidik (katalog Generation and Storage of Electricity 2024, ESDM dan DEA) dan Tabel 4 EPC PLN (rujukan [32] Cahyo) | Tabel sumber berupa gambar, dibaca visual; kolom nuklir, hidrogen, PS, mikrohidro tidak terbaca utuh | C_Biaya_Teknologi, K128 sampai K130 |
 | R6 | Biaya nuklir Indonesia (NEPIO, RUPTL 2025 sampai 2034, studi SMR, jadwal operasi) | Kini ada EPC 6.000 sampai 7.000 (PLN) dan 5.800 (LEAP); jadwal belum ada | opsi 2060 |
@@ -42,8 +42,6 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 - Aryapratama Tabel 4: GWPdyn kumulatif, bukan per tahun; pemetaan rentang persen BAU total dan FOLU dibaca dari teks.
 - Nursidik: pernyataan "emisi energi 2030 sekitar 440 MtCO2e" bercampur dengan puncak pembangkit; samakan cakupan dengan model v2.1 sebelum dibandingkan.
 
-## Catatan: lima PDF baru di sources/ (24 Nov 2026) belum dibaca; lihat sources/README.md
-
 ## C. Usulan pengembangan spreadsheet
 
 1. **C_Biaya_Per_tCO2** (butuh R3, R4): ubah biaya per MWh (Tabel 96.A dan C) menjadi USD per tCO2 untuk surya, angin, panas bumi, nuklir, CCS, biomassa terhadap PLTU yang digantikan. Ini mengganti asumsi biaya per opsi yang masih kosong.
@@ -54,6 +52,7 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 6. **Faktor emisi bus**: pakai 66,6 tCO2 per bus per tahun (Robbi) sebagai pembanding bus listrik di `C_Opsi_Hitung`; tinjau selisih harga solar subsidi 6.800 dan industri 25.750 Rp per liter.
 7. **Silang periksa model LEAP**: bandingkan jalur emisi pembangkit 2030 sampai 2060 (Nursidik CS, ET, EBT) dengan jalur G_Model dan C_Listrik_Rencana; tambahkan baris konflik bila cakupan sama.
 8. **Pemeriksaan otomatis baru di Q_Cek**: tambahkan uji "D_SNDC sama dengan Tabel 5 Robbi" (25 dari 25 CPOS sudah cocok secara manual).
+8b. **C_Pembanding_Model** (baru): tabel dan grafik garis hasil tiga keluarga model sektor listrik yang sudah tercatat (Nursidik LEAP tiga skenario, Afriani OSeMOSYS lima skenario, Sunanda MISCAP enam skenario): emisi, kapasitas, biaya, MAC, dengan satuan dan cakupan yang jelas; tanpa dijumlahkan dengan CM1 atau CM2. Menjawab silang periksa K140 dan K141.
 9. **Sensitivitas diskonto**: C19 pada C_Biaya_Teknologi sudah dapat diubah; tambahkan tabel 6, 9, 12 persen bila dibutuhkan.
 10. **Pembersihan format**: tab terpilih tunggal, tanpa freeze pane, tanpa tanda pisah panjang (aturan tetap).
 
@@ -61,5 +60,6 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 
 - 24 Nov 2026: legenda "base" pada Gambar 42.2, 42.4, 42.5 dikosongkan; freeze pane dan tab terpilih ganda dibersihkan; tanda pisah panjang dihapus (dua sampai tiga lokasi).
 - 24 Nov 2026: Squire 2024 dan Aryapratama 2026 dicatat (22 butir), K125 sampai K127 ditambahkan.
+- 24 Nov 2026: lima PDF dari main dibaca dan dicatat (27 butir baru, No 810 sampai 836), K133 sampai K141; 219 angka dicocokkan dengan teks PDF; B40 naik menjadi Siap.
 - 24 Nov 2026: audit kesiapan 51 solusi selesai (lembar A_Kesiapan_Solusi, Lembar 97; AUDIT_Kesiapan_Solusi.md).
 - 24 Nov 2026: lima makalah baru dicatat (46 butir, No 764 sampai 809), K128 sampai K132 ditambahkan, lembar baru `C_Biaya_Teknologi` (Lembar 96), hyperlink Indeks dijadikan internal (sebelumnya menunjuk ke nama berkas lama).

@@ -65,3 +65,7 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 - Edit workbook lewat XML langsung (jangan simpan ulang lewat LibreOffice atau openpyxl: grafik rusak). Tanpa freeze pane, satu tab terpilih, tanpa tanda pisah panjang.
 - Keadaan: 96 lembar, 173 grafik, register 809 butir dari 24 dokumen, K_Konflik 107 butir (K25 sampai K132), lembar baru C_Biaya_Teknologi (Lembar 96).
 - Hyperlink Indeks kini internal; sebelumnya menunjuk ke berkas "../Indonesia_NZE_Data_Grafik_v2.xlsx".
+
+## Addendum 5 (24 Nov 2026)
+- Lima PDF dari main dibaca dan dicatat; register 836 butir dari 28 dokumen; K_Konflik 116 butir (K25 sampai K141); A_Kesiapan_Solusi (Lembar 97): siap 19, siap setelah hitung ulang 1, kurang masukan 17, belum bisa 7.
+- Skrip: scripts/06_audit_kesiapan.py, 07_log_five_new_pdfs.py, xlsxkit.py (tambah lembar lewat XML). Urutan: jalankan 06 lalu 07 bila membangun ulang dari keadaan sebelum audit.
