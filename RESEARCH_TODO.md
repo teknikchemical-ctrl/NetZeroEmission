@@ -3,7 +3,7 @@
 Terakhir diperbarui 24 Nov 2026. Berkas kerja terbaru selalu bernama `Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx`.
 Aturan kerja: setiap berkas masuk dibaca seluruhnya, diekstrak, dicatat di `D_Register_Sumber`, diproses ke lembar hitung, lalu usulan pengembangan ditulis di sini. Pengembangan spreadsheet dikerjakan di repo ini, skrip di `scripts/`, PDF sumber di `sources/`.
 
-## 0. PRIORITAS riset celah energi dan FOLU (24 Nov 2026)
+## 0. PRIORITAS riset celah energi dan FOLU (24 Nov 2026); rincian data per solusi dan alternatif baru: lihat DATA_NEEDS_PER_SOLUSI.md
 
 Prinsip dasar: penurunan = aktivitas x faktor emisi x pelaksanaan, dikurangi tumpang tindih dengan garis dasar. Tujuan studi: menutup selisih CPOS ke LCCP_L (2030: energi 239,1; FOLU 186,9; total 434,7 MtCO2e). Urutan prioritas memakai tiga ukuran: (1) MtCO2e yang dipertaruhkan, (2) seberapa banyak hasil berubah bila celah terisi, (3) kemudahan menemukan data resmi. Sumber resmi dicari lebih dulu; sumber lain diberi status E.
 
