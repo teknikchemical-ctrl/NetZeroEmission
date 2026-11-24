@@ -42,3 +42,5 @@ Cuplikan OWID memakai Energy Institute dan sumber historis yang dicatat dalam ka
 Catat satu kali belanja modal pada tahun pembayaran dan operasi pada tahun berjalan. Untuk perbandingan USD/tCO2e, pasangkan biaya tahunan atau biaya siklus hidup dengan pengurangan pada horizon yang sama. [Rujukan biaya dan konflik](RESEARCH_NZE_2026-11-24.md) · [Peta sumber PDF](CEK_ARSIP_SUMBER_2026-11-24.md)
 
 Portal PLN, ESDM, SKK Migas, UNFCCC dan Bank Dunia masih diblokir proksi pada pemeriksaan ini. Tabel dan daftar proyek menggunakan dokumen yang sudah diarsipkan, transkripsi workbook, dan dataset publik yang dapat diambil dari GitHub.
+
+Pendalaman berikutnya menambahkan data operasi Tanjung Jati B 5 dan 6, padanan biaya ETP dengan unit yang dipertimbangkan untuk pensiun, serta cek perpindahan produksi RUPTL 2030 di [catatan PLTU dan baseline listrik](RISET_PLTU_CCS_DAN_BASELINE_LISTRIK_2026-11-24.md). Aturan selisih HIP dan seri pembanding aktivitas 2025 tersedia di [catatan B40 dan gas suar](RISET_B40_DAN_GAS_SUAR_2026-11-24.md).

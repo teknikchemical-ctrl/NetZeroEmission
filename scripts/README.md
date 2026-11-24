@@ -13,6 +13,7 @@ Urutan (tiap skrip memakai pustaka xlsxkit, modelkit, chartkit, src):
 - 18_log_codex_batch23.py: batch 23 PDF dan data codex (register 897 butir, K158 sampai K162), setelah 17 dan SEBELUM 13. Urutan base: 14, 15, 16, 17, 18, lalu 13.
 - 19_inventaris_sumber.py, 20_catatan_sumber.py: inventaris dan catatan per sumber (notes/, data/per_sumber). 21_build_data_sheets.py: lembar D_Sumber, D_Data_Struktur, G_Data_Sumber (dipanggil oleh 13). Urutan: patch 14 sampai 18, 19, 13, lalu 20.
 - 22_log_bacaan_ulang.py: butir dan konflik dari pembacaan ulang sumber B dan C (register 916 butir, K164 sampai K166), setelah 18 dan SEBELUM 13. Urutan base: 14, 15, 16, 17, 18, 22, lalu 13.
+- 23_log_fa55639_dan_salinan.py: commit codex fa55639, salinan EI dan Perpres 132/2024, tambahan Riau (register 929 butir, K167 sampai K171), setelah 22 dan SEBELUM 13. Urutan base: 14, 15, 16, 17, 18, 22, 23, lalu 19, 20, 13, 20.
 - 13_assemble_model.py: merakit semuanya: `python3 scripts/13_assemble_model.py /path/Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx`. Base: lihat baris pertama berkas (git show <commit>:...). LibreOffice hanya dipakai untuk MENGHITUNG nilai cache rumus (dua putaran); berkas tidak disimpan oleh LibreOffice.
 
 Pustaka: `xlsxkit.py` (tambah lembar, grafik, Indeks lewat XML), `modelkit.py` (DSL lembar dan hitung cache), `chartkit.py` (grafik garis dengan area berarsir, label titik, sumbu sekunder), `src.py` (pencari sel sumber).

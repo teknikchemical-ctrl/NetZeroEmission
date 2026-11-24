@@ -66,6 +66,19 @@ def build_long():
             if rw[k]: agg[(scn,rw['jenis'],int(rw[k]))]+=mw
     for (scn,j,y),v in sorted(agg.items()):
         L.add(('ebt',scn,j,y),SP,'RUPTL 2025 sampai 2034 via D_Gen_RUPTL','data/PIPELINE_EBT_RUPTL.csv','Tambahan kapasitas menurut tahun COD rencana',v,'MW',y,scn,j,'P','Jumlah proyek per jenis dan tahun COD; BESS dalam MW (MWh terpisah); status proyek dan tambahan terhadap CPOS belum diverifikasi')
+    # Energy Institute (salinan olahan)
+    SEI=sid('2026_EI_Indonesia')
+    for rw in csvp('sources/2026_EI_Indonesia_biofuel-dan-gas-suar_2015-2025.csv'):
+        L.add(('ei',rw['lembar_asal'],int(rw['tahun'])),SEI,'Energy Institute Statistical Review 2026 (salinan olahan pihak ketiga)','Lembar '+rw['lembar_asal'],rw['indikator'],float(rw['nilai']),rw['satuan'],int(rw['tahun']),'Realisasi','Nasional','R','Salinan pihak ketiga pada commit tetap; gas suar berbasis VIIRS Nightfire dan GCV 40 MJ per m3')
+    # TJB 5 dan 6 operasi aktual
+    SER=sid('2025_ERIA')
+    for ind,u,vals in (('Pembangkitan listrik','GWh',(6748,7546)),('Faktor kapasitas tabel','persen',(77,86)),('Emisi CO2','MtCO2',(5.8,6.4))):
+        for un,v in zip((5,6),vals): L.add(('tjb',ind,un),SER,'ERIA/Sumitomo 2025','Tabel 4.1 hlm. 27 (dibaca dari gambar)','TJB unit '+str(un)+': '+ind+' (1 Okt 2022 sampai 30 Sep 2023)',float(v),u,2023,'Operasi aktual','TJB unit '+str(un),'R','Unit 5 berhenti Mei sampai Juni 2023; kapasitas neto 1.000 MW per unit')
+    L.add(('tjb','Emisi CO2','total'),SER,'ERIA/Sumitomo 2025','Tabel 4.1 hlm. 27 (dibaca dari gambar)','TJB unit 5 dan 6: emisi CO2 total',12.2,'MtCO2',2023,'Operasi aktual','TJB 5 dan 6','R','Dibanding 9,404 (estimasi GEM, Prabowo dan Dalimi) dan 13 (desain ERIA); K167')
+    # Riau: tutupan hutan alam
+    SRI=sid('KajianGap')
+    for lans,vals in (('Semenanjung Kampar',(690611.81,553027.05,371563.78,345368.36)),('Kerumutan',(1162334.63,607860.94,369749.82,310851.79))):
+        for y,v in zip((1982,2002,2012,2022),vals): L.add(('riau',lans,y),SRI,'Nursamsu dkk. 2024 (Paradigma)','Tabel 21 dan 24 hlm. 36 dan 40','Tutupan hutan alam '+lans,v,'ha',y,'Observasi spasial','Lanskap Riau','R','SIGAP KLHK; deforestasi melambat 2012 sampai 2022')
     # PLN
     SPL=sid('2025_PLN'); D='PLN Laporan Pengungkapan Iklim 2024'
     for k,(lok,ind,vals,thn,kat) in enumerate([
@@ -253,6 +266,18 @@ def G_Data_Sumber(L,ds):
     sty=[dict(color=COLS[0],marker='circle'),dict(color='C00000',marker='circle'),dict(color='7030A0',marker='diamond'),dict(color='BF8F00',marker='diamond'),dict(color='2E7D32',marker='square'),dict(color='7F7F7F',marker='triangle'),dict(color='00838F',marker='triangle'),dict(color='E36C09',marker='x'),dict(color='000000',marker='circle'),dict(color='1F4E79',marker='circle')]
     charts.append(ck.chart_xml('Gambar 131.13. Pembanding jalur emisi sektor listrik menurut studi yang tercatat: PLN, RUPTL, JETP, Squire, Fadiilah dan Dye, Fitriana (status E atau P; cakupan berbeda; titik bersumber saja)',[],
         [dict(val_ref=ref(r12[i],13,hr12)[0],name_ref=ref(r12[i],13,hr12)[1],name=series[i][0],pos='t' if i%2==0 else 'b',msize=8,**sty[i]) for i in range(10)],'MtCO2 per tahun','Tahun (titik bersumber, jarak tidak proporsional)',cats(hr12,13),yfmt='#,##0'))
+    ye2=list(range(2015,2026)); bf=[('Biofuels production - PJ','Produksi biofuel (PJ)'),('Biofuels consumption - PJ','Konsumsi biofuel (PJ)')]
+    hr13,r13=table('Tabel 131.M. Biofuel Indonesia, produksi dan konsumsi setara energi, 2015 sampai 2025 (Energy Institute 2026, salinan olahan), PJ',ye2,[b[1] for b in bf],lambda i,j,r: cell(('ei',bf[i][0],ye2[j])),'n0')
+    charts.append(ck.chart_xml('Gambar 131.14. Produksi dan konsumsi biofuel Indonesia, 2015 sampai 2025, PJ: pembanding aktivitas nasional untuk B40 (Energy Institute 2026, status R; salinan pihak ketiga)',[],
+        [dict(val_ref=ref(r13[i],11,hr13)[0],name_ref=ref(r13[i],11,hr13)[1],name=bf[i][1],color=COLS[i],pos='t' if i==0 else 'b',fmt='#,##0') for i in range(2)],'PJ','Tahun',cats(hr13,11),yfmt='#,##0'))
+    fl=[('CO2 from Flaring','CO2 gas suar (MtCO2)'),('Natural Gas Flaring','Volume gas suar (miliar m3, sumbu kanan)')]
+    hr14,r14=table('Tabel 131.N. Gas suar Indonesia: volume dan CO2, 2015 sampai 2025 (Energy Institute 2026, salinan olahan, VIIRS Nightfire)',ye2,[f[1] for f in fl],lambda i,j,r: cell(('ei',fl[i][0],ye2[j])),'n2',note='Perkiraan satelit migas hulu dan hilir; GCV 40 MJ per m3 dan pembakaran sempurna. Mirip dengan potensi 1,7 MtCO2e di workbook tetapi cakupan, metode, dan potensi pemulihan belum direkonsiliasi.')
+    charts.append(ck.chart_xml('Gambar 131.15. Emisi CO2 dari gas suar Indonesia, 2015 sampai 2025 (Energy Institute 2026, status R; volume pada Tabel 131.N; pembanding skala 1,7 MtCO2e potensi migas)',[],
+        [dict(val_ref=ref(r14[0],11,hr14)[0],name_ref=ref(r14[0],11,hr14)[1],name=fl[0][1],color='C00000',pos='t',fmt='0.00')],'MtCO2','Tahun',cats(hr14,11),yfmt='0.0',ymin=0))
+    yr=[1982,2002,2012,2022]; ln=['Semenanjung Kampar','Kerumutan']
+    hr15,r15=table('Tabel 131.O. Tutupan hutan alam lanskap Riau, 1982 sampai 2022 (Nursamsu dkk. 2024, SIGAP KLHK), ha',yr,ln,lambda i,j,r: cell(('riau',ln[i],yr[j])),'n0',note='Kehilangan tutupan hutan alam adalah sumber emisi FOLU yang dicegah RO 1 sampai RO 3; jarak tahun tidak proporsional.')
+    charts.append(ck.chart_xml('Gambar 131.16. Tutupan hutan alam lanskap Semenanjung Kampar dan Kerumutan, 1982 sampai 2022, ha: dasar aksi pencegahan deforestasi FOLU Net Sink (status R; jarak tahun tidak proporsional)',[],
+        [dict(val_ref=ref(r15[i],4,hr15)[0],name_ref=ref(r15[i],4,hr15)[1],name=ln[i],color=COLS[i],pos='t' if i==1 else 'b',fmt='#,##0') for i in range(2)],'ha','Tahun',cats(hr15,4),yfmt='#,##0',ymin=0))
     # tata letak grafik
     top=row[0]+2; sh.t(f'B{top-1}','Grafik','tbl')
     pos=[]

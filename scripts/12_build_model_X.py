@@ -93,6 +93,9 @@ def S_Pensiun():
        ('omb_pay','ETP/UNOPS 2023: pembayaran Ombilin 1 dan 2 (pensiun 2024)',140.8,'USD juta','E','Tabel 14.1 hlm. 183','in'),
        ('omb_em','ETP/UNOPS 2023: emisi dihindari Ombilin terhadap pensiun alami',4.4,'MtCO2e','E','Bab 9 (hlm. 70 sampai 73)','in'),
        ('omb_c','Kompensasi Ombilin per tCO2e dihindari (sebelum biaya pengganti dan jaringan)','{omb_pay}/{omb_em}','USD per tCO2e','AC','hitungan sederhana; dibandingkan dengan biaya turunan di atas (K158)','calc'),
+       ('etp6','ETP: kompensasi enam kelompok aset kandidat (Suralaya 1 sampai 8, Cilacap 1 dan 2, Paiton 5 dan 6, Lontar 1 sampai 3), pada tahun pensiun',2474.27,'USD juta','E','jumlah baris CSV ETP; tiga baris bernilai nol sesuai studi (Suralaya 1 sampai 4, 5 sampai 7, Paiton 5 dan 6)','in'),
+       ('etp6pv','ETP: enam kelompok aset, nilai kini 2022',1701.41,'USD juta','E','berkas CSV yang sama','in'),
+       ('etp6c','Cakupan: enam kelompok ETP berisi sebagian unit enam stasiun; tidak dibagi dengan 93,52 Mt (cakupan dan periode berbeda)',14420,'MW (25 unit GEM)','E','data/PADANAN_PENSIUN_PLTU_ETP_FADIILAH.csv; artikel 14.310 MW','in'),
        ('omb_r','Kompensasi Ombilin dibagi biaya turunan C_Solusi B1','{omb_c}/{cost}','fraksi','AC','hitungan sederhana; di atas 1 berarti biaya ETP lebih tinggi','calc')],
       'Pensiun dini PLTU')
 def S_CCS():
@@ -120,6 +123,11 @@ def S_CCS():
        ('cr95','Laju tangkap ERIA',0.95,'fraksi','R','ERIA 2025 hlm. 27','in'),
        ('nomg','Tangkapan bruto dua unit tanpa margin desain 10 persen','{dt}*2*365*{cf86}*{cr95}/1000000','MtCO2 per tahun','AC','hitungan sederhana atas asumsi ERIA (11,83 dibanding 13)','calc'),
        ('nomg_r','Tangkapan tanpa margin dibagi emisi unit 5 dan 6 (GEM)','{nomg}/{em56}','fraksi','AC','hitungan sederhana; masih di atas 1 (K150)','calc'),
+       ('em_act','ERIA Tabel 4.1: emisi CO2 aktual unit 5 dan 6, 1 Oktober 2022 sampai 30 September 2023 (5,8 + 6,4)',12.2,'MtCO2','R','ERIA 2025 Tabel 4.1 (dibaca dari gambar); K167','in'),
+       ('prod_act','ERIA Tabel 4.1: produksi listrik aktual dua unit',14294,'GWh','R','ERIA 2025 Tabel 4.1','in'),
+       ('int_act','Intensitas emisi turunan dari tabel operasi',"{em_act}*1000/{prod_act}",'tCO2 per MWh','AC','hitungan sederhana (0,854)','calc'),
+       ('cap_act','Tangkapan 95 persen pada emisi aktual (ilustratif, seluruh aliran diproses)',"{em_act}*{cr95}",'MtCO2 per tahun','AC','hitungan sederhana; dibanding desain 13 Mt dengan margin 10 persen','calc'),
+       ('nomg_act','Tangkapan tanpa margin desain dibagi emisi aktual',"{nomg}/{em_act}",'fraksi','AC','hitungan sederhana; mendekati 1: asumsi ERIA sejalan dengan operasi aktual (menggantikan perbandingan dengan estimasi GEM 9,4 Mt di K150)','calc'),
        ('sg_pen','Sugito dkk. 2025: penalti daya CCS, simulasi 2 x 315 MW (630 ke 436 MW)',0.308,'fraksi','E','Sugito dkk. 2025 Tabel 5','in'),
        ('sg_c','Sugito dkk. 2025: biaya tangkap',51.8,'USD per tCO2 tertangkap','E','Sugito dkk. 2025 Tabel 6 (hanya tangkap; K159)','in'),
        ('sg_cx','Sugito dkk. 2025: CAPEX CCS',334.4,'USD juta','E','Sugito dkk. 2025 Tabel 6','in'),

@@ -1,49 +1,48 @@
 no,dokumen,bagian,butir,nilai,satuan,catatan
-355,ERIA CCS thermal (Sumitomo/ERIA 2025),Scope,Source / storage,"TJB Units 5&6 (2 x 1,000 MW USC, CF 86%) to Corridor PSC gas fields (Suban, Dayung, Sumpal), South Sumatra",,Case A ocean (LCO2 ship); Case B pipeline
-356,ERIA CCS thermal (Sumitomo/ERIA 2025),4.1,Actual CO2 emission per unit,"19,832",t/day,CEMS Sep 2023
-357,ERIA CCS thermal (Sumitomo/ERIA 2025),4.1,Capture capacity per unit,"19,832 x 1.1 x 0.95 = 20,724",t/day,10% design margin; 95% capture
-358,ERIA CCS thermal (Sumitomo/ERIA 2025),4.1,Annual CO2,6.5 (1 unit) / 13.0 (2 units),Mt/yr,at CF 0.86; total over 25 yr 162.5 / 325 Mt
-359,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.2,Ships Case A,"6 x 28,000 t (6.5 Mt); 7 x 48,000 t (13 Mt)",,ocean route 183 km pipeline from Sumatra port
-360,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.2,Pipeline Case B,"28 inch (6.5 Mt) / 38 inch (13 Mt); 1,148 km; Case A onshore line 24 / 34 inch, 183 km",,
-361,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.2,Injection wells / depth,"9 (6.5 Mt) or 17 (13 Mt); 2,000 m",,
-362,ERIA CCS thermal (Sumitomo/ERIA 2025),5.1,Cost accuracy,"AACE Class 4: low -15 to -30%, high +20 to +50%",,scale-up with 0.6 rule; OPEX as % of CAPEX over 25 yr
-363,ERIA CCS thermal (Sumitomo/ERIA 2025),5.1,OPEX ratio examples,capture 6%; liquefaction 10%; CO2 ship 13%; storage tanks 3%; injection pump 6%; pipelines 3%,,"exclusions: land, utilities, leakage monitoring, decommissioning"
-364,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.3,Capture CAPEX / OPEX (USD m),"6.5 Mt: 940.5 / 4,560.8 (total 5,501.3); 13 Mt: 1,706.7 / 8,219.7 (total 9,926.4)",,
-365,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.4,"Liquefaction+tanks+loading+jetty, Case A (USD m)","6.5 Mt: CAPEX 745.5, OPEX 1,298.2 (2,043.7); 13 Mt: 1,265.5 / 2,327.2 (3,592.7)",,liquefaction CAPEX 351.0 / 702.0
-366,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.5,"Compression+dehydration, Case B (USD m)","6.5 Mt: 604.6 / 906.9 (1,511.6); 13 Mt: 1,209.3 / 1,813.9 (3,023.2)",,
-367,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.6,Transport Case A (USD m),"6.5 Mt: CAPEX 1,338.0 (ship 539.3), OPEX 2,318.6 (ship 1,617.8), total 3,656.5; 13 Mt: 1,921.0 (ship 869.4) / 3,770.8 (ship 2,825.6), total 5,691.8",,
-368,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.7,Transport Case B (USD m),"6.5 Mt: CAPEX 4,118.3, OPEX 3,096.1, total 7,214.4; 13 Mt: 5,194.1 / 3,905.6, total 9,099.7",,marine pipeline 493.9 / 623.4
-369,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.8,Storage (USD m),"6.5 Mt: CAPEX 470.4 (drilling 378.0), OPEX 352.8, total 823.2; 13 Mt: 843.6 (drilling 714.0) / 632.7, total 1,476.3",,"drilling 40 d/well at USD 200,000/d, EPA Class VI design"
-370,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.9,Total Case A (USD m),"6.5 Mt: CAPEX 3,494.4, OPEX 8,530.3, total 12,024.7; 13 Mt: 5,736.8 / 14,950.4 / 20,687.2",,
-371,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.10,Total Case B (USD m),"6.5 Mt: CAPEX 6,133.8, OPEX 8,916.6, total 15,050.4; 13 Mt: 8,953.6 / 14,571.9 / 23,525.5",,
-372,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.11,Unit cost Case A,"6.5 Mt: capture 33.9, liquefaction 12.6, transport 22.5, storage 5.1, total 74.0; 13 Mt: 30.5, 11.1, 17.5, 4.5, total 63.7",USD/tCO2,"2022 ERIA ref: 62.8 total (capture 45.9, storage 15.9)"
-373,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.12,Unit cost Case B,"6.5 Mt: capture 33.9, compression 9.3, transport 44.4, storage 5.1, total 92.6; 13 Mt: 30.5, 9.3, 28.0, 4.5, total 72.4",USD/tCO2,
-374,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.13,LCOE method assumptions,"2 x 1,000 MW; CF 86%; 25 yr; discount 10%; no escalation or tax",,unit costs per tonne in Tab.5.11-12 are undiscounted (checked: total / tonnes captured)
-375,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.14,Added cost per kWh Case A,"6.5 Mt: capture 3.45, liquefaction 1.62, transport 2.90, storage 0.80, total 8.77; 13 Mt: 3.12, 1.40, 2.19, 0.71, total 7.42",USD c/kWh,
-376,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.5.14,Added cost per kWh Case B,"6.5 Mt: capture 3.45, compression 1.24, transport 6.97, storage 0.80, total 12.46; 13 Mt: 3.12, 1.24, 4.40, 0.71, total 9.47",USD c/kWh,Case B 42% / 28% higher than Case A
-377,ERIA CCS thermal (Sumitomo/ERIA 2025),Exec,Transport cost headline,USD 17.5/t ship; USD 28.0/t pipeline (13 Mt),,"ship preferable above 1,000 km and above 10 Mt/yr"
-378,ERIA CCS thermal (Sumitomo/ERIA 2025),Exec,Statement on acceptance,estimated costs not accepted in Indonesia so far,,
-379,ERIA CCS thermal (Sumitomo/ERIA 2025),4.11,Fields screened,17 gas fields in Corridor PSC; 10 large; 7 with data; 3 selected,,
-380,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.12,"Reserves (GIIP / recoverable, Tscf)",Suban 6.9/5.5; Sumpal 1.6/1.28; Dayung 1.45/1.16; total 9.95/7.96,,recovery factor 0.8; 80-90% of Corridor reserves
-381,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.13,CO2 storage capacity,Suban 292; Dayung 54; Sumpal 62; total 408,Mt CO2,E1 0.8-0.9 pressure regime; E2 0.9 fracture
-382,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.14,Injection rate per well,Suban 64; Dayung 24; Sumpal 24,MMscf/d,80% of plateau production per well
-383,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.15,Wells 13 Mt/yr,Suban 8 (9.3 Mt/yr); Dayung 4 (1.72); Sumpal 5 (1.98); total 17,,
-384,ERIA CCS thermal (Sumitomo/ERIA 2025),Tab.4.16,Wells 6.5 Mt/yr,Suban 4 (4.65); Dayung 2 (0.86); Sumpal 3 (0.99); total 9,,
-385,ERIA CCS thermal (Sumitomo/ERIA 2025),4.17,Energy penalty options,Base: grid power + excess steam; Alt-1 gas turbine cogeneration (5% emitted); Alt-2 own unit extraction steam,,penalty not quantified; CAPEX/OPEX for Alt-1/2 left to next stage
-386,ERIA CCS thermal (Sumitomo/ERIA 2025),Derived,Capture-only CAPEX intensity (13 Mt),131.3,USD per tCO2/yr,"1,706.7 / 13"
-387,ERIA CCS thermal (Sumitomo/ERIA 2025),Derived,Total CAPEX intensity,"441.3 (A,13 Mt); 537.6 (A,6.5); 688.7 (B,13); 943.7 (B,6.5)",USD per tCO2/yr,CAPEX / Mt per yr
-388,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,CCS/CCUS role in Indonesia by 2050 (IEA APS),up to 135,MtCO2/yr,power and industry; storage hub for Japan/Korea
-389,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,Coal consumption peak,about 2029,,coal shipments to Europe 5x in 2022 vs 2021
-390,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,CCUS cost vs non-CCUS low-carbon technology in industry,19% to 37% cheaper,,
-391,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,Large emitters Java and Sumatra,30 sites emitting over 1 Mt; 33% are cement plants totalling 26.7 Mt (2021),,
-392,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,Urea CCU already,5,MtCO2,Indonesia-Japan collaboration
-393,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,CCS projects in preparation,15 projects targeted onstream by 2030; about 67% in Sumatra and Java; none commercial now,,
-394,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,Plan for SC/USC plants,increase by 20% to 30%,,
-395,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch3,Regulations,MEMR Reg. 2/2023 (oil and gas CCS); Perpres 14/2024 (all industries; up to 30% of storage for overseas CO2),,Perpres 98/2021 carbon pricing; MEMR 16/2022
-396,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch3,EU ETS high price ref,EUR 200/tCO2 mentioned,,
-397,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch7,Singapore carbon tax,USD 3.7 (2019-23) to 18.7 (2024-25) to 37.5-60 (2028),per tCO2e,covers 80% of emissions
-398,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch7,Viet Nam,storage 1 Mt by 2040; 3-6 Mt by 2050; PDP8 USD 135 bn green growth; JETP: Canada raised USD 15.5 bn,,
-399,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch8,Conclusion,"2 units (13 Mt) cost-preferable; ship better than pipeline above 1,000 km and above 10 Mt/yr; supplementary options: biomass, ammonia, hydrogen co-firing",,
-400,ERIA CCS thermal (Sumitomo/ERIA 2025),Ch2,Preface,most thermal plants under 10 years old; rapid shutdown uneconomic,,
-866,ERIA CCS thermal (Sumitomo/ERIA 2025),Tabel 5.11 dan 5.12; Rekomendasi,Biaya satuan CCS total (USD per tCO2) menurut skala dan rute,"Satu unit 6,5 Mt: kapal dan pipa darat 74,0; pipa 92,6. Dua unit 13,0 Mt: kapal 63,7; pipa 72,4. ERIA 2022: 62,8",USD per tCO2,"Status E (eksternal), tidak dijumlahkan dengan CM1 atau CM2 resmi. 92,6 adalah kasus SATU unit pipa 6,5 Mt, bukan batas atas untuk 13 Mt. Rentang yang sah untuk dua unit 13 Mt adalah 63,7 sampai 72,4 (K147). Diperiksa langsung pada teks Tabel 5.11 dan 5.12 serta Rekomendasi."
-892,ERIA CCS thermal (Sumitomo/ERIA 2025),Hlm. 27; hitungan tim,Batas fisik tangkapan CCS Tanjung Jati B,"19.832 tCO2 per hari per unit pada beban nominal; CF 86 persen; tangkap 95 persen; desain 13 Mt memakai margin 10 persen; tanpa margin: 12,451 Mt sebelum tangkapan dan 11,828 Mt tangkapan bruto",MtCO2 per tahun," Status E (eksternal), tidak dijumlahkan dengan CM1 atau CM2 resmi. Hitungan AC (19.832 x 2 x 365 x 0,86 x 0,95); di S_CCS_TJB. Tetap di atas 9,404 Mt emisi estimasi unit 5 dan 6 (K150)."
+133,Transport ASI (Zahari & McLellan 2024),Abstract,Transport energy 2022,more than 2.4 million (text 2.6 million),TJ,internal inconsistency 2.4 vs 2.6; log as conflict
+134,Transport ASI (Zahari & McLellan 2024),1,Road share of transport energy / passenger share,85 / 70,%,
+135,Transport ASI (Zahari & McLellan 2024),1,Transport CO2 2020,126,MtCO2,about 24% of national
+136,Transport ASI (Zahari & McLellan 2024),1,Transport share of national energy 2011,33,%,
+137,Transport ASI (Zahari & McLellan 2024),2.1,Public transport share national 2017 / 2020,4.85 / 5.74,%,
+138,Transport ASI (Zahari & McLellan 2024),2.1,Greater Jakarta public transport share 2014 / 2019,30 / 20,%,
+139,Transport ASI (Zahari & McLellan 2024),2.1,Commuters willing to shift to public transport,8.4,%,52% impractical; 40% longer time
+140,Transport ASI (Zahari & McLellan 2024),Tab.1,Jakarta PT travel time ratio vs benchmark,2.2 to 2.6x vs 2.6x,,
+141,Transport ASI (Zahari & McLellan 2024),Tab.1,Jakarta walking time vs benchmark,24.8 to 32.3 min vs 5 min,,labels in Table 1 appear swapped in source
+142,Transport ASI (Zahari & McLellan 2024),Tab.1,Jakarta transfers vs benchmark,3 to 3.4 vs 3 or fewer,,
+143,Transport ASI (Zahari & McLellan 2024),2.2,EV incentive,USD 4400 car; USD 440 motorcycle,,1 USD = 15720 IDR
+144,Transport ASI (Zahari & McLellan 2024),2.3,Biodiesel blend now / considered,B30 / B40-B50,,E5 just marketed
+145,Transport ASI (Zahari & McLellan 2024),2.3,Land expansion if biodiesel raised,up to 76,%,31% overlap with suitable energy-crop land
+146,Transport ASI (Zahari & McLellan 2024),2.4,Grid EF for EV benefit,0.82,kgCO2/kWh,threshold wording as printed; probably the maximum EF at which EV still benefits
+147,Transport ASI (Zahari & McLellan 2024),2.4,CFPP EF range / average,0.79 to 1.22 / 0.96,kgCO2/kWh,
+148,Transport ASI (Zahari & McLellan 2024),2.4,CFPP share 2022 / gas / renewables,67 / 18 / 13,%,
+149,Transport ASI (Zahari & McLellan 2024),2.4,RE target,25% 2025; 31% 2050,,"RE mix: solar 43, wind 27, hydro 14, biomass 10, geothermal 6 (% of RE generation)"
+150,Transport ASI (Zahari & McLellan 2024),3.2,Land per MW thermal / solar / wind,5 / 17.6 / 28.6,ha/MW,
+151,Transport ASI (Zahari & McLellan 2024),3.2,EV battery materials,about 1 kg nickel and 2.4 kg copper per kWh,,75% of EV metals in battery
+152,Transport ASI (Zahari & McLellan 2024),3.3,Project delay disadvantageous scenario,74,%,"Jakarta: 72% of urban transport projects delayed, 73% of PT projects"
+153,Transport ASI (Zahari & McLellan 2024),3.3,Asia construction overrun average,37,%,
+154,Transport ASI (Zahari & McLellan 2024),3.3,Fuel price rise post pandemic,gasoline +35; diesel +53,%,electricity +6%/yr 2012-2022
+155,Transport ASI (Zahari & McLellan 2024),3.3,Fuel price elasticity of travel demand,short -0.12 to -0.35; long -0.25 to -0.69,,
+156,Transport ASI (Zahari & McLellan 2024),3.3,CFPP efficiency range scenarios,40 to 60,%,GFPP 45 to 70; diesel generator 25 to 45; USC record 48%
+157,Transport ASI (Zahari & McLellan 2024),3.3,Battery energy density limit,180 to 350,Wh/kg,
+158,Transport ASI (Zahari & McLellan 2024),4.1,Base run growth: fossil fuels / biofuel / electricity,4.7 / 6.8 / -9,%/yr,
+159,Transport ASI (Zahari & McLellan 2024),4.1,Base run growth: crude oil / coal for power / gas for power,5.6 / -6.1 / -5.5,%/yr,
+160,Transport ASI (Zahari & McLellan 2024),4.1,Base run growth: CO2 / NOx / PM10 / SO2,5.8 / 5.7 / 3.9 / 4.3,%/yr,
+161,Transport ASI (Zahari & McLellan 2024),4.1,Mineral demand 2050 (kg/yr),copper 151 m; nickel 143 m; aluminium 135 m; lithium 2 m,,"lithium +15.3%/yr, copper 10.3, aluminium 6.9, nickel 5.1"
+162,Transport ASI (Zahari & McLellan 2024),4.1,Urban / domestic transport energy intensity growth,1.7 / 4.3,%/yr,
+163,Transport ASI (Zahari & McLellan 2024),Tab.2,Public transport expansion factor / frequency,"0.05 every 8 yr (Conservative, Improve); 0.1 every 4 yr (Shift, Advanced)",,
+164,Transport ASI (Zahari & McLellan 2024),Tab.2,EV fiscal incentive / electricity subsidy,"25 / 25 (Cons, Shift); 100 / 50 (Improve, Adv)",%,
+165,Transport ASI (Zahari & McLellan 2024),Tab.2,Renewables / CFPP of non-RE / VRE of RE,"31 / 62 / 30 (Cons, Shift); 62 / 31 / 70 (Improve, Adv)",%,
+166,Transport ASI (Zahari & McLellan 2024),Tab.2,Max biofuel blend,"50 (Cons, Shift); 100 (Improve, Adv)",%,
+167,Transport ASI (Zahari & McLellan 2024),4.2.1,Conservative fossil / biofuel / electricity growth,3.0 / 9.7 / 22.3,%/yr,disadvantageous
+168,Transport ASI (Zahari & McLellan 2024),4.2.1,Improve-focused fossil / biofuel / electricity growth,2.6 / 10.1 / 31.3,%/yr,electricity over 3500x 2020 level
+169,Transport ASI (Zahari & McLellan 2024),4.2.1,Shift-focused fossil / biofuel / electricity growth,2.4 / 9.1 / 21.2,%/yr,
+170,Transport ASI (Zahari & McLellan 2024),4.2.1,Shift-focused advantageous,0.9 / 7.5 / 19.4,%/yr,
+171,Transport ASI (Zahari & McLellan 2024),4.2.3,Land requirement (Improve-focused),about 36 million ha total; electricity land over 370 thousand ha 2050,,range across scenarios 18 to 37 million ha; biofuel land 19x 2020
+172,Transport ASI (Zahari & McLellan 2024),4.2.3,Shift-focused land vs Improve-focused,25 less,%,
+173,Transport ASI (Zahari & McLellan 2024),4.2.4,CO2 growth Conservative / Improve / Shift / Advanced,5.4 / 5.3 / 4.9 / 4.8,%/yr,vs base 5.8
+174,Transport ASI (Zahari & McLellan 2024),4.2.4,Shift CO2 and NOx vs baseline,20 and 16 lower,%,
+175,Transport ASI (Zahari & McLellan 2024),4.2.4,BEV market share 2050,"19.7 (Cons, Shift); 25.4 (Improve); 27 to 27.6 (Advanced)",%,
+176,Transport ASI (Zahari & McLellan 2024),4.2.4,Advantageous vs disadvantageous CO2 reduction,34 (Cons); 38 (Advanced),%,
+177,Transport ASI (Zahari & McLellan 2024),4.2.5,Lithium 2050 Improve-focused advantageous,44 million kg; growth 65% adv vs 47% disadv,,
+178,Transport ASI (Zahari & McLellan 2024),5,BEV tax incentives and subsidies cumulative,almost USD 2 trillion,,for only 11% lower CO2 vs base; cost may outweigh benefit
+179,Transport ASI (Zahari & McLellan 2024),5,Conclusion,vehicle electrification effective only with power-sector decarbonisation; prioritise Shift,,

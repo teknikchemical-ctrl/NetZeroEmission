@@ -4,7 +4,7 @@ R='/home/user/NetZeroEmission'
 files=[]
 for d in ('sources','papers','data'):
     for p in sorted(glob.glob(f'{R}/{d}/*')):
-        if p.endswith(('.pdf','.csv')): files.append(p)
+        if p.endswith(('.pdf','.csv')) or (p.endswith('.md') and not p.endswith('README.md')): files.append(p)
 def sha(p): return hashlib.sha256(open(p,'rb').read()).hexdigest()
 def pdfinfo(p):
     o=subprocess.run(['pdfinfo',p],capture_output=True,text=True).stdout
@@ -21,7 +21,9 @@ for i,p in enumerate(files,1):
     rel=os.path.relpath(p,R); h=sha(p); b=os.path.basename(p)
     rec=dict(id=f'S{i:03d}',path=rel,name=b,type=os.path.splitext(b)[1][1:],sha=h,size=os.path.getsize(p),dup_of=seen.get(h,''))
     seen.setdefault(h,f'S{i:03d}')
-    if p.endswith('.pdf'):
+    if p.endswith('.md'):
+        t=open(p,encoding='utf-8').read(); rec.update(title='',author='',pages='',chars=len(t),first=re.sub(r'\s+',' ',t[:300]),abstract='',conclusion='')
+    elif p.endswith('.pdf'):
         ti,au,pg=pdfinfo(p); t=text(p)
         rec.update(title=ti,author=au,pages=pg,chars=len(t),first=re.sub(r'\s+',' ',t[:300]),abstract=excerpt(t,r'abstract|abstrak|ringkasan|executive summary'),conclusion=excerpt(t,r'\bconclusions?\b|kesimpulan|penutup',600))
     else:

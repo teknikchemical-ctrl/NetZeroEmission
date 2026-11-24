@@ -1,0 +1,93 @@
+no,dokumen,bagian,butir,nilai,satuan,catatan
+180,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Coal,25.691,GJ/t,ESDM HEES 2017
+181,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Coke,27,GJ/t,ESDM HEES 2017
+182,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Coal briquette,21.8,GJ/t,ESDM HEES 2017
+183,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Crude,38.475,GJ/kL,ESDM HEES 2017
+184,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Natural gas,0.039,GJ/m3,ESDM HEES 2017
+185,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: LNG,49.261,GJ/t,ESDM HEES 2017
+186,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Avgas,33.968,GJ/kL,ESDM HEES 2017
+187,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Avtur,36.033,GJ/kL,ESDM HEES 2017
+188,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Gasoline,35.647,GJ/kL,ESDM HEES 2017
+189,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Kerosene,36.258,GJ/kL,ESDM HEES 2017
+190,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Diesel,40.051,GJ/kL,ESDM HEES 2017
+191,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Fuel oil,42.582,GJ/kL,ESDM HEES 2017
+192,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: LPG,52.145,GJ/t,ESDM HEES 2017
+193,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Naphtha,40.014,GJ/kL,ESDM HEES 2017
+194,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Electricity,3600,GJ/GWh,ESDM HEES 2017
+195,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Town gas,0.039,GJ/m3,ESDM HEES 2017
+196,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Biomass,14.056,GJ/t,ESDM HEES 2017
+197,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.1,Energy content: Industrial and general waste,12.2,GJ/t,ESDM HEES 2017
+198,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Coal,90.6,kgCO2e/GJ,
+199,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Crude petroleum,69.88,kgCO2e/GJ,
+200,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Natural gas,51.53,kgCO2e/GJ,
+201,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Geothermal,0,kgCO2e/GJ,
+202,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Firewood biomass,0,kgCO2e/GJ,
+203,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Industrial/general waste,1.8,kgCO2e/GJ,
+204,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Hydropower,0,kgCO2e/GJ,
+205,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): LNG,51.53,kgCO2e/GJ,
+206,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Avgas,67.4,kgCO2e/GJ,
+207,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Avtur,69.82,kgCO2e/GJ,
+208,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Motor gasoline,67.8,kgCO2e/GJ,
+209,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Kerosene,69.11,kgCO2e/GJ,
+210,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Diesel oil,70.2,kgCO2e/GJ,
+211,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Fuel oil,73.84,kgCO2e/GJ,
+212,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): LPG,60.6,kgCO2e/GJ,
+213,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Naphtha,69.82,kgCO2e/GJ,
+214,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Coal products,95.28,kgCO2e/GJ,
+215,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Electricity,0,kgCO2e/GJ,
+216,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.2,Emission factor (IPCC 2006 Tier 1): Town gas,60.27,kgCO2e/GJ,
+217,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Agriculture forestry fisheries,direct 0.01; indirect 0.04; total 0.05; indirect share 87%,GJ per IDR m final demand (2015 IDR),
+218,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Non-energy mining,direct 0.02; indirect 0.05; total 0.07; indirect share 72%,GJ per IDR m final demand (2015 IDR),
+219,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Foods beverages tobacco,direct 0.04; indirect 0.09; total 0.13; indirect share 69%,GJ per IDR m final demand (2015 IDR),
+220,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Textile leather,direct 0.44; indirect 0.3; total 0.74; indirect share 40%,GJ per IDR m final demand (2015 IDR),
+221,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Pulp paper wood,direct 0.66; indirect 0.3; total 0.96; indirect share 31%,GJ per IDR m final demand (2015 IDR),
+222,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Chemical,direct 0.38; indirect 0.1; total 0.48; indirect share 21%,GJ per IDR m final demand (2015 IDR),
+223,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Non-metallic mineral,direct 4.48; indirect 0.17; total 4.64; indirect share 4%,GJ per IDR m final demand (2015 IDR),
+224,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Metals and metal products,direct 1.36; indirect 0.32; total 1.67; indirect share 19%,GJ per IDR m final demand (2015 IDR),
+225,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Machinery electrical,direct 0.19; indirect 0.38; total 0.57; indirect share 67%,GJ per IDR m final demand (2015 IDR),
+226,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Transport equipment,direct 0.14; indirect 0.31; total 0.45; indirect share 69%,GJ per IDR m final demand (2015 IDR),
+227,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Other manufacturing,direct 0.33; indirect 0.29; total 0.62; indirect share 47%,GJ per IDR m final demand (2015 IDR),
+228,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Construction water waste,direct 0.35; indirect 0.66; total 1.02; indirect share 65%,GJ per IDR m final demand (2015 IDR),
+229,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Transportation,direct 0.59; indirect 0.23; total 0.82; indirect share 28%,GJ per IDR m final demand (2015 IDR),
+230,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2010: Services,direct 0.18; indirect 0.15; total 0.33; indirect share 46%,GJ per IDR m final demand (2015 IDR),
+231,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Agriculture forestry fisheries,direct 0.01; indirect 0.05; total 0.06; indirect share 89%,GJ per IDR m final demand (2015 IDR),
+232,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Non-energy mining,direct 0.02; indirect 0.19; total 0.21; indirect share 90%,GJ per IDR m final demand (2015 IDR),
+233,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Foods beverages tobacco,direct 0.05; indirect 0.09; total 0.14; indirect share 65%,GJ per IDR m final demand (2015 IDR),
+234,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Textile leather,direct 0.36; indirect 0.47; total 0.82; indirect share 57%,GJ per IDR m final demand (2015 IDR),
+235,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Pulp paper wood,direct 0.73; indirect 0.32; total 1.05; indirect share 31%,GJ per IDR m final demand (2015 IDR),
+236,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Chemical,direct 0.3; indirect 0.21; total 0.5; indirect share 41%,GJ per IDR m final demand (2015 IDR),
+237,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Non-metallic mineral,direct 3.5; indirect 0.34; total 3.84; indirect share 9%,GJ per IDR m final demand (2015 IDR),
+238,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Metals and metal products,direct 1.36; indirect 0.47; total 1.84; indirect share 26%,GJ per IDR m final demand (2015 IDR),
+239,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Machinery electrical,direct 0.22; indirect 0.32; total 0.55; indirect share 59%,GJ per IDR m final demand (2015 IDR),
+240,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Transport equipment,direct 0.14; indirect 0.52; total 0.66; indirect share 79%,GJ per IDR m final demand (2015 IDR),
+241,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Other manufacturing,direct 0.05; indirect 0.59; total 0.64; indirect share 92%,GJ per IDR m final demand (2015 IDR),
+242,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Construction water waste,direct 0.48; indirect 0.67; total 1.14; indirect share 58%,GJ per IDR m final demand (2015 IDR),
+243,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Transportation,direct 0.5; indirect 0.16; total 0.65; indirect share 24%,GJ per IDR m final demand (2015 IDR),
+244,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.4,Primary energy intensity 2016: Services,direct 0.14; indirect 0.13; total 0.27; indirect share 49%,GJ per IDR m final demand (2015 IDR),
+245,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Coal (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",0.33; 2.97; 0.71; 0.06; 0.36,GJ per IDR m,
+246,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Crude (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",0.15; 0.23; 0.21; 0.51; 0.53,GJ per IDR m,
+247,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Natural gas (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",0.18; 0.55; 0.81; 0.07; 0.21,GJ per IDR m,
+248,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Biomass (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",0.28; 0; 0; 0; 0.02,GJ per IDR m,
+249,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Electricity (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",0.12; 0.16; 0.2; 0.02; 0.06,GJ per IDR m,
+250,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Total primary (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",1.05; 3.84; 1.84; 0.65; 1.14,GJ per IDR m,
+251,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Total secondary (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",0.3; 0.41; 0.46; 0.5; 0.56,GJ per IDR m,
+252,Industrial energy HEIO/SDA (Zain et al. 2025),Tab.5,"2016 Primary-only share % (pulp/paper; non-metallic; metals; construction... order as printed: pulp, non-metallic, metals, transportation, construction)",71; 89; 75; 24; 51,GJ per IDR m,
+253,Industrial energy HEIO/SDA (Zain et al. 2025),2,HEIO tables,"83 sectors: 7 primary energy, 12 secondary, 64 non-energy",,FX USD 1 = IDR 13392 (2015)
+254,Industrial energy HEIO/SDA (Zain et al. 2025),4.1,Non-metallic minerals intensity 2016,"3.84 GJ/IDR m (46.60 GJ per USD thousand), -17% vs 2010",,cement coal intensity -14% to 5.781 GJ; gas halved to 1.061 GJ
+255,Industrial energy HEIO/SDA (Zain et al. 2025),4.1,Metals intensity,1.67 to 1.84 GJ/IDR m,,coal use +66% vs 2010
+256,Industrial energy HEIO/SDA (Zain et al. 2025),4.1,Material circularity potential,steel -37% by mid-century; concrete up to -45% vs 2050 baseline,,Material Economics 2018; ETC 2018
+257,Industrial energy HEIO/SDA (Zain et al. 2025),4.2,Emission intensity non-metallic minerals,0.36 to 0.31 tCO2e/IDR m (4.82 to 4.15 per USD thousand),,
+258,Industrial energy HEIO/SDA (Zain et al. 2025),4.2,Transport cluster emission intensity,0.053 to 0.040 tCO2e/IDR m,,
+259,Industrial energy HEIO/SDA (Zain et al. 2025),4.3,SDA energy change 2010-2016,economic drivers +2.5 million TJ (71%); intensity shift to coal and crude 27%; structure 2%,,
+260,Industrial energy HEIO/SDA (Zain et al. 2025),4.3,Coal exports 2016,331 Mt (+88%),,
+261,Industrial energy HEIO/SDA (Zain et al. 2025),4.3,Imports 2016,crude 23.5 million kL; gasoline 15.69 million kL; LPG 4.4 Mt,,
+262,Industrial energy HEIO/SDA (Zain et al. 2025),4.3,LNG plant input/output ratio,1.432 (2010) to 1.254 (2016),TJ gas/TJ LNG,
+263,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,SDA emission change 2010-2016,total +111.9 Mt; domestic demand +114.5; structure +24.5; intensity and net export about -27.5,MtCO2e,
+264,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,Coal emissions,domestic demand +52.8; intensity+structure +52.5; net export -8.8,MtCO2e,
+265,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,Natural gas,demand+structure +36.4; offsets -38.5; net -1.93% of total,MtCO2e,
+266,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,Diesel and gasoline,+29.8,MtCO2e,town gas and fuel oil -15.7
+267,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,Electricity sector,35% of the 111.9 Mt change; demand +80 TWh of which coal 86%; fossil 88% of fleet MW (2016),,
+268,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,Domestic effects,"72.7 Mt, 70% of change",MtCO2e,
+269,Industrial energy HEIO/SDA (Zain et al. 2025),4.4,Transport equipment net exports,"+20.3 Mt, close to 18%",MtCO2e,metals imports +134% to IDR 415 tn
+270,Industrial energy HEIO/SDA (Zain et al. 2025),1,Energy sector share of GHG 2016,40,%,industry over 80% of that
+271,Industrial energy HEIO/SDA (Zain et al. 2025),5,Policy note,technology effect marginal; coal dominance unchanged 2016-2023,,data are 2010-2016; limited currency
