@@ -58,3 +58,10 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 - 70 freeze pane dipulihkan dari `build/` (tanpa tabSelected).
 - Urutan pipeline: build_nze -> UNO (add_persolusi, add_detail) -> fix_charts.py -> graft.py (terakhir, jangan simpan ulang lewat LibreOffice sesudahnya).
 - #N/A sebanyak 1.083 sel di C_Deret_Opsi disengaja (celah garis XY).
+
+## Addendum 4: aturan repo dan keadaan terbaru (24 Nov 2026)
+- Berkas kerja terbaru selalu bernama `Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx` (nama lama "(4)" dihapus). Pengembangan spreadsheet dikerjakan di repo ini, skrip di `scripts/`, PDF di `sources/`, daftar riset di `RESEARCH_TODO.md`.
+- Alur untuk setiap berkas baru: baca seluruhnya, ekstrak semua data, catat di `D_Register_Sumber`, proses ke lembar hitung atau `K_Konflik`, lalu tulis usulan pengembangan di `RESEARCH_TODO.md`.
+- Edit workbook lewat XML langsung (jangan simpan ulang lewat LibreOffice atau openpyxl: grafik rusak). Tanpa freeze pane, satu tab terpilih, tanpa tanda pisah panjang.
+- Keadaan: 96 lembar, 173 grafik, register 809 butir dari 24 dokumen, K_Konflik 107 butir (K25 sampai K132), lembar baru C_Biaya_Teknologi (Lembar 96).
+- Hyperlink Indeks kini internal; sebelumnya menunjuk ke berkas "../Indonesia_NZE_Data_Grafik_v2.xlsx".
