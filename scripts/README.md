@@ -9,6 +9,7 @@ Urutan (tiap skrip memakai pustaka xlsxkit, modelkit, chartkit, src):
 - 14_log_lca_biodiesel.py: catat LCA biodiesel ke register pada berkas base SEBELUM 13 dijalankan (`python3 scripts/14_log_lca_biodiesel.py /tmp/claude-0/base_model.xlsx`).
 - 15_patch_phasedown_audit.py: tambah K142 sampai K146 dan perbarui audit rice cooker dan LPG pada berkas base SEBELUM 13.
 - 16_log_codex_branch.py: catat 24 butir register (tiap angka diperiksa pada teks PDF atau CSV, mode `--strict`) dan K147 sampai K153 dari cabang codex, SEBELUM 13. Urutan base: `git show 41dafa7:Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx > /tmp/claude-0/base_model.xlsx`, lalu 14, 15, 16, 13.
+- 17_log_main_uploads.py: laporan iklim PLN 2024 dan artikel panas bumi 2023 (register 882 butir, K154 sampai K157), setelah 16 dan SEBELUM 13. Urutan base: 14, 15, 16, 17, lalu 13.
 - 13_assemble_model.py: merakit semuanya: `python3 scripts/13_assemble_model.py /path/Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx`. Base: lihat baris pertama berkas (git show <commit>:...). LibreOffice hanya dipakai untuk MENGHITUNG nilai cache rumus (dua putaran); berkas tidak disimpan oleh LibreOffice.
 
 Pustaka: `xlsxkit.py` (tambah lembar, grafik, Indeks lewat XML), `modelkit.py` (DSL lembar dan hitung cache), `chartkit.py` (grafik garis dengan area berarsir, label titik, sumbu sekunder), `src.py` (pencari sel sumber).

@@ -42,3 +42,11 @@ Dari 1.164 baris templat tim, 1.088 adalah transkripsi workbook lama (sudah ada)
 4. Selaraskan efisiensi: dapatkan tabel SRN dan POME ESDM untuk menjelaskan 30 dan 31,87 Mt (K151).
 5. Baca 34 makalah di `papers/` untuk sembilan butir kebijakan yang masih tidak numerik; hanya angka bersumber yang dicatat (tidak ada angka baru yang dijumlahkan dengan CM1 atau CM2).
 6. Migas (WP-C): lima baris masih kosong; tidak ada data bersumber untuk metana, venting, dan CCS migas.
+
+## 7. Tambahan: tiga unggahan baru di `main` (24 November 2026)
+Saat penelanan berlangsung, `main` menerima tiga PDF. Semuanya dipindah ke `sources/`, dibaca, dan dicatat (skrip `scripts/17_log_main_uploads.py`, register 866 menjadi 882 butir, 43 menjadi 45 dokumen, K154 sampai K157).
+- **Laporan pengungkapan iklim PLN 2024 (IFRS S2)**, `sources/2025_PLN_Laporan-Pengungkapan-Iklim-2024.pdf` (82 halaman): emisi PLN menurut lingkup (276,56 Mt; PLTU milik PLN 125,1 Mt), jalur ARED (puncak 326 Mt pada 2030, nol pada 2060, tanpa pensiun dini), realisasi pengurangan 2024 (12,7 Mt; co-firing 1,8 Mt), konsumsi biomassa 1,62 juta ton, penundaan RUPTL EBT (25 persen dari 5,09 GW), studi CCS Indramayu 6,3 Mt per tahun pada 2040. Jalur ARED 326 Mt (2030) menambah satu titik pada K148 (RUPTL ARED 348, RE Base 354, Squire BAU 369,5).
+- **Lanskap panas bumi Indonesia 2023 (Pambudi dan Ulfa 2024)**: potensi 29,5 GW, terpasang 2.356 MW (sekitar 8 persen), tambahan 2018 sampai 2022 sekitar 104 MW per tahun (AC); data laju historis untuk B6 panas bumi 3 GW.
+- **Pensiun dini PLTU (Fadiilah dan Dye)**: salinan lain makalah yang sudah ada (teks sama, 54.761 karakter; 93,52 dan 14.310 cocok); disimpan sebagai `..._salinan_unggahan_main.pdf`, tidak dicatat ulang.
+
+Cek silang bermanfaat: PLN melaporkan co-firing 1,8 MtCO2 (2024), sebanding dengan 1,57 Mt hasil S_Cofiring (14,3 persen kali target 11 Mt). Angka 44,1 Mt untuk Jawa 9 dan 10 di teks PLN tidak konsisten dengan totalnya (13,9) dan tidak dipakai (K157).
