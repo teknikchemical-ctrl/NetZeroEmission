@@ -48,3 +48,5 @@ Pengecekan memakai arsip lokal, identitas yang tercantum dalam daftar pengguna d
 - **Tunda angka dari [1] sampai [3] dan [5] sampai [7] yang belum bisa diperiksa.** [1] dan [2] diprioritaskan untuk konteks sejarah migas, [6] untuk risiko per jalur, dan [5] serta [7] menunggu identitas dokumen. Angka historis, proyeksi dan sasaran tetap memakai label sendiri. [Serah terima riset](SERAH_TERIMA_RISET_TIM_2026-11-24.md)
 
 Pengecekan ini tidak menghasilkan PDF baru yang terverifikasi. Daftar mendokumentasikan 22 nomor rujukan, dengan [11] dan [13] digabung dan kemungkinan duplikasi [7] dengan [4] tetap perlu dicek.
+
+Batch berikutnya menambahkan artikel Bhakti dkk. Hlm. 2815 sampai 2816 mengonfirmasi bahwa daftar [1] sampai [22] berasal dari artikel tersebut. [PDF Bhakti dkk.](papers/2025_Bhakti-dkk_Proyeksi-ANFIS-NZE.pdf) · [Cek batch dan hasil uji ANFIS](CEK_BATCH_23_PDF_2026-11-24.md#hubungan-dengan-cek-22-referensi)
