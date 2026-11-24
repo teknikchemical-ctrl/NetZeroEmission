@@ -16,12 +16,13 @@ def main(out=OUT):
     fs=[sm.folu_sheet(c) for c in sm.FOLU_CFG]
     pen=xm.extend_pensiun(xm.S_Pensiun()); ccs=xm.S_CCS(); cof=xm.S_Cofiring(); b40=xm.S_B40(); rice=xm.S_RiceCooker()
     ks=xm.K_Studi(res,b40.refs['refs']['calc']); qs=xm.Q_Portofolio(pf,res,fs,pen)
-    order=[pf,gf,pend,gp,nze,sel]+[s for _,s in res]+[rek]+fs+[pen,ccs,cof,b40,rice,ks,qs]
-    nums={'P_Portofolio':102,'G_Portofolio':103,'B_Pendorong':98,'B_Garis_Pembangunan':99,'B_Garis_NZE':100,'B_Selisih_Penyebab':101,'S_EBT_Rekap':111,'S_Pensiun_Dini':122,'S_CCS_TJB':123,'S_Cofiring':124,'S_B40':125,'S_Rice_Cooker':128,'K_Studi':126,'Q_Portofolio':127}
+    ds_=load('ds','/home/user/NetZeroEmission/scripts/21_build_data_sheets.py'); sd,dstr,gds=ds_.make()
+    order=[pf,gf,pend,gp,nze,sel]+[s for _,s in res]+[rek]+fs+[pen,ccs,cof,b40,rice,ks,qs,sd,dstr,gds]
+    nums={'D_Sumber':129,'D_Data_Struktur':130,'G_Data_Sumber':131,'P_Portofolio':102,'G_Portofolio':103,'B_Pendorong':98,'B_Garis_Pembangunan':99,'B_Garis_NZE':100,'B_Selisih_Penyebab':101,'S_EBT_Rekap':111,'S_Pensiun_Dini':122,'S_CCS_TJB':123,'S_Cofiring':124,'S_B40':125,'S_Rice_Cooker':128,'K_Studi':126,'Q_Portofolio':127}
     for c,s in res: nums[s.name]=c['nomor']
     for c,s in zip(sm.FOLU_CFG,fs): nums[s.name]=c['nomor']
-    jen=lambda n: 'Portofolio' if n.startswith(('P_','G_')) else ('Model' if n.startswith('B_') else ('Solusi' if n.startswith('S_') else 'Catatan'))
-    desc={'P_Portofolio':'Tabel utama portofolio: pengurangan, biaya, investasi, pelaksanaan, kumulatif, persen selisih 2030','G_Portofolio':'Grafik portofolio: penutupan selisih menurut tahap, kurva biaya, biaya kumulatif',
+    jen=lambda n: 'Data' if n in ('D_Sumber','D_Data_Struktur') else ('Grafik' if n=='G_Data_Sumber' else 'Portofolio') if n.startswith(('P_','G_')) else ('Model' if n.startswith('B_') else ('Solusi' if n.startswith('S_') else 'Catatan'))
+    desc={'D_Sumber':'Induk sumber: jenis, kedalaman baca, butir tercatat, jalur catatan dan data','D_Data_Struktur':'Data terstruktur satu angka per baris dengan jejak sumber','G_Data_Sumber':'Grafik semua deret bersumber: Squire, PLN, OWID, ETP, pipeline RUPTL, pembanding antar studi','P_Portofolio':'Tabel utama portofolio: pengurangan, biaya, investasi, pelaksanaan, kumulatif, persen selisih 2030','G_Portofolio':'Grafik portofolio: penutupan selisih menurut tahap, kurva biaya, biaya kumulatif',
           'B_Pendorong':'Pendorong garis pembangunan dari rencana: aktivitas x faktor emisi','B_Garis_Pembangunan':'Garis pembangunan dan jalur LCCP_L per sektor, model v2.1, inventaris','B_Garis_NZE':'Garis net zero (LCCP_L) dan jalur bersumber lain','B_Selisih_Penyebab':'Selisih menurut sektor, pendorong, dan CM1 yang belum terkirim',
           'S_EBT_Rekap':'Rekap terbarukan terukur dari RUPTL dan uji silang','S_Pensiun_Dini':'Solusi pensiun dini PLTU: sumber, biaya','S_CCS_TJB':'Solusi CCS PLTU Tanjung Jati B','S_Cofiring':'Solusi co-firing biomassa','S_B40':'Solusi biodiesel B40','S_Rice_Cooker':'Solusi program rice cooker pengganti LPG','K_Studi':'Konkordansi studi: JETP dibanding RUPTL dan angka per solusi','Q_Portofolio':'Pemeriksaan portofolio dan lembar solusi'}
     idx=[(nums[s.name],s.name,jen(s.name),desc.get(s.name,'Solusi '+s.name[2:].replace('_',' ')+': tabel teknis, pengurangan emisi, biaya, pelaksanaan'),'C_Solusi_2030, D_Teknis_Opsi, D_RUPTL_Tambahan' if s.name.startswith('S_') else 'D_ dan C_ (lihat lembar)') for s in sorted(order,key=lambda z:nums[z.name])]

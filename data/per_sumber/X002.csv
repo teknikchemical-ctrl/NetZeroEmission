@@ -1,0 +1,98 @@
+no,dokumen,bagian,butir,nilai,satuan,catatan
+441,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Total biomass primary dryland forest,375.7,t d.m./ha,2nd FRL 2022 Table 6; SE 4.52; official
+442,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Total biomass secondary dryland forest,263.29,t d.m./ha,2nd FRL Table 6; SE 2.84
+443,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Total biomass primary swamp / secondary swamp forest,303.53 / 249.62,t d.m./ha,2nd FRL Table 6; U 8.6% for primary
+444,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Total biomass primary mangrove (AGB 236.17; BGB 73.45) / secondary mangrove,309.62 / 131.59,t d.m./ha,2nd FRL Table 6; secondary U 23.6%
+445,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Plantation forest biomass (post-conversion),213.63,t d.m./ha,"2nd FRL Table 7; U 15.4%; lifetime-average stock, not an annual increment"
+446,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Estate crop / mixed dry agriculture / dry shrub biomass,135.61 / 165.03 / 158.81,t d.m./ha,2nd FRL Table 7
+447,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Root:shoot ratios,29% dryland; 22% swamp; 31.1% primary / 11.5% secondary mangrove,% of AGB,2nd FRL Table 5; Krisnawati 2014
+448,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Carbon fraction and CO2 conversion,0.47; x 44/12,,2nd FRL section 5.1.4
+449,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,"Derived avoided emission, deforestation (net biomass)",233,tCO2/ha,"Derived: 139,646,704 tCO2/yr / 599,232 ha/yr (2nd FRL Tables 12, 28); excludes peat decomposition and fire; not an official EF"
+450,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,"Derived avoided emission, degradation (biomass)",184,tCO2/ha,"Derived: 38,513,245 / 208,845 (2nd FRL Tables 20, 35); 2006-2020 average"
+451,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Peat decomposition EF secondary forest / plantation (acacia) / estate crop,32.42 / 72.95 / 36.63,tCO2/ha/yr,2nd FRL Table 10; U 23% / 31%; 1st FREL used 19
+452,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Peat decomposition EF bare ground; shrub/grass/settlement,63.79; 45.04,tCO2/ha/yr,2nd FRL Table 10; 1st FREL used 51 for bare ground
+453,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Peat decomposition EF mixed dry agri / dry agri / paddy,54.66 / 45.42 / 33.71,tCO2/ha/yr,2nd FRL Table 10; paddy U 102%
+454,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Peat decomposition EF primary forest,0,tCO2/ha/yr,2nd FRL Table 10 (assumption)
+455,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Peat fire parameters,"Cf 0.54; bulk density 0.16 g/cm3; burn depth 31.88 cm; CO2 EF 1,670.13 g/kg",,2nd FRL Table 8; GWP AR2 (CH4 21)
+456,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Mangrove conversion EF to fishpond / to cultivated land,90.06 (SE 22.82) / 28.97 (SE 5.75),tCO2e/ha,2nd FRL Table 11; Arifanti 2019 / IPCC Tier 1
+457,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Peat rewetting EF and rehabilitation removal factors,not available,,2nd FRL Table 45 improvement plan lists them as future work
+458,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Enrichment planting (ENR/SILIN) sequestration,2.5 (about 9.2 tCO2),tC/ha/yr,Renops SK.168/2022; applies to 0.313 Mha secondary forest in concessions
+459,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,ENR productivity,90-120,m3/ha/cycle,Renops executive summary
+460,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,"RIL-C, HTI increment, rehabilitation, peat water-table rates",not found,,Gap
+461,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,"Mangrove total ecosystem carbon, Indonesia mean","1,083 +/- 378",MgC/ha,"Murdiyarso et al. 2015, Nature Climate Change 5:1089"
+462,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Mangrove median pools AGB / BGB / soil,159.1 / 16.7 / 774.7,MgC/ha,"Alongi et al., Wetlands Ecol. Manage."
+463,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Mangrove Tier-2 stocks undisturbed / regenerated / degraded / aquaculture,"1,061 / 890 / 717 / 579",MgC/ha,Murdiyarso et al. 2023 Carbon Balance Manage. 18:12 Table 4; soil 916 / 803 / 666 / 562
+464,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Mangrove soil carbon burial undisturbed / regenerated / degraded,3.2 / 1.7 / 1.2,MgC/ha/yr,Murdiyarso et al. 2023 Table 5; aquaculture soil CO2 efflux 23.8 tCO2/ha/yr
+465,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,FOLU Net Sink finance total to 2030,"Rp 239 trillion (executive summary); Rp 204.02 trillion lifecycle 2020-2030 (Rp 18.55 T/yr); about Rp 400 trillion (Kompas 17 May 2025, FOLU team)",IDR,Conflict; Table 146 read directly gives 204.02 (K91)
+466,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Finance by action (executive summary version),Deforestation Rp 111 T (34% private); degradation 47; ENR 0.608; RIL 0.767; rehab rotation 18; non-rotation 4; peat water mgmt 0.301; peat restoration 12,IDR tn,Renops p.xi; differs from Table 146 line items
+467,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Net Sink 2030 cumulative area targets,"deforestation cap 4,225,877; degradation 2,282,500; plantation 11,227,332; SFM 2,207,061; rehab rotation 2,787,847; non-rotation 2,509,062; peat water mgmt 946,050; peat restoration 2,724,866",ha,Renops Table S1; conflicts with Table 145 for peat restoration (K97)
+468,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,FOLU 2030 target,-140,MtCO2e,Renops 1.3; LTS-LCCR
+469,Web research 23 Nov 2026 (report wf-ad728942),T1 FOLU,Standard cost per ha (NDC Roadmap 2019),not found,,"Secondary only: peat restoration about Rp 12 m/ha (BRG 2016), mangrove about Rp 25 m/ha (BRGM), community forest Rp 5.7-7.2 m/ha (KLHK 2021)"
+470,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,B40 mandate volume,15.6,million kL,Kepmen ESDM 341.K/EK.01/MEM.E/2024; 7.55 m PSO + 8.07 m non-PSO; 2025
+471,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,B40 GHG reduction (official claim),41.46,MtCO2e/yr,"ESDM; B35 = 34.56; gross, no land use"
+472,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,B40 forex saving,Rp 147.5 trillion (about USD 9.1 bn),IDR/yr,ESDM 2025
+473,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,B40 subsidy (BPDPKS),Rp 35.5 trillion,IDR,"Secondary academic; third-party, low confidence"
+474,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,B50,planned 2026,,ESDM Minister statements; status 2026 not verified
+475,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,Bioethanol E10 cost / abatement,not found,,Gap
+476,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,MRT Jakarta Phase 2A capex,Rp 25.3 trillion for 5.8 km (about Rp 4.4 T/km),IDR,PT MRT Jakarta via Heaptalk 2024; JICA loan
+477,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,MRT / LRT generic capex,MRT Rp 2.3 T/km; LRT about Rp 700 bn/km,IDR/km,Jokowi statement (Jakarta Globe) 2024; low precision
+478,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,LRT Jabodebek capex,"Rp 771.97 bn/km; total Rp 32.5 T (from 29.9 T), 42.1 km",IDR,Tempo 2024
+479,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,LRT Jakarta Phase 2A,"Rp 7.09 trillion, 8.2 km",IDR,invest.jakarta.go.id 2025
+480,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,MRT opex / subsidy,about Rp 800 bn/yr,IDR/yr,Tempo 2024; low
+481,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,E-bus vs diesel bus price,1.8-2.0x,ratio,"World Bank, Identifying Policy Priorities for Indonesia Clean and Climate Resilient Transport 2024"
+482,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,Transjakarta full electrification,"about 120 million L fuel; 277,000 tCO2e per year",,ITDP Indonesia 2026; third-party
+483,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,Ride-hailing e-motorcycle Jabodetabek,about 1.25 bn L; 2.25 MtCO2e per year,,ITDP Indonesia 2026
+484,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,E-motorcycle abatement cost,-162,USD/tCO2e,DNPI/McKinsey cost curve 2010; outdated
+485,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,BRT MASTRAN Bandung corridor emissions,"cars 2,025 tCO2e/day (41%); motorcycles 1,560 (31%)",tCO2e/day,World Bank MASTRAN ESMP 2026
+486,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,"Cost per pkm, freight modal shift cost, EF per pkm by mode",not found,,Gap
+487,Web research 23 Nov 2026 (report wf-ad728942),T2 Transport,EV targets (RUEN 2017),"2,200 e-cars; 2.1 million e-motorcycles; 10% public transport electrified by 2025",units,ITDP citing RUEN; superseded targets not verified
+488,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Cement clinker factor,0.681,fraction,Kemenperin 2025 (2010: 81%); TSR 12.58% (2010: 3%)
+489,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Cement specific emissions,566.3,kgCO2/t cement eq,Kemenperin 2025 (2010: 724); capacity 121.66 Mt/yr
+490,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Cement MACC 2050 low scenario,WHRPG 20.6; alt. fuel 27.3; clinker-factor cut 13.8; efficiency 11.2; solar PV 2.8; CCS/CCUS 101.5,USD/tCO2e,"Dewi (ITB), AIM/NIES workshop July 2025 slide 27; high scenario 23.2 / 22.1 / 13.8 / 4.1 / 3.7 / 111.9; signs unconfirmed"
+491,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Cement CCS volumes needed,1.4 / 5.7 / 17.1 / 57.0,MtCO2 (2035/40/45/50),Same source
+492,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Coal plant early retirement (Cirebon-1) vs CCS,31-40 vs 62-324,USD/tCO2e,"IESR Indonesia Energy Transition Outlook 2025; grid plant, not captive"
+493,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Captive HPAL case,"73 MW captive coal, 0.55 MtCO2/yr; 70% RE gives up to 90% intensity cut",,JETP Indonesia via CREA 2026; no cost
+494,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Captive RKEF case,"160 MW captive coal, 1.18 MtCO2/yr; 88% solar share",,JETP Indonesia via CREA 2026; no cost
+495,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Nickel GHG intensity,58.6 Indonesia avg; Vale 28.7; coal smelters up to 99; LME low-carbon threshold 20,tCO2e/t Ni,"IESR, IEEFA, CREA"
+496,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Captive coal regulatory constraint,-35% emissions within 10 years; operation to 2050 max,,Perpres 112/2022 via Market Forces (secondary)
+497,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Nickel decarbonisation roadmap,-81% sector GHG by 2045,,National Nickel Industry Decarbonization Roadmap via Dialogue Earth 2025
+498,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Captive replacement capex / abatement cost,not found,,Gap
+499,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Steel decarbonisation,"47,000 t H2 (2030) to 300,000 t (2060); 2.4 TWh zero-carbon power",,LBNL Industry Decarbonization Roadmaps for Indonesia 2023; no cost per tCO2
+500,Web research 23 Nov 2026 (report wf-ad728942),T3 Industry,Fertiliser / ammonia and industrial EE abatement cost,not found,,Second NDC Annex 1 lists measures only
+501,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,"Official social discount rate / WACC (BKF, Bappenas, PLN, ESDM)",not found,,IEEFA Aug 2026 mentions a 7% parameter for PLN PSO in RUPTL; context truncated
+502,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,BI-Rate,0.06,fraction,"Bank Indonesia 18 Nov 2026; deposit facility 5.25%, lending 6.75%; +125 bp YTD"
+503,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,10-year government bond yield,7.6% (18 Nov); 7.75% after decision,,The Star; Streamline citing Danamon; sources differ by 15 bp
+504,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,IDR/USD JISDOR,18264,IDR/USD,Bank Indonesia 17 Nov 2026
+505,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,Utility-scale solar WACC,8-11% local currency; C&I 10-13%,,IEA and Imperial College ASEAN Renewables 2023; IEA Cost of Capital Observatory 2024 median 9.4%
+506,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,Utility BESS WACC,9-11%,,IEA Financing BESS in Indonesia 2024; commercial debt 7.5%
+507,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,Solar WACC benchmark,about 6%,,IRENA Indonesia Energy Transition Outlook 2022 (2020 value); conflicts with IEA
+508,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,LCOE base-case WACC,10% (70:30 D/E; Ke 15.8%; Kd 10%; tax 25%),,IESR LCOE report 2019
+509,Web research 23 Nov 2026 (report wf-ad728942),T4 Rates,JETP finance mix,concessional USD 6.94 bn; non-concessional 1.59 bn; grants/TA 0.295 bn; MDB guarantees 2 bn,USD,JETP Secretariat CIPP 2023; no blended cost of capital published
+510,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,AWD CH4 reduction Central Java 3 years,-35% (AWD); -38% (site-specific AWD); no yield loss,,Setyanto et al. 2018 Soil Sci. Plant Nutr. 64:23; N2O not significantly changed
+511,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,AWD USD per tCO2e (Indonesia),not found (official),,Market proxy: rice credits USD 20-25/tCO2e forward (Quantum Commodity Intelligence)
+512,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,Agriculture / IPPU / waste finance need to 2030,USD 504 million / 65 million / 13 billion,USD,BTR-1 via KemenLH release
+513,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,"Livestock, manure, IPPU unit costs",not found,,Second NDC Annex 1 lists measures only
+514,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,WtE tipping fee cap,"IDR 500,000 (about USD 30.5-33.8) per t",,Perpres 35/2018; paid in practice Semarang USD 19; East Java USD 10.14
+515,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,WtE capex,5.3,USD m per MW,DG EBTKE 2022 via IPEN
+516,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,Benowo PLTSa,"1,500 t/day; about 821 tCO2e/day avoided",,UMD School of Public Policy 2025
+517,Web research 23 Nov 2026 (report wf-ad728942),T5 Agri/IPPU/Waste,Waste targets,"no new landfill from 2030; no landfill operation from 2040; zero waste 2040, zero emission 2050",,KLHK Decree 842/2024 (Second NDC p.12)
+518,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Co-firing performance 2024,47 PLTU; 1.62 Mt biomass; 1.67 TWh; 1.87 MtCO2 avoided; 1.86% RE share,,"PLN via RuangEnergi, Listrik Indonesia"
+519,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Co-firing target,52 PLTU; 10.2 Mt biomass/yr,,PLN/RUPTL; CREA: target slipped to 2031
+520,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Co-firing claimed abatement at target,about 11 MtCO2/yr from 10 Mt biomass,,PLN COP27 statement 2022
+521,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Independent co-firing assessments,"Trend Asia and Environmental Paper Network 2023: up to 26.48 MtCO2e per year added (10% wood, 52 plants); CREA May 2025: 1.5-2.4% cut in aggregated coal power emissions",,Third-party
+522,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Co-firing cost per MWh,not found,,Gap
+523,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Nuclear in RUPTL 2025-2034,500 MW (250 MW Sumatra-Bangka 2032; 250 MW Kalimantan 2033),MW,"RUPTL via tanahair.net, CREA; SMR prioritised"
+524,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,Nuclear long-term,44 GW by 2060 (35 GW power + 9 GW H2),GW,DEN via Enerdata 2026; other reports 35 GW; about 7 GW by 2040 draft
+525,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,IAEA INIR,16 of 19 conditions met,,Ecobiz citing IAEA 2026; secondary
+526,Web research 23 Nov 2026 (report wf-ad728942),T6 Co-firing/Nuclear,"Nuclear capex / LCOE (official, IEA/IAEA/NEA)",not found,,"Commentary only: USD 6,000-7,000/kW (China-Global South Project)"
+527,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,BTR-1 total need to 2030,"USD 282 bn (Rp 4,519 T); mitigation 281.18 bn; adaptation 0.817 bn",USD,"KemenLH release, Indonesia Business Post; original table not retrieved; unit inconsistency '816,52 milyar'"
+528,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,BTR-1 by sector,Energy 245.996 bn; FOLU 21.62 bn; waste 13 bn; agriculture 0.504 bn; IPPU 0.065 bn,USD,BTR-1
+529,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,Second NDC need 2031-2035,"USD 472.6 bn (IDR 7,552.5 T)",USD,"Second NDC section 6.1 p.30; energy, agriculture, FOLU, waste only; 'likely underestimated'"
+530,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,BUR3 / BUR2 / NDC Roadmap 2019,"USD 285 bn conditional, 281 bn unconditional / about USD 247 bn / IDR 4,520 T (about USD 322.86 bn)",,Second NDC p.30; roadmap is mitigation only; forestry Rp 93.28 T per MoF slide (secondary)
+531,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,Climate budget tagging 2018-2024,"IDR 523.63 T (USD 31.74 bn), average USD 4.5 bn/yr",,Second NDC p.29
+532,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,JETP CIPP,USD 97.3 bn (2023-2030); USD 580.3 bn (2023-2050); CFPP retirement 2.4 bn; dispatchable RE 16.1 GW 49.2 bn; VRE 40.4 GW 25.7 bn,USD,JETP Secretariat CIPP 2023
+533,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,RUPTL 2025-2034,"IDR 2,780 T (about USD 155-169 bn); 69.5 GW incl. 42.6 GW RE, 10.3 GW storage",,"PLN RUPTL via IEA, IEEFA"
+534,Web research 23 Nov 2026 (report wf-ad728942),T7 Finance,LTS-LCCR sectoral investment by period,not found,,Proxies: MEMR NZE needs USD 16.1 bn/yr RE (CPI); IEA-MEMR roadmap Sept 2022: about USD 8 bn additional per year by 2030
+535,Web research 23 Nov 2026 (report wf-ad728942),Caveats,Global warming potential basis,FRL uses AR2 (CH4 = 21); Second NDC uses AR5,,Convert before mixing
+536,Web research 23 Nov 2026 (report wf-ad728942),Caveats,Grid emission factor assumptions,ITDP about 270 gCO2/kWh vs ITB cement study 0.84 tCO2/MWh (2025),,Do not reuse the ITDP value without checking
+537,Web research 23 Nov 2026 (report wf-ad728942),Session,DEA 2021 technology catalogue (read via fetch tool),"see D_Teknis_Opsi, source 'DEA dan KESDM 2021'",,ens.dk/media/5051; values to be spot-checked against datasheets

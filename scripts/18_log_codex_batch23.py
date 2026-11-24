@@ -50,6 +50,7 @@ conf=[
 ('K160','Sumber daya penyimpanan CO2 Indonesia','GtCO2',680.57,'Usman dkk. 2026: akuifer salin 21 cekungan (undiscovered prospective)',572.77,'D_Solusi_Kuantif baris 26 (sumber lain)',None,'Kedua estimasi mungkin mencakup wilayah yang sama; jangan dijumlahkan'),
 ('K161','Emisi listrik 2060 menurut cakupan','MtCO2 per tahun',544,'Fitriana dkk. 2026: BAU pembangkitan (LEAP-NEMO)',60,'Fitriana dkk. 2026: NZE pembangkitan',1561.764,'SNDC CPOS seluruh sektor energi 2060 (LCCP_L 129); cakupan berbeda'),
 ('K162','Selisih biaya sistem NZE terhadap BAU (Fitriana 2026)','triliun USD',1.8358,'Hlm. 10 (7,1756 dikurangi 5,3398)',1.7418,'Hlm. 11 (teks)',None,None),
+('K163','Tambahan PLTS 2025 sampai 2030 menurut RUPTL (tanpa BESS)','MW',4679,'data/PIPELINE_EBT_RUPTL.csv: jumlah proyek PLTS ber-COD 2025 sampai 2030, RE Base',2596,'D_RUPTL_Tambahan agregat RE Base (catatan tim)',7912,'Pipeline proyek ARED (agregat ARED 5.046 MW). Selisih proyek dibanding agregat perlu ditelusuri (definisi PLTS, hibrida, kuota)'),
 ]
 RA='customFormat="false" ht="35.05" hidden="false" customHeight="false" outlineLevel="0" collapsed="false"'
 RA2='customFormat="false" ht="23.85" hidden="false" customHeight="false" outlineLevel="0" collapsed="false"'

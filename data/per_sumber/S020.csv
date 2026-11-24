@@ -1,0 +1,21 @@
+no,dokumen,bagian,butir,nilai,satuan,catatan
+421,Rice cooker programme (Suntoro et al. 2025),1,Units distributed,"342,621 (2023); 127,628 (2024)",units,"free to poor households, 36 provinces"
+422,Rice cooker programme (Suntoro et al. 2025),2,Survey,"600 respondents (Slovin, margin 4.1%), June-July 2024, 20 enumerators; PLN data 5,814,476 monthly records Jan 2023-May 2024",,
+423,Rice cooker programme (Suntoro et al. 2025),2,Sample by province (respondents/recipients),"East Java 98/79,461; Central Java 56/43,286; West Java 56/43,109; North Sumatra 38/28,288; West Kalimantan 30/21,379; South Sulawesi 24/15,873; Banten 23/14,704; Aceh 15/8,527; South Sumatra 15/7,873; Papua 6/166; Papua Barat 6/30; all others in Tab.1",,
+424,Rice cooker programme (Suntoro et al. 2025),Tab.2,Income of recipients,under USD 60: 39.83%; 60-182: 46.50%; 182-303: 12.17%; over 303: 1.50%,per month,"FX 16,515 IDR/USD"
+425,Rice cooker programme (Suntoro et al. 2025),3.1,Satisfaction,easy daily use 87.41%; faster cooking 75.54%; very good quality 65.65%; very safe 78.42%; adequate features 71.04%; strongly recommend 58.27%,,
+426,Rice cooker programme (Suntoro et al. 2025),Tab.3,Ordered logit (quality),ease of use 0.5378 (z 2.06); ease of cleaning 0.8903 (4.02); safety 1.1057 (5.27); LR chi2(3) 106.37; pseudo R2 0.1210,,
+427,Rice cooker programme (Suntoro et al. 2025),3.2,Use pattern,cook and warm 69.6%; cook only 28.42%; more than 3 h/day 55.04%; rice cooked average about 1 kg/day (0.147-4),,
+428,Rice cooker programme (Suntoro et al. 2025),3.2,Electricity bill before / after,"USD 7.37 to 8.31 (+0.94); IDR 121,708.60 to 137,156.50 (+15,447.84; t -11.35)",per month,Java-Bali +0.79; Nusmap +1.20
+429,Rice cooker programme (Suntoro et al. 2025),3.2,MCB trips,13.13% of respondents,,
+430,Rice cooker programme (Suntoro et al. 2025),3.2,"Electricity use (PLN data, Fig.3, approx. chart read)",all: 99.62-108.99 to 110.89-115.85 kWh; 450 VA: 86.68-96.73 to 94.94-101.23; 900 VA: 100.18-114.49 to 114.3-119.26; 1300 VA: 148.81-171.36 to 168.52-175.08,kWh/month,
+431,Rice cooker programme (Suntoro et al. 2025),3.4,Electricity increase stated,4.67 to 5.49,kWh/month per household,"conflicts with Fig.3 (about 5-15 kWh) and bill +IDR 15,448 (about 10-11 kWh at tariff 1,445/kWh, my derivation)"
+432,Rice cooker programme (Suntoro et al. 2025),3.3,LPG 3 kg monthly use before/after,all 1.23 kg reduction; 450 VA 8.92 to 7.67; 900 VA 8.86 to 7.60; 1300 VA 9.27 to 8.30,kg/month,regions: Nusmap -1.82; Java-Bali -1.48; Sumatra -1.12; Kalimantan -0.92; Sulawesi -0.84
+433,Rice cooker programme (Suntoro et al. 2025),3.3,Respondents reporting lower LPG spending,44.49% (3.3); 55.51% (3.4); 58.72% bought fewer cylinders,,
+434,Rice cooker programme (Suntoro et al. 2025),Tab.5,Wilcoxon (LPG cylinder duration),169 longer vs 13 shorter; z -11.569,,
+435,Rice cooker programme (Suntoro et al. 2025),3.4,LPG reduction stated in discussion,1.43 to 2.74,kg/month per household,conflicts with 1.23 kg in 3.3
+436,Rice cooker programme (Suntoro et al. 2025),3.4,LPG subsidy saving per household,"IDR 6,079 to 11,659 (USD 0.37 to 0.71) per month",,
+437,Rice cooker programme (Suntoro et al. 2025),3.4,"Net energy subsidy saving, programme","IDR 2.2 to 3 bn per month (USD 133,000 to 182,000)",,net of higher electricity subsidy for 450/900 VA
+438,Rice cooker programme (Suntoro et al. 2025),3.4,Non-users,7.33% never used the cooker,,
+439,Rice cooker programme (Suntoro et al. 2025),3.4,Emissions,"impact conditional on grid mix; recommends system dynamics with RUEN 23%/19%, RUPTL 35%, 50% in 2050",,no CO2 figure in paper
+440,Rice cooker programme (Suntoro et al. 2025),Derived,"Fleet LPG saved (470,249 units)",6.9 to 15.5,kt/yr,1.23 to 2.74 kg/month x 12

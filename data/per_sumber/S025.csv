@@ -1,0 +1,61 @@
+no,dokumen,bagian,butir,nilai,satuan,catatan
+295,IEEFA 100 GW report (Aug 2026),Key findings,Coal generation cost 2025 / 2026 est.,"IDR 930 / 1,060",per kWh,+46% vs IDR 637 in 2020; 941 in 2024
+296,IEEFA 100 GW report (Aug 2026),Exec,Coal cost without DPO 2025,"IDR 1,455/kWh",,56% above DPO-based 930
+297,IEEFA 100 GW report (Aug 2026),Exec,Hydropower / wind cost 2025,IDR 313 / 906,per kWh,"hydro 468 in 2024; geothermal 1,259 vs avg retail tariff 1,113"
+298,IEEFA 100 GW report (Aug 2026),Exec,Gas generation cost 2020 / 2024 / 2025,"IDR 1,612 / 2,455 / 2,646",per kWh,+64% 2020-2025
+299,IEEFA 100 GW report (Aug 2026),Exec,Diesel cost range,"IDR 5,500 to nearly 9,000",per kWh,"2023 avg 8,748; 2024 5,513.75; 2025 5,669.65"
+300,IEEFA 100 GW report (Aug 2026),Exec,LCOE coal / solar / onshore wind / gas,10.0-15.1 / 5.6-8.4 / 6.8-10.3 / 14.0-21.0,USD cents/kWh,solar 44% cheaper than coal at low ends; wind 32%; solar high end still 16% cheaper than coal low
+301,IEEFA 100 GW report (Aug 2026),Exec,RUPTL 2025-2034 new capacity,69.5 GW incl. 42.6 GW renewable and 10.3 GW storage,,"IDR 2,780 tn (USD 169 bn)"
+302,IEEFA 100 GW report (Aug 2026),1,Investment realisation,USD 4.9 bn (2024); 4.5 bn (2025),,renewables USD 1.8 bn to 2.3 bn (+31%)
+303,IEEFA 100 GW report (Aug 2026),1,Electricity sales,216 TWh (2016); 317 TWh (2025); about 511 TWh (2034),,
+304,IEEFA 100 GW report (Aug 2026),1,"Power-sector GHG 2024 (WorldOMeter, as cited)",812,MtCO2e,+5.13% y/y; source quality low
+305,IEEFA 100 GW report (Aug 2026),1,100 GW solar programme,announced June 2025; launched 25 Aug 2026; not yet in RUPTL,,Cabinet Secretariat: 17 GW built this year (target)
+306,IEEFA 100 GW report (Aug 2026),2,Coal share of generation,68,%,
+307,IEEFA 100 GW report (Aug 2026),2,PPA tariffs,"solar Bali 25 MW USD 5.9 c/kWh (IDR 935 at 16,475); Tanah Laut wind 70 MW 5.5 c (IDR 872); Sidrap wind 2015 11 c",,
+308,IEEFA 100 GW report (Aug 2026),2,PLN owned solar / wind 2025,36.34 / 0.17,MW,
+309,IEEFA 100 GW report (Aug 2026),2,FX 2024,16475,IDR/USD,
+310,IEEFA 100 GW report (Aug 2026),3,LCOE basis,"100% equity base case; USD 1 = IDR 17,849 (June 2026)",,
+311,IEEFA 100 GW report (Aug 2026),3,Solar + BESS LCOE (pessimistic),about 20,USD c/kWh,remote systems diesel cost 31-50 c/kWh
+312,IEEFA 100 GW report (Aug 2026),3,Mini-hydro LCOE (pessimistic),4.7 to 7.0,USD c/kWh,
+313,IEEFA 100 GW report (Aug 2026),3,Nuclear LCOE,36.3 to 54.5 (equity) ; 21.0 with debt-equity,USD c/kWh,MWh basis 54.5 to 21.0 USD/MWh as printed
+314,IEEFA 100 GW report (Aug 2026),S1,Debt-equity (30% equity) LCOE,solar 4.9; onshore wind 5.8,USD c/kWh,vs equity-only solar 5.6-8.4
+315,IEEFA 100 GW report (Aug 2026),S1,Sovereign outlook,revised to negative by Moody's and Fitch early 2026,,
+316,IEEFA 100 GW report (Aug 2026),S2,Capacity-factor sensitivity LCOE,"solar+wind 4.2 to 12.1; coal, gas, CCGT 7.6 to 21.7",USD c/kWh,
+317,IEEFA 100 GW report (Aug 2026),S2,DPO coal price cap,USD 70/t; each +USD 1/t adds 0.06 c/kWh,,
+318,IEEFA 100 GW report (Aug 2026),4,Grid capacity 2025,80.2 GW on-grid; 81% fossil,,
+319,IEEFA 100 GW report (Aug 2026),4,PSO margin in RUPTL,7,%,
+320,IEEFA 100 GW report (Aug 2026),4,Average retail tariff 2025 / BPP plus margin,"IDR 1,112.69 / 1,785.64",per kWh,gap covered by subsidy and compensation
+321,IEEFA 100 GW report (Aug 2026),4,Government fiscal support to PLN,IDR 65.9 tn (2020) to 200 tn (2025),,about 2x Nusantara spending IDR 89 tn to end-2024
+322,IEEFA 100 GW report (Aug 2026),4,IDR depreciation,"13,542 (2018) to 17,849 (June 2026), about 32%",IDR/USD,tariff fixed since 2022
+323,IEEFA 100 GW report (Aug 2026),4,Plant financials,"Mamuju 2x25 MW revenue 190 to 28 bn, loss 218 bn; Banjarsari 2x135 MW revenue ~939 bn, profit 107 to 119 bn (11-13%); Asahan hydro 2x90 MW revenue 641 to 712 bn, profit 333 to 482 bn (68%)",IDR,PLN Nusantara Power 2025
+324,IEEFA 100 GW report (Aug 2026),5,Regional generation,354 TWh national; Java 70%; Sumatra 17.5%,,
+325,IEEFA 100 GW report (Aug 2026),5,Eastern systems cost,"4 to 5x PLN average selling price (Maluku, NTB, NTT, Papua)",,
+326,IEEFA 100 GW report (Aug 2026),6,Hybrid solar+BESS tariff framework,MEMR Decree 264/2026,,
+327,IEEFA 100 GW report (Aug 2026),6,RUPTL first period 2025-2029 additions,fossil 12.7 GW (45%); renewables 12.2 GW (44%); storage 3 GW (11%),,renewables dominate only 2030-2034
+328,IEEFA 100 GW report (Aug 2026),6,RUPTL solar by 2034,17.2,GW,vs 1.5 GW installed 2025; 100 GW needs 67x
+329,IEEFA 100 GW report (Aug 2026),6,Gas production decline assumed,0.76,%/yr,utilisation -2% demand plus RUPTL additions
+330,IEEFA 100 GW report (Aug 2026),6,Masela LNG,"9.5 Mt/yr; 150 MMSCFD; 35,000 bbl condensate",,
+331,IEEFA 100 GW report (Aug 2026),6,Floating solar potential,91.6 GW (74.6 lakes; 1.8 micro-hydro sites; 14.7 dams); +450 MW hydro,,annual output up to 12% higher than ground-mounted
+332,IEEFA 100 GW report (Aug 2026),6,Ground solar project size,50 to 500 MW; land need hundreds of thousands of ha for tens of GW,,
+333,IEEFA 100 GW report (Aug 2026),6,Regional PPA benchmarks,Vietnam hydro 2.7-3.4; solar 3.9-5.3; wind 7.0-7.6 c/kWh. Philippines hydro 2.7; geothermal 3-11 c/kWh,,
+334,IEEFA 100 GW report (Aug 2026),6,Regional solar capacity,"Vietnam 19 GW solar + 6.2 GW wind; Thailand 6.8 + 1.5; Philippines 3.9 + 0.518; China 1,202 + 640; India 56 + 55",GW,
+335,IEEFA 100 GW report (Aug 2026),6,Grid-scale comparators,"California 278 TWh, 100% RE >20% of 2025; Spain 270 TWh, 33% solar+wind 2025; Java-Bali about 200 TWh",,
+336,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Utility solar PV,capex 0.77-1.15 USD m/MW; CoE 10.0%; CoD 7.4%; fixed O&M 12574.5 USD/MW/yr; fuel - USD/MWh; VOM - USD/MWh; CF 20.5%; construction 12 months; life 21.0 yr,,MEMR Technology Data 2024 basis; USD
+337,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Solar PV + BESS,capex 1.10-2.00 USD m/MW; CoE 10.0%; CoD 7.4%; fixed O&M 68750.0 USD/MW/yr; fuel - USD/MWh; VOM - USD/MWh; CF 20.5%; construction 12 months; life 21.0 yr,,MEMR Technology Data 2024 basis; USD
+338,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Wind onshore,capex 1.28-1.92 USD m/MW; CoE 10.0%; CoD 7.4%; fixed O&M 28000.0 USD/MW/yr; fuel - USD/MWh; VOM - USD/MWh; CF 28.0%; construction 18 months; life 31.5 yr,,MEMR Technology Data 2024 basis; USD
+339,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Wind offshore,capex 2.75-4.12 USD m/MW; CoE 10.0%; CoD 7.4%; fixed O&M 51454.7 USD/MW/yr; fuel - USD/MWh; VOM - USD/MWh; CF 36.0%; construction 36 months; life 33.0 yr,,MEMR Technology Data 2024 basis; USD
+340,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Mini hydro,capex 1.60-2.40 USD m/MW; CoE 10.6%; CoD 7.8%; fixed O&M 37485.2 USD/MW/yr; fuel - USD/MWh; VOM - USD/MWh; CF 55.0%; construction 24 months; life 32.0 yr,,MEMR Technology Data 2024 basis; USD
+341,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Hydropower,capex 1.99-3.00 USD m/MW; CoE 10.6%; CoD 7.8%; fixed O&M 23891.3 USD/MW/yr; fuel - USD/MWh; VOM 12.8 USD/MWh; CF 55.0%; construction 36 months; life 33.0 yr,,MEMR Technology Data 2024 basis; USD
+342,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Geothermal,capex 4.00-6.00 USD m/MW; CoE 14.0%; CoD 10.6%; fixed O&M 131000.0 USD/MW/yr; fuel - USD/MWh; VOM - USD/MWh; CF 85.3%; construction 120 months; life 40.0 yr,,MEMR Technology Data 2024 basis; USD
+343,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Biomass,capex 1.45-2.18 USD m/MW; CoE 10.0%; CoD 7.4%; fixed O&M 111558.3 USD/MW/yr; fuel - USD/MWh; VOM 29.2 USD/MWh; CF 85.0%; construction 30 months; life 32.5 yr,,MEMR Technology Data 2024 basis; USD
+344,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Coal (CFPP),capex 1.7-2.56 USD m/MW; CoE 13.3%; CoD 11.3%; fixed O&M 64940.4 USD/MW/yr; fuel 29.4 USD/MWh; VOM 0.6 USD/MWh; CF 70.0%; construction 96 months; life 38.0 yr,,MEMR Technology Data 2024 basis; USD
+345,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Gas (GFPP),capex 0.98-1.48 USD m/MW; CoE 13.3%; CoD 11.3%; fixed O&M 24064.2 USD/MW/yr; fuel 117.0 USD/MWh; VOM 0.1 USD/MWh; CF 70.0%; construction 18 months; life 31.5 yr,,MEMR Technology Data 2024 basis; USD
+346,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: CCGT,capex 1.00-1.61 USD m/MW; CoE 13.3%; CoD 11.3%; fixed O&M 16475.4 USD/MW/yr; fuel 46.6 USD/MWh; VOM 4.9 USD/MWh; CF 80.0%; construction 25 months; life 27.1 yr,,MEMR Technology Data 2024 basis; USD
+347,IEEFA 100 GW report (Aug 2026),App.II,LCOE inputs: Nuclear,capex 5.80-8.70 USD m/MW; CoE 14.5%; CoD 13.0%; fixed O&M - USD/MW/yr; fuel 5.5 USD/MWh; VOM 27.5 USD/MWh; CF 85.0%; construction 180 months; life 75.0 yr,,MEMR Technology Data 2024 basis; USD
+348,IEEFA 100 GW report (Aug 2026),App.II,Cost of debt basis,solar/wind/biomass: avg SOFR Jul 2023-Jul 2026 + 175 bps; coal/gas: BI rate + lending facility; geothermal: RF + country + liquidity + project premium + 175 bps,,
+349,IEEFA 100 GW report (Aug 2026),App.II,Cost of equity basis,fossil = PT Cikarang Listrindo CoE plus 1.2 pt (nuclear vs fossil gap US/EU); geothermal = Pertamina Geo; hydro = Arkora,,
+350,IEEFA 100 GW report (Aug 2026),7,Rooftop solar potential,30 to 40 GW (10 m households + 1 m businesses at 3-5 kW),,"RUPTL rooftop 3,037 MW over 9 years; PLN 87 m households at 1.5 MWh/yr; 5.6 m businesses at 11 MWh/yr"
+351,IEEFA 100 GW report (Aug 2026),7,RUPTL average BPP 2025-2034,"IDR 1,798/kWh at IDR 16,000-16,100/USD",,subsidy and compensation = 34% of PLN revenue
+352,IEEFA 100 GW report (Aug 2026),7,Solar needed to replace fossil capacity,coal/gas about 3x capacity; diesel about 2x,,Fig.19 note
+353,IEEFA 100 GW report (Aug 2026),7,RUPTL renewables by 2029 / 2034,12.2 GW / 30.4 GW (as stated in rooftop section),,vs 42.6 GW total RE by 2034 elsewhere; internal inconsistency
+354,IEEFA 100 GW report (Aug 2026),Fig.,Figures 4-14 and 18-19 values,not extractable from text layer; only text-quoted values logged,,

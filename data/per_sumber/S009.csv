@@ -1,0 +1,21 @@
+no,dokumen,bagian,butir,nilai,satuan,catatan
+401,LPG to induction (Hilmiyati-Mas'adah et al. 2024),1,Programme scale (PLN 2022),"1,000,000 LPG stoves to induction: LPG imports -136.8 kt/yr; subsidy -IDR 778.7 bn/yr; saving USD 59.9 m/yr",,
+402,LPG to induction (Hilmiyati-Mas'adah et al. 2024),1,LPG imports outlook (MEMR 2020),expected to rise by over 80%,,Fig.2 import-demand ratio not numerically extractable
+403,LPG to induction (Hilmiyati-Mas'adah et al. 2024),3,Survey design,"290 valid responses; Jan-Mar 2022; Jakarta, Bandung, Yogyakarta, Surabaya; LPG users with 1300 VA or more; 38 indicators, 5-point Likert; PLS-SEM, SmartPLS 3.2.9; 10,000 bootstrap",,
+404,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,Gender,female 146 (50.34%); male 144 (49.66%),,
+405,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,Age,15-24 38 (13.1%); 25-34 48 (16.55%); 35-44 74 (25.52%); 45-54 83 (28.62%); 55-64 39 (13.45%); over 64 8 (2.76%),,
+406,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,Electricity tier,1300 VA 115 (39.66%); 2200 VA 112 (38.62%); 3500 VA 42 (14.48%); 4400 VA 9 (3.1%); 5500 VA+ 12 (4.14%),,
+407,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,LPG type used,subsidised 3 kg 100 (34.48%); non-subsidised 134 (46.21%); both 56 (19.31%),,
+408,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,City,Jakarta 140 (48.28%); other 150 (51.72%),,
+409,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,Induction exposure,partly use 55 (18.97%); never used 235 (81.03%),,
+410,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,Household,couple with children 198 (68.28%); single with others 50 (17.24%); couple no children 25 (8.62%); alone 10 (3.45%),,
+411,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B1,Education,graduate 134 (46.21%); postgraduate 65 (22.41%); high school 51 (17.59%); bachelor 40 (13.79%),,
+412,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.1,Path coefficients (t),"USE>FUNC 0.387 (4.96); USE>RECV 0.336 (4.03); USE>EMOV 0.415 (5.33); USE>EPIV 0.013 (0.18, rejected); EOU>FUNC 0.079; EOU>RECV 0.084; EOU>EMOV -0.026 (all rejected); EOU>EPIV 0.409 (5.81); TOC>FUNC 0.404 (5.16); TOC>RECV 0.212 (2.19); TOC>EMOV 0.314 (3.83); TOC>EPIV 0.253 (2.56)",,
+413,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.1,Values to intention,"FUNC>INT 0.315 (4.23); RECV>INT 0.081 (rejected); EMOV>INT 0.327 (4.25); EPIV>INT 0.151 (3.01); moderation CODV x EMOV -0.160 (2.18); CODV x FUNC 0.106, CODV x RECV 0.019 rejected",,
+414,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.2,R2,"emotional 0.451; epistemic 0.368 (0.390 quadratic); functional 0.627; recognition 0.323; intention 0.558 (0.568 with moderator, f2 2.31%; 0.578 quadratic, f2 4.66%)",,
+415,LPG to induction (Hilmiyati-Mas'adah et al. 2024),4.2,Collinearity,VIF emotional value 3.041; others below 3 and all below 5,,
+416,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.4,Gender multigroup,female R2 intention 0.517; male 0.656; EOU>EPIV female 0.536 vs male 0.206 (significant); TOC>EPIV female 0.092 vs male 0.491 (significant),,
+417,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.3,Age and city differences,no significant difference (under 45 vs 45+; Jakarta vs other cities),,
+418,LPG to induction (Hilmiyati-Mas'adah et al. 2024),5,Subsidy design note,electricity subsidy for DTKS-verified poor households; subsidised LPG is not targeted; non-eligible 1300 VA+ households feel moral obligation less to switch,,
+419,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Fig.1,Subsidised LPG chart,not extractable numerically,,"behavioural paper: no CO2, capex or tariff data"
+420,LPG to induction (Hilmiyati-Mas'adah et al. 2024),Tab.B2,Indicator means,range about 2.99 to 4.06 on 5-point scale; SD about 0.86 to 1.16,,
