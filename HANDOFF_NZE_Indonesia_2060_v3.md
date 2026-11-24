@@ -86,3 +86,6 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 - Phase-down: enam PLTU Fadiilah dan Dye (93,52 Mt; 14.310 MW) berbeda dari workbook GEM 16.735 MW (Suralaya 6.025 dibanding 4.025); intensitas 6,4 sampai 6,6 MtCO2 per GW pada tiga sumber, sehingga pensiun resmi 36 Mt setara sekitar 5,5 GW, dekat sensitivitas JETP 5,2 GW; semua jalur workbook (6,9 sampai 11,2 GW sampai 2030) lebih agresif daripada skenario utama JETP (nol). TJB (24,01 Mt) tumpang tindih dengan CCS TJB (13 Mt) bila dipensiunkan penuh.
 - Rice cooker: LPG dihindari 21,9 sampai 48,9 ktCO2 dikurangi listrik 7,4 sampai 25,4 kt; netto -3,5 sampai 41,4 kt per tahun. Faktor LPG 3,16 menggantikan asumsi 2,98.
 - Berkas serah terima tim dan template terisi yang disebut pengguna tidak ditemukan di repo.
+
+## Addendum 8 (24 November 2026): penelanan cabang codex
+Cabang `research/nze-data-handoff` (7139bd6) ditelan secara selektif; rincian di `RESEARCH_Log_Cabang_Codex.md`. Hasil: register 866 butir dari 43 dokumen, K_Konflik sampai K153, `papers/` (34 PDF) dan sembilan PDF sumber baru di `sources/`, verifikasi angka mencakup 27 dokumen. Temuan utama: biaya CCS 92,6 USD per t adalah kasus satu unit (K147), belum dikoreksi di judul; menunggu keputusan.

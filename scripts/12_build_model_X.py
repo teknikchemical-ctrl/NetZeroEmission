@@ -102,7 +102,13 @@ def S_CCS():
        ('ann_lo','Biaya tahunan rendah (USD juta per tahun)','C_Solusi_2030!E34*{cost_lo}','USD juta per tahun','AC','hitungan sederhana','calc'),
        ('ann_hi','Biaya tahunan tinggi (USD juta per tahun)','C_Solusi_2030!F34*{cost_hi}','USD juta per tahun','AC','hitungan sederhana','calc'),
        ('tjbco2','Emisi CO2 PLTU Tanjung Jati B 2023, seluruh unit (Fadiilah dan Dye 2026 Tabel 3)',24.01,'MtCO2','R','Fadiilah dan Dye 2026','in'),
-       ('ovl','Tumpang tindih bila TJB dipensiunkan penuh (bagian tambahan B4): CCS 13 Mt menjadi redundan sebesar','MIN(C_Solusi_2030!E34,{tjbco2})','MtCO2e','AC','hitungan sederhana (K142 sampai K146 mencatat konteks pensiun dini)','calc')],
+       ('ovl','Tumpang tindih bila TJB dipensiunkan penuh (bagian tambahan B4): CCS 13 Mt menjadi redundan sebesar','MIN(C_Solusi_2030!E34,{tjbco2})','MtCO2e','AC','hitungan sederhana (K142 sampai K146 mencatat konteks pensiun dini)','calc'),
+       ('em56','Emisi unit 5 dan 6 TJB (2 x 4,702; estimasi GEM)',9.404,'MtCO2 per tahun','E','Prabowo dan Dalimi 2026 Tabel 5 (K150)','in'),
+       ('cap_em','Tangkapan kotor ERIA dibagi emisi unit 5 dan 6','C_Solusi_2030!E34/{em56}','fraksi','AC','hitungan sederhana; di atas 1 berarti asumsi pemanfaatan ERIA lebih tinggi dari estimasi GEM (K150)','calc'),
+       ('c72','Biaya per tCO2, dua unit 13 Mt, pipa (batas atas yang sah)',72.4,'USD per tCO2','R','ERIA 2025 Tabel 5.12 (K147)','in'),
+       ('c63','Biaya per tCO2, dua unit 13 Mt, kapal dan pipa darat',63.7,'USD per tCO2','R','ERIA 2025 Tabel 5.11','in'),
+       ('annk_lo','Biaya tahunan dikoreksi, rendah (USD juta per tahun)','C_Solusi_2030!E34*{c63}','USD juta per tahun','AC','hitungan sederhana (K147: 92,6 pada tabel di atas adalah kasus satu unit)','calc'),
+       ('annk_hi','Biaya tahunan dikoreksi, tinggi (USD juta per tahun)','C_Solusi_2030!F34*{c72}','USD juta per tahun','AC','hitungan sederhana (K147)','calc')],
       'CCS TJB')
 def S_Cofiring():
     return single('S_Cofiring',124,'co-firing biomassa',27,
@@ -116,7 +122,17 @@ def S_Cofiring():
        ('dem','Permintaan skenario Menengah (target PLN, miliar MJ per tahun)',651.7,'miliar MJ','E','Squire dkk. 2024 Tabel 1','in'),
        ('cov','Pasokan dibagi permintaan Menengah','{sup}/{dem}','fraksi','AC','hitungan sederhana','calc'),
        ('cl','Biaya per tCO2 rendah (campuran realisasi)','C_Solusi_2030!G27','USD per tCO2','AC','C_Cofiring_Biaya','link'),
-       ('ch','Biaya per tCO2 tinggi (harga ekspor)','C_Solusi_2030!H27','USD per tCO2','AC','C_Cofiring_Biaya','link')],
+       ('ch','Biaya per tCO2 tinggi (harga ekspor)','C_Solusi_2030!H27','USD per tCO2','AC','C_Cofiring_Biaya','link'),
+       ('sq_bau','Squire dkk. 2024: emisi PLTU 2030 skenario BAU',369.491737,'MtCO2 per tahun','E','sources/2024_Squire-dkk_Emisi-Skenario-Co-firing.csv','in'),
+       ('sq_low','Skenario Rendah, emisi PLTU 2030',355.30484,'MtCO2 per tahun','E','berkas CSV penulis','in'),
+       ('sq_eq','Skenario Setara, emisi PLTU 2030',328.53,'MtCO2 per tahun','E','berkas CSV penulis','in'),
+       ('sq_mid','Skenario Menengah, emisi PLTU 2030',311.523627,'MtCO2 per tahun','E','berkas CSV penulis','in'),
+       ('sq_hi','Skenario Tinggi, emisi PLTU 2030',216.981,'MtCO2 per tahun','E','berkas CSV penulis','in'),
+       ('d_low','Pengurangan skenario Rendah (BAU dikurangi skenario)','{sq_bau}-{sq_low}','MtCO2 per tahun','AC','hitungan sederhana','calc'),
+       ('d_eq','Pengurangan skenario Setara','{sq_bau}-{sq_eq}','MtCO2 per tahun','AC','hitungan sederhana','calc'),
+       ('d_mid','Pengurangan skenario Menengah','{sq_bau}-{sq_mid}','MtCO2 per tahun','AC','hitungan sederhana','calc'),
+       ('d_hi','Pengurangan skenario Tinggi','{sq_bau}-{sq_hi}','MtCO2 per tahun','AC','hitungan sederhana','calc'),
+       ('d_pln','Target PLN 11 Mt dibagi pengurangan skenario Menengah','C_Solusi_2030!E27/{d_mid}','fraksi','AC','hitungan sederhana; Squire memakai 651,7 miliar MJ untuk Menengah','calc')],
       'Co-firing biomassa')
 def S_B40():
     return single('S_B40',125,'biodiesel B40',26,

@@ -1,0 +1,33 @@
+# Pemeriksaan arsip sumber untuk Claude
+
+24 November 2026 WIB
+
+Dari 15 unggahan, 13 PDF ditambahkan ke `sources/` dan dua menggunakan PDF yang sudah tersimpan. Seluruh publikasi sudah memiliki entri di `D_Register_Sumber`. Nomor dalam tabel adalah nomor baris Excel, sehingga Claude dapat memperbarui rujukan atau memverifikasi angka pada entri yang sama.
+
+Pemeriksaan menggunakan hash SHA-256 untuk kesamaan berkas serta judul, DOI, dan teks PDF untuk kesamaan publikasi. Dua salinan lama bernama `4.pdf` dan `3.pdf` berbeda secara biner dari unggahan baru, tetapi masing-masing memiliki DOI dan teks ekstraksi yang sama setelah spasi diabaikan.
+
+| Unggahan | Salinan di repo | Baris `D_Register_Sumber` | Catatan untuk Claude |
+| --- | --- | --- | --- |
+| `s13021-025-00344-x.pdf` | [Rossita dan Boer (2025), biaya mitigasi LUCF](4.pdf) | 543 sampai 635 | Salinan publikasi yang sama; DOI 10.1186/s13021-025-00344-x |
+| `pnas.202307219.pdf` | [Murdiyarso dkk., faktor emisi gambut dan mangrove](sources/2024_PNAS_Faktor-Emisi-Gambut-dan-Mangrove.pdf) | 636 sampai 663 | Gunakan fluks, stok dan jenis tutupan sesuai satuan asli |
+| `Cost Co Firing Biomass.pdf` | [CREA, Co-firing biomassa di Indonesia](sources/2025_CREA_Co-firing-Biomassa-di-Indonesia.pdf) | 702 sampai 728 | Nama unggahan “Cost Co Firing Biomass” merujuk laporan CREA 30 Mei 2025 |
+| `forests-15-02198.pdf` | [Hermudananto dkk., potensi RIL-C](sources/2024_Forests_Reduced-Impact-Logging-Indonesia.pdf) | 664 sampai 679 | DOI 10.3390/f15122198; potensi eksternal |
+| `Rencana Operasional FOLU Net Sink 2030 (1).pdf` | [KLHK, Renops FOLU Net Sink 2030](sources/2022_KLHK_Renops-FOLU-Net-Sink-2030.pdf) | 6 sampai 33 | Keputusan 168/Menlhk/PKTL/PLA.1/2/2022; juga cocokkan D_FOLU_Tabel_Mentah |
+| `Early retirement of coal fired power plants in Indonesia A comprehensive analysis of emissions and population impact.pdf` | [Fadiilah dan Dye, pensiun dini PLTU](sources/2026_Fadiilah-Dye_Pensiun-Dini-PLTU.pdf) | 34 sampai 85 | DOI 10.1016/j.teadva.2026.200145; peringkat stasiun, bukan biaya per unit |
+| `Jakarta Transportation Transformation.pdf` | [Greenpeace dan RDI, transformasi transportasi Jakarta](sources/2023_Greenpeace-RDI_Jakarta-Transportation-Transformation.pdf) | 680 sampai 701 | Versi bahasa Inggris, Desember 2023; cakupan Jakarta |
+| `1-s2.0-S2666278725000297-main.pdf` | [Utama dkk. (2025), industri dengan TIMES](3.pdf) | 86 sampai 137 | Salinan publikasi yang sama; DOI 10.1016/j.egycc.2025.100202 |
+| `Solar_power_plant_in_Indonesia_economic_policy_and.pdf` | [Sijabat dan Mostavan, tantangan PLTS](sources/2021_Sijabat-Mostavan_Solar-Power-Plant-Indonesia.pdf) | 277 sampai 299 | DOI 10.1088/1755-1315/753/1/012003; asumsi historis |
+| `Energy and emission changes in industrial sectors  evidence from Indonesia.pdf` | [Zain dkk., energi dan emisi industri](sources/2025_Zain-dkk_Energy-and-Emission-Changes-Industry.pdf) | 185 sampai 276 | DOI 10.1080/15567249.2025.2532161; HEIO dan dekomposisi, bukan biaya teknologi |
+| `1-s2.0-S036054422403161X-main.pdf` | [Zahari dan McLellan, skenario transportasi ASI](sources/2024_Zahari-McLellan_Low-Carbon-Transport-Indonesia.pdf) | 138 sampai 184 | Energy 311, 133385; pertahankan skenario dan periode |
+| `IEEFA Report_Rethinking Indonesia's electricity economics to reach the 100GW solar target_August 2026.pdf` | [IEEFA, ekonomi listrik untuk sasaran surya 100 GW](sources/2026_IEEFA_Ekonomi-Listrik-Target-Surya-100-GW.pdf) | 300 sampai 359 | Agustus 2026; Appendix II untuk asumsi biaya dan faktor kapasitas |
+| `Switching from LPG to electricity in Indonesia  a study in the Java Bali grid.pdf` | [Hilmiyati-Mas’adah dkk., peralihan LPG ke listrik](sources/2024_Hilmiyati-Masadah-dkk_LPG-to-Electricity-Java-Bali.pdf) | 406 sampai 425 | DOI 10.1080/23311975.2023.2298221; cakupan Jawa-Bali |
+| `Decarbonisation_Thermal_CCS_in_Indonesia.pdf` | [ERIA, studi kelayakan CCS pembangkit termal](sources/2025_ERIA_Kelayakan-CCS-Pembangkit-Termal-Indonesia.pdf) | 360 sampai 405 | Research Report FY2024 No. 33, terbit Februari 2025; cocokkan skenario transportasi dan kapasitas |
+| `4.+277-Clean+Cooking+and+the+Rice+Cooker+Programme+An+Evaluation+and+Policy+Perspective+-+Clean+Ver+iin.pdf` | [Suntoro dkk., evaluasi program penanak nasi](sources/2025_Suntoro-dkk_Rice-Cooker-Programme.pdf) | 426 sampai 445 | DOI 10.33116/ije.v8i2.277; pisahkan hasil rumah tangga dan skala nasional |
+
+## Pengecekan yang sekarang bisa dilakukan dari PDF asli
+
+- **Renops FOLU.** Ringkasan eksekutif menyatakan sekitar **90.000 ha ekosistem mangrove** berada di dalam luas rehabilitasi tanpa rotasi. Gunakan keterangan ini untuk cek tumpang tindih. Tabel 15 memang berjudul IPL 7, 8 dan 9 **2021 sampai 2024**, sehingga perbedaan label periode dengan ringkasan BRIN tetap perlu direkonsiliasi. Tabel 145 dan 146 (hlm. 151 dan 153) mengonfirmasi pasangan **728.000 ha** dan **Rp4,78 triliun** untuk restorasi gambut pada blok 2025 sampai 2030. Rasio tersebut mengukur kebutuhan program per hektare rencana. [Renops KLHK](sources/2022_KLHK_Renops-FOLU-Net-Sink-2030.pdf)
+- **Gambut dan RIL-C.** Murdiyarso dkk. menyebut **24,8 ± 2,6 MgCO2/ha/tahun** sebagai respirasi heterotrofik di lokasi yang dibasahi kembali. Hermudananto dkk. memperoleh **14,47 TgCO2/tahun** dengan mengekstrapolasi potensi adopsi penuh RIL dari data produksi kayu 2018 sampai 2021. Simpan dua indikator sesuai definisinya. Potensi RIL-C memiliki skenario eksternal dan belum dapat ditambahkan ke CM1 atau CM2. [Murdiyarso dkk.](sources/2024_PNAS_Faktor-Emisi-Gambut-dan-Mangrove.pdf) · [Hermudananto dkk.](sources/2024_Forests_Reduced-Impact-Logging-Indonesia.pdf)
+- **CCS dan pensiun PLTU.** ERIA Tabel 5.11 dan 5.12 mendukung **USD 63,7/tCO2** untuk jalur kapal dan **USD 72,4/tCO2** untuk jalur pipa pada kapasitas **13 MtCO2 tertangkap/tahun**. Angka **USD 92,6/tCO2** berasal dari skenario pipa **6,5 Mt/tahun**. Tabel 4.17 menguraikan komponen penalti energi. Untuk opsi yang memakai listrik dan uap dari unit sendiri, dampak pada daya neto masih ditunda ke tahap berikutnya. Fadiilah dan Dye Tabel 3 mencatat **24,01 MtCO2** untuk stasiun Tanjung Jati B, sehingga cocokkan batas unit dan asumsi operasi sebelum menggabungkan manfaat pensiun dengan CCS. [ERIA](sources/2025_ERIA_Kelayakan-CCS-Pembangkit-Termal-Indonesia.pdf) · [Fadiilah dan Dye](sources/2026_Fadiilah-Dye_Pensiun-Dini-PLTU.pdf)
+
+Claude dapat menautkan lokasi PDF di atas ke entri yang sudah ada dan mencatat perbaikan cakupan atau satuan pada baris asal. Tambahkan baris hanya ketika PDF memberikan indikator, skenario, tahun, atau wilayah yang belum tercatat. Dokumen dan data sumber ini tersimpan di checkout. Workbook induk belum diubah.
