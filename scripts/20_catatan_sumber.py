@@ -44,6 +44,7 @@ C=[
 ('Jakarta Transportation',('Laporan LSM','WP-I','A','Greenpeace dan RDI 2023: transformasi transportasi Jakarta, faktor emisi jaringan.')),
 ('Optimization_of_Electricity',('Model LEAP','WP-K','A','Nursidik dkk. 2025: optimasi skenario transisi listrik NZE 2060, LEAP.')),
 ('Optimizing power sector',('Model kebijakan','WP-K','A','Sunanda dkk. 2026 (MISCAP): dekarbonisasi sektor listrik, kerangka kebijakan terpadu.')),
+('2026_Sunanda',('Studi model','WP-K','A','Salinan unggahan main dari Sunanda dkk. 2026 (MISCAP); isi teks identik dengan berkas Optimizing power sector decarbonization (byte berbeda). Butir register dicatat pada berkas asli.')),
 ('PaperAndrew',('Makalah konferensi','WP-A/D','A','Salinan Cahyo dkk. (nama berbeda).')),
 ('spesifikasi-b40',('Dokumen resmi','WP-I','A','SK Dirjen Migas 384.K/2024 dan Kepmen ESDM 341.K/2024: spesifikasi biosolar B40.')),
 ('2024_Amalia',('Ulasan hukum','WP-K','B','Amalia dkk. 2024: kerangka hukum dan kebijakan listrik menuju NZE; mengutip Perpres 112/2022 (pengecualian PLTU). Konteks, tanpa angka tercatat.')),

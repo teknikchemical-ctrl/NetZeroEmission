@@ -1,94 +1,53 @@
 no,dokumen,bagian,butir,nilai,satuan,catatan
-538,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Abstrak,Rentang biaya mitigasi LUCF per hektar,10 sampai hampir 3.200,USD per ha,"Termasuk biaya tidak langsung dan transaksi formal; model COMAP, diskonto dasar 5 persen"
-539,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)","Hasil, Gambar 2","Total investasi dan biaya siklus hidup target tanpa syarat (CM1), 2013-2030",11.229 / 34.280,juta USD,"Satu siklus sampai 2030; 53 persen swasta, 47 persen anggaran negara"
-540,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Hasil,Biaya siklus hidup tahunan CM1,1904,juta USD per tahun,Sekitar 1 persen PDB 2019
-541,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Hasil,Estimasi sebelumnya untuk target tanpa syarat (rujukan 3 makalah),5557,juta USD,Makalah menyebut estimasi lama terlalu rendah karena tanpa biaya tidak langsung dan transaksi
-542,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Hasil,Tambahan skenario CM2 (dana internasional): investasi / siklus hidup,2.969 / 6.393,juta USD,Di atas CM1
-543,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Pembahasan,Tambahan anggaran restorasi gambut: CM1 / CM2,536 / 1.198,juta USD,Selain dana yang sudah ada
-544,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Pembahasan,Kebutuhan pendanaan BRG restorasi gambut sampai 2020,"10.600 (setara 672; diterima dari luar negeri 111,57)",miliar IDR (juta USD),"BRG; 2022-2023 tambahan Rp94 miliar dari APBN, belum termasuk dukungan internasional"
-545,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Pembahasan,Realisasi restorasi gambut 2018,10 persen dari area kumulatif 2030,persen,Laju realisasi jauh di bawah target
-546,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Pembahasan,Konsesi HTI yang benar-benar tertanam akhir 2017,14,persen,Sisanya sebagian besar lahan tidak produktif
-547,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Sensitivitas diskonto plus minus 1 sampai 2 poin dari 5 persen,CM1 14-41 persen; CM2 13-39 persen,perubahan total biaya,Diskonto lebih tinggi menurunkan biaya; penulis menyarankan biaya dibaca sebagai rentang
-548,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)","Hasil, Gambar 1",Porsi biaya tidak langsung / transaksi pada biaya siklus hidup swasta,10-43 persen (65-1.344 USD per ha) / 4-19 persen (96-101 USD per ha),persen,Kesimpulan menulis 10-42 persen: selisih satu poin di dalam makalah
-549,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 2,Lahan tersedia 2013: hutan gambut / lahan terdegradasi gambut,6.553.694 / 3.722.145,ha,Dari data KLHK
-550,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 2,Lahan tersedia 2013: hutan mineral / lahan terdegradasi mineral,84.854.567 / 26.215.795,ha,Sekitar 50 persen hutan mineral adalah hutan primer (target proteksi)
-551,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 3,Target NDC reforestasi lahan terdegradasi kumulatif 2030 (tanpa syarat),10.6,juta ha,Survival swasta 100 persen; masyarakat 55 / 60 / 68 persen (BAU / CM1 / CM2)
-552,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 3,Target rehabilitasi lahan terdegradasi 2030: CM1 / CM2,"2,9 / 4,8",juta ha,Survival mineral 22 / 27 / 32 persen; gambut 90 persen
-553,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 3,Deforestasi kumulatif 2013-2030: CM1 / CM2,"7,2 / 4,15",juta ha,"Tabel 4 memberi 7,310 + 0,988 = 8,298 juta ha untuk aksi CM1: tidak cocok dengan 7,2"
-554,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 3,Degradasi hutan kumulatif 2013-2030: CM1 / CM2,"kurang dari 7,649 / kurang dari 4,603",juta ha,
-555,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 3,Target NDC RIL dan ENR 2030,RIL 54 persen konsesi; ENR 54 persen area non-konsesi,persen,Tanpa syarat
-556,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 3,Pembagian pelaku,"Rehab mineral 40 persen swasta, 60 persen masyarakat; restorasi gambut 30 / 70; tata air gambut 90 / 10; reforestasi swasta 60 persen rotasi pendek, 40 persen panjang",persen,Tata air gambut swasta: 70 persen kelapa sawit
-557,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Stok karbon dasar: semak kering / padang rumput / lahan terbuka,"29,9 / 7,2 / 6,5",tC per ha,Rujukan 20-29
-558,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Emisi tanah gambut dasar sebelum pembasahan,"13,91 / 9,55 / 13,91 (lahan kering, pertanian campur, padang rumput atau lahan terbuka)",tC per ha per tahun,Tiga nilai untuk empat tutupan: pemetaan nilai ke tutupan di makalah tidak jelas
-559,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Emisi tanah gambut setelah pembasahan (blokade kanal),1.5,tC per ha per tahun,"Setara 5,5 tCO2 per ha per tahun; rujukan 31"
-560,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Emisi tanah semak kering dan semak basah gambut,"5,18 (stok 26,7 tC per ha)",tC per ha per tahun,Rehabilitasi gambut swasta
-561,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,ENR gambut tergenang: emisi hutan terdegradasi turun dari / ke,"5,3 / 1,5",tC per ha per tahun,
-562,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Biomassa hutan mineral primer / sekunder,"266,0 / 197,7",t biomassa per ha,"Rujukan 38; FRL kedua melaporkan 375,70 / 263,29 t bahan kering total (K112)"
-563,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Biomassa hutan gambut primer / sekunder,"192,7 / 159,3",t biomassa per ha,
-564,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Kehilangan karbon tanah tahunan: deforestasi gambut / degradasi gambut,"13,86 / 5,18",tC per ha per tahun,"Setara 50,8 / 19,0 tCO2 per ha per tahun"
-565,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Muka air tanah dasar dan mitigasi,"Akasia 70 cm, sawit 65 cm, karet 60 cm; menjadi 40 cm (karet 20 cm)",cm,Permen LHK P.16/2017 mewajibkan 40 cm
-566,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Pembahasan,Waktu pemulihan fungsi karbon gambut,paling sedikit 60,tahun,Rujukan 64
-567,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Metode,Mitigasi RIL: kondisi dasar,"Penebangan konvensional; data proyek RIL Karya Lestari, Kalimantan Timur",,Hanya satu konsesi sebagai sumber biaya RIL
-568,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,Luas aksi (ribu ha) baseline / CM1 / CM2: total,25.902 / 66.118 / 75.448,ribu ha,"Jumlah baris yang dihitung ulang: 25.902 / 66.119 / 75.441 (selisih pembulatan, CM2 selisih 7)"
-569,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,Luas reforestasi mineral swasta (pendek + panjang): CM1,3.456 + 2.304,ribu ha,Masyarakat CM1: 2.562 + 1.708; CM2: 2.065 + 1.377
-570,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,"Luas reforestasi gambut paludikultur masyarakat (sagu, meranti, jelutung): CM1 / CM2",287+115+172 / 458+183+275,ribu ha,
-571,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,Luas tata air gambut (empat baris): CM1 / CM2,378+76+176+1.027 = 1.657 / 622+124+290+691 = 1.727,ribu ha,Renops Tabel S1: 946.050 ha (K105)
-572,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,Luas rehabilitasi mineral (empat baris): CM1 / CM2,874+291+349+1.398 = 2.912 / 1.453+484+581+2.325 = 4.843,ribu ha,"Cocok dengan target NDC 2,9 / 4,8 juta ha"
-573,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,Luas restorasi gambut (empat baris): CM1 / CM2,699+233+248+994 = 2.174 / 1.243+414+442+1.768 = 3.867,ribu ha,Renops: 2.447 (LCCP) dan 2.725 (Tabel S1) (K104)
-574,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,"Luas ENR mineral / gambut: baseline, CM1, CM2",8.049 / 13.865 / 13.865; 622 / 1.071 / 1.071,ribu ha,
-575,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,"Luas RIL: baseline, CM1, CM2",8.725 / 15.030 / 15.030,ribu ha,
-576,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,"Luas hutan dihindarkan dari degradasi mineral / gambut: CM1, CM2",9.334 / 1.174; 12.340 / 1.220,ribu ha,
-577,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 4,"Luas hutan dihindarkan dari deforestasi mineral / gambut: CM1, CM2",7.310 / 988; 10.376 / 984,ribu ha,
-578,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 1 Reforestasi mineral swasta, rotasi pendek: langsung / plus tidak langsung / plus transaksi","948,80 (79,21) / 980,58 (81,88) / 983,66 (82,14)",USD per ha (USD per tC),"Satuan USD per tC, bukan per tCO2; kalikan 12/44 untuk USD per tCO2"
-579,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 1 Reforestasi mineral swasta, rotasi pendek: langsung / plus tidak langsung / plus transaksi","1.690,30 (144,31) / 3.034,50 (255,87) / 3.136,37 (264,22)",USD per ha (USD per tC),
-580,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 2 Reforestasi mineral swasta, rotasi panjang: langsung / plus tidak langsung / plus transaksi","423,24 (4,91) / 434,41 (5,04) / 437,11 (5,07)",USD per ha (USD per tC),
-581,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 2 Reforestasi mineral swasta, rotasi panjang: langsung / plus tidak langsung / plus transaksi","1.710,02 (19,27) / 2.897,91 (32,80) / 2.997,70 (33,95)",USD per ha (USD per tC),
-582,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 3 Reforestasi mineral masyarakat, rotasi pendek: langsung / plus tidak langsung / plus transaksi","226,58 (70,88)",USD per ha (USD per tC),
-583,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 3 Reforestasi mineral masyarakat, rotasi pendek: langsung / plus tidak langsung / plus transaksi","339,28 (99,21) / 429,21 (121,16)",USD per ha (USD per tC),
-584,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 4 Reforestasi mineral masyarakat, rotasi panjang: langsung / plus tidak langsung / plus transaksi","76,98 (1,44)",USD per ha (USD per tC),
-585,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 4 Reforestasi mineral masyarakat, rotasi panjang: langsung / plus tidak langsung / plus transaksi","124,70 (2,32) / 214,63 (4,01)",USD per ha (USD per tC),
-586,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 5 Reforestasi gambut paludikultur masyarakat, sagu: langsung / plus tidak langsung / plus transaksi","494,14 (0,93)",USD per ha (USD per tC),
-587,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 5 Reforestasi gambut paludikultur masyarakat, sagu: langsung / plus tidak langsung / plus transaksi","546,29 (1,03) / 636,22 (1,20)",USD per ha (USD per tC),
-588,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 6 Reforestasi gambut paludikultur masyarakat, meranti: langsung / plus tidak langsung / plus transaksi","456,97 (0,83)",USD per ha (USD per tC),
-589,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 6 Reforestasi gambut paludikultur masyarakat, meranti: langsung / plus tidak langsung / plus transaksi","445,84 (0,81) / 535,76 (0,97)",USD per ha (USD per tC),
-590,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 7 Reforestasi gambut paludikultur masyarakat, jelutung: langsung / plus tidak langsung / plus transaksi","429,49 (0,76)",USD per ha (USD per tC),
-591,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 7 Reforestasi gambut paludikultur masyarakat, jelutung: langsung / plus tidak langsung / plus transaksi","422,61 (0,75) / 512,54 (0,91)",USD per ha (USD per tC),
-592,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 8 Tata air gambut swasta, akasia: langsung / plus tidak langsung / plus transaksi",0 (0),USD per ha (USD per tC),
-593,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 8 Tata air gambut swasta, akasia: langsung / plus tidak langsung / plus transaksi","10,04 (0,33)",USD per ha (USD per tC),
-594,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 9 Tata air gambut swasta, karet: langsung / plus tidak langsung / plus transaksi",0 (0),USD per ha (USD per tC),
-595,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 9 Tata air gambut swasta, karet: langsung / plus tidak langsung / plus transaksi","10,04 (0,05)",USD per ha (USD per tC),
-596,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 10 Tata air gambut masyarakat, karet: langsung / plus tidak langsung / plus transaksi","45,29 (0,23)",USD per ha (USD per tC),
-597,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 10 Tata air gambut masyarakat, karet: langsung / plus tidak langsung / plus transaksi","48,31 (0,24)",USD per ha (USD per tC),
-598,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 11 Tata air gambut swasta, sawit: langsung / plus tidak langsung / plus transaksi",0 (0),USD per ha (USD per tC),
-599,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 11 Tata air gambut swasta, sawit: langsung / plus tidak langsung / plus transaksi","10,04 (0,10)",USD per ha (USD per tC),
-600,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 12 Rehabilitasi mineral swasta, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","179,67 (10,33) / 179,67 (10,33) / 182,56 (10,49)",USD per ha (USD per tC),
-601,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 12 Rehabilitasi mineral swasta, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","288,06 (17,40) / 413,77 (25,03) / 510,23 (30,52)",USD per ha (USD per tC),
-602,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 13 Rehabilitasi mineral swasta, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","252,81 (2,40) / 252,81 (2,40) / 256,27 (2,43)",USD per ha (USD per tC),
-603,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 13 Rehabilitasi mineral swasta, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","1.267,87 (12,04) / 1.442,80 (13,70) / 1.572,98 (14,94)",USD per ha (USD per tC),
-604,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 14 Rehabilitasi mineral masyarakat, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","66,12 (13,44)",USD per ha (USD per tC),
-605,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 14 Rehabilitasi mineral masyarakat, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","81,30 (15,64)",USD per ha (USD per tC),
-606,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 15 Rehabilitasi mineral masyarakat, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","46,58 (0,71)",USD per ha (USD per tC),
-607,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 15 Rehabilitasi mineral masyarakat, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","64,80 (0,98)",USD per ha (USD per tC),
-608,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 16 Restorasi gambut swasta, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","482,67 (2,11) / 487,86 (2,13) / 489,80 (2,14)",USD per ha (USD per tC),
-609,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 16 Restorasi gambut swasta, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","449,29 (1,96) / 514,85 (2,25) / 584,24 (2,55)",USD per ha (USD per tC),
-610,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 17 Restorasi gambut swasta, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","562,55 (2,04) / 567,73 (2,06) / 569,68 (2,07)",USD per ha (USD per tC),
-611,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 17 Restorasi gambut swasta, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","535,10 (1,94) / 600,66 (2,18) / 670,06 (2,43)",USD per ha (USD per tC),
-612,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 18 Restorasi gambut masyarakat, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","395,03 (1,82)",USD per ha (USD per tC),
-613,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 18 Restorasi gambut masyarakat, tumbuh cepat: langsung / plus tidak langsung / plus transaksi","359,19 (1,66)",USD per ha (USD per tC),
-614,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 19 Restorasi gambut masyarakat, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","418,94 (1,67)",USD per ha (USD per tC),
-615,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 19 Restorasi gambut masyarakat, tumbuh lambat: langsung / plus tidak langsung / plus transaksi","379,40 (1,51)",USD per ha (USD per tC),
-616,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 20 ENR mineral: langsung / plus tidak langsung / plus transaksi","235,92 (8,12)",USD per ha (USD per tC),
-617,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 20 ENR mineral: langsung / plus tidak langsung / plus transaksi","285,55 (9,82) / 381,17 (13,11)",USD per ha (USD per tC),
-618,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 21 ENR gambut: langsung / plus tidak langsung / plus transaksi","627,36 (3,87)",USD per ha (USD per tC),
-619,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 21 ENR gambut: langsung / plus tidak langsung / plus transaksi","628,92 (3,88) / 724,54 (4,47)",USD per ha (USD per tC),
-620,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 22 RIL: langsung / plus tidak langsung / plus transaksi","16,27 (0,31)",USD per ha (USD per tC),
-621,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 22 RIL: langsung / plus tidak langsung / plus transaksi","38,69 (0,73)",USD per ha (USD per tC),
-622,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 23 Hutan dihindarkan dari degradasi, mineral: langsung / plus tidak langsung / plus transaksi","300,17 (2,38)",USD per ha (USD per tC),
-623,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 23 Hutan dihindarkan dari degradasi, mineral: langsung / plus tidak langsung / plus transaksi","772,48 (6,13)",USD per ha (USD per tC),Baris 23 sampai 26 adalah rata-rata CM1 dan CM2
-624,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 24 Hutan dihindarkan dari degradasi, gambut: langsung / plus tidak langsung / plus transaksi","300,17 (0,21)",USD per ha (USD per tC),
-625,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 24 Hutan dihindarkan dari degradasi, gambut: langsung / plus tidak langsung / plus transaksi","1.019,46 (0,71)",USD per ha (USD per tC),
-626,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 25 Hutan dihindarkan dari deforestasi, mineral: langsung / plus tidak langsung / plus transaksi","300,17 (3,77)",USD per ha (USD per tC),
-627,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 25 Hutan dihindarkan dari deforestasi, mineral: langsung / plus tidak langsung / plus transaksi","817,33 (10,25)",USD per ha (USD per tC),
-628,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 5,"Investasi, 26 Hutan dihindarkan dari deforestasi, gambut: langsung / plus tidak langsung / plus transaksi","300,17 (0,31)",USD per ha (USD per tC),
-629,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,"Siklus hidup, 26 Hutan dihindarkan dari deforestasi, gambut: langsung / plus tidak langsung / plus transaksi","1.046,79 (1,09)",USD per ha (USD per tC),
-630,"Biaya LUCF menuju NDC (Rossita dan Boer 2025, Carbon Balance and Management 20:56)",Tabel 6,Catatan tabel: tanda strip berarti komponen biaya tidak ada,-,,Baris 18 pada kolom transaksi tertulis kosong tanpa strip: salah ketik
+81,TIMES industry (Utama et al. 2025),Abstract,NZEA emissions 2060,466 to 56,MtCO2e,"EE 8%, new/renewable energy 37%, CCUS 33%"
+82,TIMES industry (Utama et al. 2025),3.5,NZER emissions 2060,466 to 95,MtCO2e,"EE 9%, RE 12%, CCS 69%"
+83,TIMES industry (Utama et al. 2025),Abstract,Production cost increase NZEA (cement/steel/paper/petrochem),138 / 58 / 2 / 90,% vs BAU,petrochem = abstract headline
+84,TIMES industry (Utama et al. 2025),3.1,Cement cost increase NZER / NZEA,108 / 138,% vs BAU 2060,
+85,TIMES industry (Utama et al. 2025),3.1,Cement 2060 output NZEA,186,Mt,
+86,TIMES industry (Utama et al. 2025),3.1,Hydrogen need cement NZEA,327,PJ/yr,needs 98 GW PV
+87,TIMES industry (Utama et al. 2025),3.1,Land for 964 kt/yr cement plant with PV hydrogen,24,km2,
+88,TIMES industry (Utama et al. 2025),3.1,Biomass/AF thermal substitution 2023 / cap,9.1 / 14,%,chlorine limit
+89,TIMES industry (Utama et al. 2025),3.2,Steel cost increase NZER / NZEA,30 / 58,% vs BAU 2060,NZER keeps 2% conventional; NZEA 40% DRI-EAF + CCS
+90,TIMES industry (Utama et al. 2025),3.2,Steel direct cost impact,52,%,capex and energy only 35% of total
+91,TIMES industry (Utama et al. 2025),3.2,Scrap use Indonesia 2020 / IEA 2050,40 / 46,%,
+92,TIMES industry (Utama et al. 2025),3.3,Paper biomass boiler penetration NZER / NZEA,71 / 95,% by 2060,cost +2%
+93,TIMES industry (Utama et al. 2025),3.4,Ammonia cost increase,46,% 2060,electrolysis on hydropower
+94,TIMES industry (Utama et al. 2025),3.4,Ammonia plant ref,15 t/h; PEM efficiency 70.5% (2050); 155 MW hydro,,
+95,TIMES industry (Utama et al. 2025),3.4,Ammonia 2060 electrolysis output,40.3 Mt; 40.4 GW hydro needed,,hydro potential 75 GW; 12 GW needed for RE100
+96,TIMES industry (Utama et al. 2025),3.4,"Alt: 1 GW solar + 7.4 GWh battery, 1.9 km2",,,for the 15 t/h plant
+97,TIMES industry (Utama et al. 2025),3.4,Inalum dedicated hydro,603,MW,
+98,TIMES industry (Utama et al. 2025),3.4,CCS cost sensitivity,if CCS cost -50% then SMR+CCS beats electrolysis,,
+99,TIMES industry (Utama et al. 2025),3.4,Methanol cost increase NZER / NZEA,9 / 54,% vs BAU,NZER 12% biomass gasification; NZEA 28% biomass + 31% electrolysis
+100,TIMES industry (Utama et al. 2025),3.4,Methanol plant ref,500 t/d needs 264 MW biomass,,biomass potential 272-466 MW
+101,TIMES industry (Utama et al. 2025),3.4,Olefin MTO penetration NZER / NZEA,65 / 71,%,
+102,TIMES industry (Utama et al. 2025),3.4,Olefin cost increase NZER / NZEA,80 / 144,% vs BAU,abstract reports 90% petrochem; source conflict
+103,TIMES industry (Utama et al. 2025),3.6,Cumulative capex increase 2020-2060 NZER / NZEA,41 / 53,% vs BAU,"no incremental capex before 2030 (Fig.10, chart read)"
+104,TIMES industry (Utama et al. 2025),3.6,Methanol capex,4x NZER; 8x NZEA,,
+105,TIMES industry (Utama et al. 2025),3.6,Steel capex,about 2x,,BF-BOF to DRI-EAF
+106,TIMES industry (Utama et al. 2025),3.6,Clinker ratio effect,25% lower ratio = 16% lower footprint,,
+107,TIMES industry (Utama et al. 2025),3.5,CCS storage potential Indonesia,12,Gt CO2,depleted fields and saline aquifers; industry needs 0.3 Gt
+108,TIMES industry (Utama et al. 2025),3.1,PV potential Indonesia,1101,GW,
+109,TIMES industry (Utama et al. 2025),3.1,Solar needed for RE100 power,211 GW by 2050,,
+110,TIMES industry (Utama et al. 2025),2.1,Sectors covered,"cement, iron and steel, pulp and paper, ammonia, methanol, olefin",,60% of energy and 80% of process emissions of industry
+111,TIMES industry (Utama et al. 2025),2.1,Model,TIMES greenfield; single region; base year 2020; to 2060,,
+112,TIMES industry (Utama et al. 2025),2.3,NZE target,IEA roadmap 2050 delayed 10 years to 2060,,
+113,TIMES industry (Utama et al. 2025),Tab.1,"Cement clinker ratio BAU/NZER/NZEA 2020,2040,2060","82,82,82 / 82,65,57 / 82,65,57",%,
+114,TIMES industry (Utama et al. 2025),Tab.1,"Cement efficiency improvement BAU 2040,2060","5, 7",%,"NZER/NZEA 10, 21"
+115,TIMES industry (Utama et al. 2025),Tab.1,Cement carbon intensity BAU,"702, 691, 685",kgCO2e/t,"NZER 702, 582, 342; NZEA 702, 479, 33"
+116,TIMES industry (Utama et al. 2025),Tab.1,Steel carbon intensity BAU,"1994, 1930, 1801",kgCO2e/t,"NZER 1994, 1366, 210; NZEA 1994, 1332, 110"
+117,TIMES industry (Utama et al. 2025),Tab.1,Steel efficiency BAU/NZ,"2,4 / 12,24",%,
+118,TIMES industry (Utama et al. 2025),Tab.1,Paper carbon intensity BAU,"618, 600, 518",kgCO2e/t,"NZER 618, 458, 138; NZEA 618, 419, 21"
+119,TIMES industry (Utama et al. 2025),Tab.1,Paper efficiency BAU/NZ,"3,6 / 8,16",%,
+120,TIMES industry (Utama et al. 2025),Tab.1,Ammonia carbon intensity BAU,"1805, 1795, 1784",kgCO2e/t,"NZER 1805, 1290, 259; NZEA 1805, 1227, 72"
+121,TIMES industry (Utama et al. 2025),Tab.1,Ammonia efficiency BAU/NZ,"0.6,1.2 / 13,27",%,
+122,TIMES industry (Utama et al. 2025),Tab.1,Methanol carbon intensity BAU,"183, 183, 183",kgCO2e/t,"NZER 183, 130, 24; NZEA 183, -109, -695"
+123,TIMES industry (Utama et al. 2025),Tab.1,Methanol efficiency NZ,"0.5, 1",%,
+124,TIMES industry (Utama et al. 2025),Tab.1,Olefin carbon intensity BAU,"900, 891, 867",kgCO2e/t,"NZER 900, 701, 304; NZEA 900, 684, 253"
+125,TIMES industry (Utama et al. 2025),Tab.1,Olefin efficiency NZ,"20, 40",%,
+126,TIMES industry (Utama et al. 2025),5,Policy facts,"OJK green taxonomy for industry expected 2027; no sectoral industry caps, assessments by 2030",,
+127,TIMES industry (Utama et al. 2025),3.6,US industrial funding ref,USD 50 bn,,hydrogen and CCS credits
+128,TIMES industry (Utama et al. 2025),4,Fossil energy replaced by biomass and hydrogen (NZEA),62,%,
+129,TIMES industry (Utama et al. 2025),4,Cost increase list conclusion,cement 138; steel 58; paper 2; ammonia 46; methanol 54; olefin 114,% vs BAU,olefin 114 here vs 144 in 3.4 vs 90 in abstract; source conflict
+130,TIMES industry (Utama et al. 2025),4,Industry share of LTS-LCCR reductions,26,%,even in the most ambitious case
+131,TIMES industry (Utama et al. 2025),3.7,Ammonia CO2 stored if CCS cheap,57,Mt CO2,electrolysis not selected; lock-in risk
+132,TIMES industry (Utama et al. 2025),Fig.10,Incremental capital intensity (derived from chart read),about 873,USD per tCO2/yr,"approx., chart-read; Appendix A technical data not in the PDF"

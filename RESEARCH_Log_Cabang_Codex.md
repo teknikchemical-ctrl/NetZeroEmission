@@ -63,7 +63,7 @@ Temuan baru:
 6. Data padanan RUPTL-GEM menunjukkan Sumsel-1 600 MW (RUPTL) dibanding 700 MW (GEM) dan Sumut-1 ditangguhkan; berguna untuk garis dasar (B_Garis_Pembangunan), belum diproses lebih lanjut.
 
 ## 9. Pengembangan lembar data dan catatan per sumber (24 November 2026)
-- **Induk sumber** (`D_Sumber`, Lembar 129): 85 sumber (83 berkas dan 2 sumber tanpa berkas), kedalaman baca A 45, B 23, C 17, 2 berkas duplikat isi. Catatan per sumber di `notes/sumber`, data register per sumber di `data/per_sumber` (lihat `notes/README.md`).
+- **Induk sumber** (`D_Sumber`, Lembar 129): 86 sumber (84 berkas dan 2 sumber tanpa berkas), kedalaman baca A 46, B 23, C 17, 2 berkas duplikat isi. Catatan per sumber di `notes/sumber`, data register per sumber di `data/per_sumber` (lihat `notes/README.md`).
 - **Data terstruktur** (`D_Data_Struktur`, Lembar 130): 548 angka satu per baris (Squire, OWID, ETP 32 aset, pipeline EBT RUPTL menurut jenis dan tahun COD, PLN, titik pembanding studi lain). Pemecahan 897 butir register yang masih bercampur dilakukan bertahap.
 - **Grafik** (`G_Data_Sumber`, Lembar 131): 13 grafik garis berlabel: skenario co-firing dan pengurangannya terhadap BAU (berarsir), jalur ARED PLN, emisi dan realisasi pengurangan PLN, pembangkitan dan intensitas listrik nasional, produksi dan konsumsi migas, kompensasi pensiun ETP, tambahan kapasitas terbarukan RUPTL (RE Base dan ARED, berarsir; menurut teknologi), dan pembanding jalur emisi listrik antar studi.
 - **Temuan baru K163:** pipeline proyek RUPTL memberi PLTS 4.679 MW (RE Base) dan 7.912 MW (ARED) pada 2025 sampai 2030, sedangkan agregat tercatat tim 2.596 dan 5.046 MW; perlu ditelusuri.
