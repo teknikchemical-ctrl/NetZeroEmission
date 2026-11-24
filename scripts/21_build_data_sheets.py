@@ -13,12 +13,12 @@ COLS=['2E75B6','C00000','2E7D32','7030A0','BF8F00','00838F','7F7F7F','E36C09']
 def D_Sumber():
     sh=Sheet('D_Sumber','FF7F7F7F'); n=len(INV)
     sh.t('A1','Lembar 129. Induk sumber: setiap berkas (PDF, CSV) dan sumber tanpa berkas, dengan jenis, kedalaman baca, jumlah butir tercatat, dan jalur catatan serta data','title')
-    sh.t('A2','Satu baris per sumber. Kedalaman baca: A angka diverifikasi pada sumber; B abstrak dan kesimpulan ditinjau dan ringkasan tim; C diarsip, konteks dari ringkasan tim. Catatan per sumber ada di notes/sumber, data register per sumber di data/per_sumber. Berkas duplikat isi ditandai.','note')
+    sh.t('A2','Satu baris per sumber. Kedalaman baca: A angka diverifikasi pada sumber; B abstrak, kesimpulan, dan kalimat berangka dibaca (bagian lain belum); C diarsip tanpa pembacaan. Catatan per sumber ada di notes/sumber, data register per sumber di data/per_sumber. Berkas duplikat isi ditandai.','note')
     r0=11; r1=r0+n-1
     sh.f('A3',f'"Temuan utama: "&COUNTA(B{r0}:B{r1})&" sumber; kedalaman A "&COUNTIF(G{r0}:G{r1},"A")&", B "&COUNTIF(G{r0}:G{r1},"B")&", C "&COUNTIF(G{r0}:G{r1},"C")&"; "&COUNTIF(I{r0}:I{r1},"S*")&" berkas duplikat isi."','txt')
     sh.t('B5','Tabel 129.A. Ringkasan menurut kedalaman baca','tbl')
     for c,t in zip('BCD',['Kedalaman','Jumlah sumber','Arti']): sh.t(f'{c}6',t,'hdr')
-    for i,(k,a) in enumerate([('A','Angka diverifikasi pada PDF atau CSV'),('B','Abstrak dan kesimpulan ditinjau; angka dicatat sebagian'),('C','Diarsip; konteks dari ringkasan tim atau tanpa berkas')]):
+    for i,(k,a) in enumerate([('A','Angka diverifikasi pada PDF atau CSV'),('B','Abstrak, kesimpulan, dan kalimat berangka dibaca'),('C','Diarsip tanpa pembacaan atau tanpa berkas')]):
         r=7+i; sh.t(f'B{r}',k); sh.f(f'C{r}',f'COUNTIF($G${r0}:$G${r1},B{r})','n0'); sh.t(f'D{r}',a)
     sh.t('B9','Tabel 129.B. Daftar sumber','tbl')
     for c,t in zip('BCDEFGHIJKL',['ID','Nama berkas atau sumber','Jenis','WP','Halaman','Kedalaman','Butir register','Duplikat isi dari','Catatan','Data','Konteks']): sh.t(f'{c}10',t,'hdr')
