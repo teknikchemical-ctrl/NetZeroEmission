@@ -69,3 +69,13 @@ Register data: reg/reg_13_cofiring.py (latest), reg/reg_12_four_papers.py, tek_1
 ## Addendum 5 (24 Nov 2026)
 - Lima PDF dari main dibaca dan dicatat; register 836 butir dari 28 dokumen; K_Konflik 116 butir (K25 sampai K141); A_Kesiapan_Solusi (Lembar 97): siap 19, siap setelah hitung ulang 1, kurang masukan 17, belum bisa 7.
 - Skrip: scripts/06_audit_kesiapan.py, 07_log_five_new_pdfs.py, xlsxkit.py (tambah lembar lewat XML). Urutan: jalankan 06 lalu 07 bila membangun ulang dari keadaan sebelum audit.
+
+## Addendum 6 (24 Nov 2026): model portofolio dibangun
+- Workbook LATEST kini 127 lembar dan 249 grafik (173 lama tidak diubah, 76 baru). Dua tab pertama: P_Portofolio (Lembar 102) dan G_Portofolio (Lembar 103).
+- Blok B (Lembar 98 sampai 101): garis pembangunan dari rencana (B_Pendorong), garis dan selisih SNDC (B_Garis_Pembangunan, B_Garis_NZE), selisih menurut penyebab dan CM1 belum terkirim (B_Selisih_Penyebab).
+- Lembar solusi S_ (104 sampai 125): tujuh teknologi terbarukan dari RUPTL (RE Base dan ARED), rekap, sepuluh aksi FOLU, pensiun dini, CCS TJB, co-firing, B40. Setiap lembar: tabel teknis (tautan D_Teknis_Opsi), rantai hitung sederhana, biaya, investasi, pelaksanaan (kosong untuk tim), dan grafik dengan area berarsir, label titik, legenda sesuai sel, dan sumbu sekunder.
+- K_Studi (126): JETP dibanding RUPTL (surya 29,2 GW JETP dibanding 4,5 GW RE Base dan 7,6 GW ARED pada 2030) dan angka per solusi menurut studi. Q_Portofolio (127): 8 dari 8 pemeriksaan lulus.
+- Hasil utama 2030: energi resmi 37 persen, dengan turunan 66, dengan pihak ketiga 74 persen; sisa 61 MtCO2e belum punya solusi bersumber (B7 surya hanya sisa selisih). FOLU: turunan per aksi 50 sampai 87 persen, CM2 resmi 104 persen. Sisa CM1 yang harus dikirim menambah 157 sampai 207 MtCO2e.
+- Pendorong terukur (PLTU on-grid dan PLTGU baru) baru menjelaskan 22 persen emisi energi CPOS 2030; minyak dan gas, transportasi, industri, gedung, captive (proyeksi), dan fugitive belum terukur (WP-A, C, E, I).
+- Terbarukan RUPTL: ARED di atas RE Base hanya meningkatkan penggantian batubara sekitar 9 Mt pada 2030 (hitung sederhana), sedangkan RUPTL melaporkan selisih emisi batubara hanya 4 Mt (S_EBT_Rekap).
+- Grafik dibuat lewat XML dan diuji hanya di LibreOffice; perlu satu putaran pemeriksaan di Excel.

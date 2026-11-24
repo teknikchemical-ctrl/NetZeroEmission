@@ -85,6 +85,8 @@ Tujuan studi: memerinci solusi pengurangan emisi agar menutup selisih CPOS ke LC
 
 ## D. Riwayat pengerjaan
 
+- 24 Nov 2026: model portofolio dibangun (Lembar 98 sampai 127); celah yang terlihat saat membangun: kapasitas captive per unit, pipeline EBT (PPA, FID, COD), laju kapasitas terpasang aktual (hanya surya 1,59 GW kuartal 1 2026 tercatat), selisih harga per liter B40, rincian CM2, pelaksanaan solusi lain; semuanya sudah ada di RESEARCH_PLAN_TIM.md.
+
 - 24 Nov 2026: legenda "base" pada Gambar 42.2, 42.4, 42.5 dikosongkan; freeze pane dan tab terpilih ganda dibersihkan; tanda pisah panjang dihapus (dua sampai tiga lokasi).
 - 24 Nov 2026: Squire 2024 dan Aryapratama 2026 dicatat (22 butir), K125 sampai K127 ditambahkan.
 - 24 Nov 2026: lima PDF dari main dibaca dan dicatat (27 butir baru, No 810 sampai 836), K133 sampai K141; 219 angka dicocokkan dengan teks PDF; B40 naik menjadi Siap.

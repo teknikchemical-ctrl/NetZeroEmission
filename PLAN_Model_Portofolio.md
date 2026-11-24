@@ -81,3 +81,7 @@ Rapi dan seragam; grafik garis dengan area berarsir, legenda tepat, label angka 
 - Faktor pelaksanaan dari riwayat singkat bisa terlalu kasar; dilabel bila tidak cukup.
 - Grafik buatan XML tidak dapat diuji di Excel di sini; perlu putaran perbaikan.
 - Daftar studi mapan di luar repo berasal dari pengetahuan umum; setiap angka harus diverifikasi sebelum masuk model.
+
+## 8. Status pembangunan (24 Nov 2026)
+
+Tahap 1 sampai 5 dibangun: lembar 98 sampai 127 (lihat HANDOFF Addendum 6). Belum dibangun: lembar solusi efisiensi energi, gas suar, transportasi, industri, minyak dan gas, terbarukan terukur riil (menunggu WP-D), garis pembangunan non-listrik (WP-A, C, E, I), jalur 2060 per solusi (WP-L). Lembar pelaksanaan (Tabel G pada lembar terbarukan, Tabel E pada lembar tunggal) disediakan kosong untuk diisi tim.
