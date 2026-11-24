@@ -23,6 +23,6 @@ Aturan: setiap PDF baru dibaca seluruhnya, angkanya dicatat di register, lalu di
 |---|---|---|
 | At what cost? Economic and fiscal trade-offs of Indonesia's biodiesel program.pdf | Ya (No 810 sampai 816) | Fitrady dkk. 2026; volume biodiesel, BPDP; dasar K138 |
 | Evaluating renewable energy pathways and emissions targets in Indonesia- An OSeMOSYS-based economic and sensitivity analysis of PLN .pdf | Ya (No 817 sampai 824) | Afriani dan Poletti 2026; MAC dan biaya skenario; K135 sampai K136, K139 |
-| Optimizing power sector decarbonization in Indonesia through an integrated policy modeling framework.pdf | Ya (No 825 sampai 835) | Sunanda dkk. 2026; Tabel 1, 4, 5, 6, 7; K133, K134, K137, K140, K141 |
-| spesifikasi-b40.pdf | Ya (No 836, dan dua catatan) | Spesifikasi resmi B40; tidak memuat faktor emisi |
+| Optimizing power sector decarbonization in Indonesia through an integrated policy modeling framework.pdf | Ya (No 825 sampai 833) | Sunanda dkk. 2026; Tabel 1, 4, 5, 6, 7; K133, K134, K137, K140, K141 |
+| spesifikasi-b40.pdf | Ya (No 834 sampai 836) | Spesifikasi resmi B40; tidak memuat faktor emisi |
 | Jakarta Transportation Transformation.pdf | Sudah dicatat sebelumnya (No 675 sampai 696) | Versi Inggris laporan Greenpeace dan RDI yang sama; 21 dari 21 butir dicocokkan dengan teks |
