@@ -29,3 +29,7 @@ Permintaan HTTP langsung ke portal ESDM, UNFCCC dan GEM ditolak proksi dengan st
 ## Rujukan PDF yang baru ditambahkan
 
 [Lihat peta 15 unggahan ke PDF dan baris register yang sudah ada](CEK_ARSIP_SUMBER_2026-11-24.md).
+
+## Lanjutan empat prioritas
+
+[Temuan lanjutan untuk Claude](LANJUTAN_RISET_PRIORITAS_2026-11-24.md) berisi padanan PLTU dan captive, pra-isian proyek EBT, cuplikan historis energi Indonesia, temuan Renops dari PDF asli, serta cek kapasitas desain CCS.
