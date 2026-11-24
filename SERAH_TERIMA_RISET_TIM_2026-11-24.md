@@ -33,3 +33,7 @@ Permintaan HTTP langsung ke portal ESDM, UNFCCC dan GEM ditolak proksi dengan st
 ## Lanjutan empat prioritas
 
 [Temuan lanjutan untuk Claude](LANJUTAN_RISET_PRIORITAS_2026-11-24.md) berisi padanan PLTU dan captive, pra-isian proyek EBT, cuplikan historis energi Indonesia, temuan Renops dari PDF asli, serta cek kapasitas desain CCS.
+
+## Cek daftar 22 referensi
+
+[Cek identitas sumber dan klaim NZE](CEK_REFERENSI_NZE_2026-11-24.md) mencatat pembanding IEA, rujukan yang masih ambigu, dan keputusan tentang studi metode. Referensi Lee [11] dan [13] memakai DOI yang sama.
