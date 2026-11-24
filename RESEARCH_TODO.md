@@ -3,6 +3,8 @@
 Terakhir diperbarui 24 Nov 2026. Berkas kerja terbaru selalu bernama `Indonesia_NZE_Data_Grafik_v2_LATEST.xlsx`.
 Aturan kerja: setiap berkas masuk dibaca seluruhnya, diekstrak, dicatat di `D_Register_Sumber`, diproses ke lembar hitung, lalu usulan pengembangan ditulis di sini. Pengembangan spreadsheet dikerjakan di repo ini, skrip di `scripts/`, PDF sumber di `sources/`.
 
+## 000. Rencana riset untuk tim: lihat RESEARCH_PLAN_TIM.md (WP-A sampai WP-M) dan templates/TEMPLATE_Catat_Data.xlsx. Minyak dan gas serta energi terbarukan belum terukur (WP-C dan WP-D).
+
 ## 00. CELAH RISET INTI menurut pemahaman terbaru (24 Nov 2026)
 
 Garis pembangunan dibangun dari rencana dan kebijakan (aktivitas x faktor emisi), bukan angka tetap. Celah inti G1 sampai G13 dan rancangan model ada di PLAN_Model_Portofolio.md. Peringkat P1: G1 pendorong listrik (PLTU konstruksi dan captive), G2 pendorong lahan (konversi berizin), G4 kalibrasi pelaksanaan, G5 jalur NZE per subsektor, G11 konkordansi studi mapan. Bagian 0 di bawah (peringkat solusi) tetap berlaku untuk parameter solusi.
