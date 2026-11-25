@@ -46,3 +46,8 @@ Permintaan HTTP langsung ke portal ESDM, UNFCCC dan GEM ditolak proksi dengan st
 
 - Data operasi Tanjung Jati B 5 dan 6, kebutuhan parsial energi CCS, padanan biaya ETP ke 25 unit kandidat pensiun, serta perbedaan bauran RUPTL RE Base dan ARED 2030. Pakai kunci aset ETP untuk mengambil valuasi sesuai tahun pensiun studi. [Catatan dan sumber](RISET_PLTU_CCS_DAN_BASELINE_LISTRIK_2026-11-24.md) · [CSV padanan](data/PADANAN_PENSIUN_PLTU_ETP_FADIILAH.csv)
 - Pasal 18 dan 19 Perpres 132/2024 dari salinan OCR menelusurkan dasar penyelesaian selisih HIP B40. Pembanding aktivitas nasional sementara tersedia sampai 2025. Harga bulanan, volume terbayar, emisi siklus hidup B40 dan inventaris gas suar per fasilitas masih perlu data primer. [Catatan B40 dan gas suar](RISET_B40_DAN_GAS_SUAR_2026-11-24.md)
+
+## Pendalaman 25 November 2026 WIB
+
+- Uji pensiun dan CCS Tanjung Jati B 5–6 menyamakan produksi dan membandingkan biaya tahunan setara. Data pengganti meliputi estimasi pembakaran PLTGU, skala energi surya dan panas bumi, daya serta kapasitas energi BESS, dan rencana 500 kV yang sudah ditelusuri ke Indonesia Power Map. Gunakan nilai sebagai sensitivitas sampai biaya terminasi, titik sambung, dispatch dan kebutuhan energi CCS lengkap terverifikasi. [Uji TJB](RISET_PERBANDINGAN_PENSIUN_DAN_CCS_TJB_2026-11-25.md) · [Listrik pengganti](RISET_LISTRIK_PENGGANTI_TJB_2026-11-25.md)
+- Atlas CITRA memberi 21 baris skenario lokasi 2035 untuk KIEC, Tjiwi Kimia dan Indo Bharat Rayon. Hasil Asahimas berada dalam agregat KIEC. Gunakan satu kali per skenario dan periksa emisi impor jaringan sebelum memberi kredit pada pengurangan emisi lokal. [Telaah CITRA](RISET_CAPTIVE_CITRA_2026-11-25.md) · [CSV](data/2026_CITRA_CAPTIVE_2035.csv)

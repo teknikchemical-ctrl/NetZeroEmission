@@ -1,0 +1,54 @@
+# Padanan pembangkit captive dengan skenario CITRA 2035
+
+25 November 2026 WIB
+
+Tiga kelompok pembangkit captive di workbook dapat dihubungkan dengan hasil model GARUDA Jawa–Bali. Angka biaya dan emisi mengikuti beban sintetis listrik dan panas tahun 2035 pada lingkup lokasi model. Pakai sebagai pembanding skenario eksternal. Untuk Asahimas, hasil atlas mencakup seluruh kawasan KIEC. [CITRA](https://power-lab.github.io/citra-site/) · [CSV 21 skenario lokasi](data/2026_CITRA_CAPTIVE_2035.csv)
+
+## Padanan aset dan kapasitas
+
+| Aset RUPTL/GEM | MW RUPTL/GEM | Lokasi CITRA dan node GARUDA | Lingkup padanan |
+| --- | ---: | --- | --- |
+| Asahimas Chemical `GEN-aed427110f` | 300 | KIEC `kiec`, `jawa_bali:1;6;10` | Earthwise mencatat Asahimas 303 MW (2 × 151,5), Krakatau Chandra Energi 120 MW, dan PDSU 21 MW, total KIEC 444 MW operasi. Node 1 berlabel AGC Cilegon dan nominal model 453 MW. Node 6 mencakup PDSU. Node 10 ditetapkan lewat *override* untuk petrokimia di Cilegon dengan identitas fasilitas yang belum pasti. Keluaran dipublikasikan hanya untuk gabungan tiga node. |
+| Tjiwi Kimia `GEN-32e1fcefb2` | 230 | TKFC `tkfc`, `jawa_bali:21` | Empat unit Earthwise 35 + 35 + 70 + 90 MW cocok dengan RUPTL/GEM. CITRA memakai *override* karena lintang node model bertanda positif. Kapasitas batubara yang dilaporkan pada run BAU 2035 adalah 17 MW. |
+| Indo Bharat Rayon `GEN-b6f5b29372` | 36,6 | `indo-bharat-rayon`, `jawa_bali:14` | Earthwise mencatat 36 MW operasi. Crosswalk menampilkan skala nominal node 37 MW, dan run BAU 2035 mencatat 21 MW. Node ditambahkan pada input November 2026. |
+
+KIEC melaporkan **262 MW** batubara pada run BAU 2035, juga berbeda dari inventaris. Simpan kapasitas terpasang dan kapasitas keluaran model pada kolom masing-masing. Pertahankan satu entri untuk KIEC per skenario. Menggandakan hasil yang sama untuk Asahimas, Krakatau Chandra Energi, dan PDSU akan menghitung emisi dan biaya berulang. [Padanan RUPTL dan GEM](data/PADANAN_CAPTIVE_RUPTL_GEM.csv) · [Crosswalk CITRA](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/model_crosswalk.csv) · [Unit Earthwise di CITRA](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/assets/js/site-details.js)
+
+## Biaya dan emisi pada asumsi yang sama
+
+Cuplikan memakai harga batubara captive **USD 70/t** pada basis **4.200 kcal/kg GAR** (16,67 MMBtu/t), tarif impor listrik **USD 59/MWh**, karbon **USD 25/tCO2**, dan 100% biaya modal acuan. Model memakai WACC **10%** dengan umur investasi **30 tahun** untuk PLTS dan **20 tahun** untuk baterai. Asumsi modal atlas adalah **USD 670/kW** PLTS, **USD 170/kW** daya baterai, serta **USD 180/kWh** kapasitas energi baterai. Asumsi investasi model ini berbeda dari belanja aktual dan ketentuan pinjaman fasilitas. Solusi referensi Jawa–Bali untuk konfigurasi tersebut berstatus `OPTIMAL` dalam CSV model. [Metodologi](https://power-lab.github.io/citra-site/methodology.html#assume) · [Parameter investasi](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/assets/js/results.js#L5-L14) · [Pembentukan biaya](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/scripts/build_results.py#L55-L100) · [Run model](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/garuda_2035_runs.csv)
+
+BAU beroperasi tanpa cap captive. Opsi *On-site*, *Grid*, dan *Hybrid* di tabel memakai cap emisi sebesar 65% dari BAU untuk gabungan kawasan industri Jawa–Bali. Opsi *On-site* memperbolehkan pembangunan surya, angin dan baterai tanpa impor listrik. *Grid* memperbolehkan impor dari PLN. *Hybrid* memperbolehkan impor dan pembangunan EBT di lokasi. Batubara untuk listrik atau panas dapat tersisa pada solusi. Cap berlaku di tingkat pulau, sehingga tingkat pengurangan per lokasi berbeda-beda. [Skenario CITRA](https://power-lab.github.io/citra-site/methodology.html#path) · [CSV hasil primer](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/garuda_2035_pathways.csv)
+
+| Lokasi model | Jalur | Biaya tahunan (juta USD) | Biaya per MWh dilayani (USD/MWh) | CO2 lokal (Mt/tahun) | Impor listrik (GWh/tahun) |
+| --- | --- | ---: | ---: | ---: | ---: |
+| KIEC | BAU | 144,437 | 68,80 | 1,99324 | 0 |
+| KIEC | On-site | 166,539 | 79,32 | 1,37320 | 0 |
+| KIEC | Grid | 174,260 | 83,00 | 1,06665 | 1.600,124 |
+| KIEC | Hybrid | 151,039 | 71,94 | 1,34325 | 257,301 |
+| TKFC | BAU | 10,973 | 73,68 | 0,15244 | 0 |
+| TKFC | On-site | 10,865 | 72,96 | 0,15076 | 0 |
+| TKFC | Grid | 10,321 | 69,31 | 0,10811 | 43,085 |
+| TKFC | Hybrid | 10,552 | 70,86 | 0,10802 | 42,905 |
+| Indo Bharat Rayon | BAU | 13,533 | 73,68 | 0,18801 | 0 |
+| Indo Bharat Rayon | On-site | 16,412 | 89,36 | 0,11795 | 0 |
+| Indo Bharat Rayon | Grid | 12,730 | 69,31 | 0,13334 | 53,151 |
+| Indo Bharat Rayon | Hybrid | 13,825 | 75,27 | 0,12068 | 28,545 |
+
+Biaya tahunan memuat investasi tahunan, O&M, operasi, tarif listrik impor dan biaya karbon atas pembakaran setempat. Sebagian biaya operasi, impor dan penyimpanan dialokasikan dari total pulau. Pembagi USD/MWh memuat energi listrik dan panas terlayani. Emisi langsung mencakup pembakaran batubara untuk listrik dan panas. Metode atlas tidak memasukkan biaya boiler listrik tersendiri ke biaya lokasi, meskipun listrik boiler tetap tercakup. Biaya sambungan lokasi, penghentian aset, dan emisi dari listrik impor perlu data tambahan untuk membuat satu rasio ekonomi lengkap. [Kode perhitungan biaya lokasi](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/scripts/build_results.py#L249-L349)
+
+Pada *Hybrid* KIEC, biaya lokasi bertambah **USD 6,602 juta/tahun** dan CO2 langsung turun **649.985 t/tahun**, sehingga rasionya **USD 10,16 per ton CO2 langsung** pada batas biaya atlas. Run memasang **462,5 MW** PLTS dan **22,2 MW** baterai. Bagi TKFC, *Grid* menurunkan biaya lokasi **USD 0,652 juta/tahun** dan CO2 lokal **44.327 t/tahun**, dengan impor **43,085 GWh/tahun**. Rasio biaya lokal yang terlihat negatif berubah menjadi sekitar **USD 10,30 per ton CO2 langsung** bila komponen biaya karbon setempat dikeluarkan, dengan semua komponen lain dan bauran tetap mengikuti run tersebut. Bagi Indo Bharat Rayon, *Hybrid* menaikkan biaya lokasi **USD 0,292 juta/tahun** dengan CO2 langsung turun **67.324 t/tahun** dan impor **28,545 GWh/tahun**. Pada harga yang sama tanpa cap captive, ketiga lokasi tidak mengimpor listrik pada jalur *Grid*. Gunakan angka di atas sebagai pembanding bersyarat dengan asumsi tarif, karbon, dan pembebanan biaya yang sama. [Cuplikan dan selisih dari BAU](data/2026_CITRA_CAPTIVE_2035.csv)
+
+## Implikasi bagi portofolio mitigasi
+
+Di Jawa–Bali, CO2 BAU yang dipublikasikan adalah **186,01 Mt/tahun grid** dan **16,55 Mt/tahun captive**. Dengan cap captive, *Grid* mengubah keduanya menjadi **191,83** dan **10,76 Mt/tahun**. Jumlahnya dari **202,56** menjadi **202,59 Mt/tahun** pada angka bulat CSV. *On-site* menghasilkan gabungan **196,77 Mt/tahun** dan *Hybrid* **198,51 Mt/tahun**. Ini hasil seluruh pulau dan seluruh lokasi industri yang tercakup pada skenario studi. Gunakan batas sistem itu untuk menilai pergeseran emisi. Pengurangan langsung tiga lokasi tidak dapat ditambahkan lagi ke pengurangan Jawa–Bali. Hasil 2035 tetap memakai baseline model tersebut sampai crosswalk ke CPOS, B4, pembangkit pengganti, dan faktor emisi grid yang relevan tersedia. [Hasil run Jawa–Bali](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/garuda_2035_runs.csv)
+
+Estimasi sambungan atlas dari gardu terdekat dan biaya rata-rata USD 0,5 juta/km memberi **USD 0,4 juta** untuk KIEC, **USD 1,4 juta** untuk TKFC, dan **USD 1,9 juta** untuk Indo Bharat Rayon. Tabel RUPTL sambungan di atlas tidak memberi baris rencana untuk ketiga `site_id` ini. Untuk studi proyek, cek rute, kebutuhan gardu dan lahan, daya mampu, perjanjian pasokan, biaya penguatan jaringan, serta COD. Catatan historis Earthwise untuk TKFC menyebut pembiayaan Unit 4 **USD 80,6 juta** dari China Exim Bank pada 2014 dengan tenor delapan tahun. Angka tersebut merujuk pembiayaan aset batubara dan belum memverifikasi saldo utang atau pembiayaan transisi. [Estimasi sambungan](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/site_substations.csv) · [Rekap RUPTL Lampiran E](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/ruptl_connections.csv) · [Sumber pembiayaan yang dirujuk Earthwise](https://china.aiddata.org/projects/66290/)
+
+## Sumber dan reproduksi
+
+Power Transformation Lab, University of California San Diego (2026), *CITRA: Captive Industry Transition Roadmap Atlas*, versi data 13 November 2026, commit `f8e8049668ce95e3d9d5b04da7561672ad7615d8`. Hasil model CITRA berlisensi CC BY 4.0. Catatan aset dan pembiayaan berasal dari *Indonesian Power Summary Database* oleh Earthwise Institute. Estimasi sambungan memakai data lokasi © kontributor OpenStreetMap berlisensi ODbL. [Kredit dan lisensi](https://power-lab.github.io/citra-site/methodology.html#licence) · [Repositori dan atribusi](https://github.com/Power-Lab/citra-site/tree/f8e8049668ce95e3d9d5b04da7561672ad7615d8)
+
+CSV lokal menyalin kolom terpilih pada 21 baris dengan `island=jawa_bali`, harga batubara `70`, tarif `59`, biaya modal `100` dan tiga `site_id` pada tabel. Gabungkan `garuda_2035_pathways.csv` dan `garuda_2035_sites.csv` lewat `site_id`, `island`, `scenario`, `coal_usd_t`, `tariff_usd_mwh`, `park_co2_cut`. `modeled_coal_mw` menyalin `mw_coal`. `delta_cost_usd_yr_vs_base` adalah biaya opsi dikurangi BAU. `local_co2_reduction_t_yr_vs_base` adalah emisi BAU dikurangi emisi opsi. Baris dengan dan tanpa cap merupakan alternatif. [Pathways](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/garuda_2035_pathways.csv) · [Data lokasi](https://github.com/Power-Lab/citra-site/blob/f8e8049668ce95e3d9d5b04da7561672ad7615d8/data/garuda_2035_sites.csv)
+
+Laporan asal adalah A Gnapathy, K., Chen, L., dan Davidson, M. R. (2025), *Advancing Low-Carbon Industry Transition: Decarbonizing Industrial Captive Generation in Indonesia*, Power Transformation Lab dan School of Global Policy and Strategy, UC San Diego. Laman penulis mengonfirmasi DOI. Rekam penerbit Zenodo tidak dapat diakses dari lingkungan ini. Angka dalam catatan berasal dari data dan kode atlas November 2026. [Laman penulis](https://github.com/Power-Lab/power-transformation-lab-site/blob/d7d9f00f51d1b024cd81811ee981549f6d231291/_posts/2025-09-30-indonesia-industry-captive-generation.md) · [Laporan asal](https://doi.org/10.5281/zenodo.17345968) · [Kode studi](https://github.com/Power-Lab/captive-indonesia-2025)
